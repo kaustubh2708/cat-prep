@@ -19,6 +19,7 @@ const state = {
   // Skills View State
   skillSectionFilter: 'ALL',
   skillConfFilter: 'ALL',
+  skillDepthFilter: 'ALL', // 'ALL' | 'beginner' | 'intermediate' | 'advanced'
   selectedSkillId: 'qa-pct-pl-si',
 
   // Practice Desk Filters & Navigation
@@ -842,6 +843,93 @@ function renderSelectedSkillMonograph() {
 
   const easyQs = skillQs.filter((q) => q.difficulty === 'Easy');
   const medQs = skillQs.filter((q) => q.difficulty === 'Medium');
+  const hardQs = skillQs.filter((q) => q.difficulty === 'Hard');
+
+  const lv = s.levels || {};
+  const beg = lv.beginner || {};
+  const inter = lv.intermediate || {};
+  const adv = lv.advanced || {};
+  const df = state.skillDepthFilter || 'ALL';
+
+  const level1Html = (df === 'ALL' || df === 'beginner') ? `
+    <div class="depth-level-block">
+      <div class="depth-header-row">
+        <div>
+          <span class="status-tag tag-sage">Level 1 · Beginner / Explain Like I'm 5</span>
+          <h4 style="margin-top:0.35rem;">${escapeHtml(beg.title || 'Simple Intuition & Mental Picture')}</h4>
+        </div>
+        ${easyQs.length > 0 ? `<button class="btn-quiet btn-compact" data-pract-tier="Easy">Try 3 Beginner Warmups (${easyQs.length} Easy)</button>` : ''}
+      </div>
+      <div class="depth-subblock">
+        <span class="depth-sublabel">The Mental Picture</span>
+        <p class="reading-column">${escapeHtml(beg.mentalPicture || '')}</p>
+      </div>
+      <div class="depth-highlight-box">
+        <strong>Quick Numbers Example:</strong> ${escapeHtml(beg.toyExample || '')}
+      </div>
+      <div class="depth-rule-box">
+        <strong>Golden Rule to Remember:</strong> ${escapeHtml(beg.goldenRule || '')}
+      </div>
+    </div>
+  ` : '';
+
+  const level2Html = (df === 'ALL' || df === 'intermediate') ? `
+    <div class="depth-level-block">
+      <div class="depth-header-row">
+        <div>
+          <span class="status-tag tag-sand">Level 2 · Intermediate / Explain Like I'm 15</span>
+          <h4 style="margin-top:0.35rem;">${escapeHtml(inter.title || 'Core Exam Mechanics & Formulas')}</h4>
+        </div>
+        ${medQs.length > 0 ? `<button class="btn-quiet btn-compact" data-pract-tier="Medium">Practice Intermediate (${medQs.length} Medium)</button>` : ''}
+      </div>
+      <div class="depth-subblock">
+        <span class="depth-sublabel">Step-by-Step Solving Recipe</span>
+        <ul class="formula-list">
+          ${(inter.stepByStep || []).map((st) => `<li>${escapeHtml(st)}</li>`).join('')}
+        </ul>
+      </div>
+      <div class="depth-subblock">
+        <span class="depth-sublabel">Core Formulas &amp; Rules</span>
+        <ul class="formula-list">
+          ${(inter.formulas || s.formulas || []).map((f) => `<li>${escapeHtml(f)}</li>`).join('')}
+        </ul>
+      </div>
+      ${inter.workedTemplate ? `
+        <div class="depth-highlight-box">
+          <strong>Worked CAT Archetype:</strong> ${escapeHtml(inter.workedTemplate)}
+        </div>
+      ` : ''}
+      <div class="depth-sand-box">
+        <strong>How to Spot First-Pass Easy Questions:</strong> ${escapeHtml(inter.easyTrigger || s.easyTrigger || '')}
+      </div>
+    </div>
+  ` : '';
+
+  const level3Html = (df === 'ALL' || df === 'advanced') ? `
+    <div class="depth-level-block">
+      <div class="depth-header-row">
+        <div>
+          <span class="status-tag tag-clay">Level 3 · Advanced / Explain Like I'm 25 (99%ile Pro)</span>
+          <h4 style="margin-top:0.35rem;">${escapeHtml(adv.title || '99%ile Speed Shortcuts & Trap Defense')}</h4>
+        </div>
+        ${(hardQs.length > 0 || medQs.length > 0) ? `<button class="btn-quiet btn-compact" data-pract-tier="Hard">Test Advanced / Trap Questions</button>` : ''}
+      </div>
+      <div class="depth-subblock">
+        <span class="depth-sublabel">99%ile Speed Shortcuts (Bypass Long Algebra)</span>
+        <ul class="formula-list">
+          ${(adv.speedShortcuts || []).map((sc) => `<li>${escapeHtml(sc)}</li>`).join('')}
+        </ul>
+      </div>
+      <div class="trap-callout">
+        <strong>Watch Out For (Common Paper-Setter Trap):</strong> ${escapeHtml(adv.commonTrap || s.commonTrap || '')}
+      </div>
+      ${adv.bailoutRule ? `
+        <div class="depth-highlight-box">
+          <strong>45-Second Bailout &amp; Triage Rule:</strong> ${escapeHtml(adv.bailoutRule)}
+        </div>
+      ` : ''}
+    </div>
+  ` : '';
 
   const qRowsHtml = skillQs
     .slice(0, 30)
@@ -888,30 +976,20 @@ function renderSelectedSkillMonograph() {
       </div>
     </div>
 
+    <div class="depth-switcher-bar">
+      <span class="confidence-label">Explain It To Me As:</span>
+      <div class="segmented-group" role="group" aria-label="Select Cheat Sheet Depth Level">
+        <button class="seg-btn ${df === 'ALL' ? 'active' : ''}" data-setdepth="ALL">All 3 Levels (Ladder)</button>
+        <button class="seg-btn ${df === 'beginner' ? 'active' : ''}" data-setdepth="beginner">Age 5 (Beginner)</button>
+        <button class="seg-btn ${df === 'intermediate' ? 'active' : ''}" data-setdepth="intermediate">Age 15 (Core Exam)</button>
+        <button class="seg-btn ${df === 'advanced' ? 'active' : ''}" data-setdepth="advanced">Age 25 (99%ile Pro)</button>
+      </div>
+    </div>
+
     <div class="monograph-body">
-      <div class="monograph-section">
-        <h4>Key Formulas &amp; Rules to Remember</h4>
-        <ul class="formula-list">
-          ${s.formulas.map((f) => `<li>${escapeHtml(f)}</li>`).join('')}
-        </ul>
-      </div>
-
-      <div class="monograph-section">
-        <h4>How to Approach &amp; Spot Easy First-Pass Questions</h4>
-        <p class="reading-column" style="font-size:0.95rem; color:var(--ink-secondary); margin-bottom:0.4rem;">
-          ${escapeHtml(s.howToApproach)}
-        </p>
-        <p style="font-size:0.9375rem; color:var(--sage-ink); background:var(--sage-bg); border:1px solid var(--sage-border); padding:0.55rem 0.85rem; border-radius:6px;">
-          <strong>First-Pass Trigger:</strong> ${escapeHtml(s.easyTrigger)}
-        </p>
-      </div>
-
-      <div class="monograph-section">
-        <h4>Watch Out For (Common CAT Trap)</h4>
-        <div class="trap-callout">
-          ${escapeHtml(s.commonTrap)}
-        </div>
-      </div>
+      ${level1Html}
+      ${level2Html}
+      ${level3Html}
     </div>
 
     <div class="monograph-practice-bar">
@@ -944,6 +1022,29 @@ function renderSelectedSkillMonograph() {
       </table>
     </div>
   `;
+
+  panel.querySelectorAll('[data-setdepth]').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      state.skillDepthFilter = btn.dataset.setdepth;
+      renderSelectedSkillMonograph();
+    });
+  });
+
+  panel.querySelectorAll('[data-pract-tier]').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const tier = btn.dataset.practTier;
+      if (tier === 'Easy') {
+        const unattemptedEasy = easyQs.filter((q) => !state.progress.attempts[q.id]);
+        const pick = (unattemptedEasy.length >= 3 ? unattemptedEasy : easyQs).slice(0, 3);
+        launchPracticeSession(`${s.name} (Level 1: Easy Warmups)`, pick.map((q) => q.id));
+      } else if (tier === 'Medium') {
+        launchPracticeSession(`${s.name} (Level 2: Intermediate Core)`, medQs.slice(0, 8).map((q) => q.id));
+      } else {
+        const pool = hardQs.length > 0 ? [...hardQs, ...medQs.slice(0, 4)] : medQs.slice(0, 6);
+        launchPracticeSession(`${s.name} (Level 3: Advanced & Traps)`, pool.map((q) => q.id));
+      }
+    });
+  });
 
   panel.querySelectorAll('[data-setconf]').forEach((btn) => {
     btn.addEventListener('click', () => {
@@ -1186,12 +1287,18 @@ function renderCurrentQuestion() {
   document.getElementById('q-stem-text').textContent =
     q.questionText || '(See the original exam scan on the left for the mathematical expression or chart.)';
 
-  // Starting Hint Content (combines question coreMechanic + skill cheat sheet formula)
-  const firstFormula = skillObj?.formulas?.[0] || '';
+  // Starting Hint Content (3-Level Progressive Breakdown: 5yo Intuition -> 15yo Formula -> 25yo Pro Shortcut & Trap)
+  const lv = skillObj?.levels || {};
+  const begRule = lv.beginner?.goldenRule || lv.beginner?.mentalPicture || '';
+  const firstFormula = lv.intermediate?.formulas?.[0] || skillObj?.formulas?.[0] || '';
+  const proShortcut = lv.advanced?.speedShortcuts?.[0] || '';
+  const trapNote = lv.advanced?.commonTrap || skillObj?.commonTrap || '';
   document.getElementById('q-hint-content').innerHTML = `
-    <p><strong>Starting Step:</strong> ${escapeHtml(q.coreMechanic)}</p>
-    ${firstFormula ? `<p style="margin-top:0.35rem;"><strong>Key Skill Rule (${escapeHtml(q.skillName)}):</strong> ${escapeHtml(firstFormula)}</p>` : ''}
-    ${skillObj?.commonTrap ? `<p style="margin-top:0.35rem;"><strong>Watch Out For:</strong> ${escapeHtml(skillObj.commonTrap)}</p>` : ''}
+    <p><strong>Starting Step for This Question:</strong> ${escapeHtml(q.coreMechanic)}</p>
+    ${begRule ? `<p style="margin-top:0.45rem;"><strong>Level 1 (Age 5 · Simple Intuition):</strong> ${escapeHtml(begRule)}</p>` : ''}
+    ${firstFormula ? `<p style="margin-top:0.45rem;"><strong>Level 2 (Age 15 · Core Formula):</strong> ${escapeHtml(firstFormula)}</p>` : ''}
+    ${proShortcut ? `<p style="margin-top:0.45rem;"><strong>Level 3 (Age 25 · 99%ile Speed Shortcut):</strong> ${escapeHtml(proShortcut)}</p>` : ''}
+    ${trapNote ? `<p style="margin-top:0.45rem;"><strong>Watch Out For (Trap):</strong> ${escapeHtml(trapNote)}</p>` : ''}
   `;
 
   renderInteractionControls(q);

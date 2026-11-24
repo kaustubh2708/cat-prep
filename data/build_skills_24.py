@@ -11,17 +11,42 @@ SKILLS_24 = [
         "group": "Arithmetic",
         "name": "Percentages, Profit & Loss & Interest",
         "tagline": "Markup/discount chains, successive % changes, and SI vs. CI shortcuts",
-        "frequency": "High Frequency (~3–4 Qs per slot)",
-        "targetTime": "1.25 – 1.75 min",
-        "formulas": [
-            "Successive % change of a% and b%: Net % = a + b + (ab / 100)",
-            "Markup M% then Discount D%: Selling Price = CP × (1 + M/100) × (1 - D/100)",
-            "2-Year CI − SI difference on Principal P at r%: Diff = P × (r / 100)²",
-            "3-Year CI − SI difference: Diff = P × (r / 100)² × (3 + r / 100)"
-        ],
-        "howToApproach": "Start by setting the unknown base (Cost Price or Principal) to 100 or 100x if only percentages are given. Convert percentages like 12.5% → 1/8, 16.67% → 1/6, 33.33% → 1/3 into clean fractions before multiplying.",
-        "easyTrigger": "Single chain of markup/discount or comparing 2-year Simple vs. Compound Interest.",
-        "commonTrap": "Taking discount % on Cost Price instead of Marked Price, or applying annual interest rate without halving it for half-yearly compounding."
+        "frequency": "High Frequency (~3-4 Qs per slot)",
+        "targetTime": "1.25 - 1.75 min",
+        "levels": {
+            "beginner": {
+                "title": "Level 1: The Simple Intuition (Explain Like I'm 5)",
+                "mentalPicture": "Think of every price tag as a pizza cut into 100 equal slices. If a shopkeeper raises the price by 20%, the new pizza has 120 slices. If they then give a 10% discount, you take away 10% of the NEW 120-slice pizza (12 slices), leaving 108 slices, not 110! Compound interest works the exact same way: every year, yesterday's interest starts earning its own baby interest.",
+                "toyExample": "You buy a toy for Rs 100. You put a sticker of Rs 150 on it (+50% markup). Then you give a 20% discount on the Rs 150 sticker (-Rs 30). You sell it for Rs 120, making a Rs 20 profit (20%).",
+                "goldenRule": "A percentage never floats in thin air: always ask 'Percentage of WHICH base number?'"
+            },
+            "intermediate": {
+                "title": "Level 2: Core Exam Mechanics (Explain Like I'm 15)",
+                "stepByStep": [
+                    "Step 1: Anchor the starting unknown (Cost Price or Principal) as 100 (if no rupee value is given) or 100x.",
+                    "Step 2: Write every increase/decrease as a single multiplier chain (e.g., +25% is x 5/4; -20% is x 4/5).",
+                    "Step 3: Equate the final expression to the given rupee difference or ratio and solve in one line."
+                ],
+                "formulas": [
+                    "Successive % change of a% and b%: Net % = a + b + (ab / 100)",
+                    "Markup M% then Discount D%: Selling Price = CP x (1 + M/100) x (1 - D/100)",
+                    "2-Year CI - SI difference on Principal P at r%: Diff = P x (r / 100)^2",
+                    "3-Year CI - SI difference: Diff = P x (r / 100)^2 x (3 + r / 100)"
+                ],
+                "workedTemplate": "Example: A trader marks up goods by 40% and gives a 15% discount. What is the profit %? Setup: CP = 100 -> MP = 140 -> SP = 140 x 0.85 = 119 -> Profit = 19%.",
+                "easyTrigger": "Single chain of markup/discount or comparing 2-year Simple vs. Compound Interest."
+            },
+            "advanced": {
+                "title": "Level 3: 99%ile Speed Shortcuts & Traps (Explain Like I'm 25)",
+                "speedShortcuts": [
+                    "Fraction Reflex: Never multiply decimals like 1.1667 or 0.875. Use exact reciprocals: 16.67% = 1/6, 14.28% = 1/7, 12.5% = 1/8, 11.11% = 1/9, 9.09% = 1/11.",
+                    "Constant Product Invariant: If A x B is constant and A increases by 1/n, then B must decrease by 1/(n + 1). (e.g., Price up 25% = +1/4 -> Consumption down 1/5 = 20%).",
+                    "False Weight + Markup: Multiply the money ratio by the weight ratio directly: (SP/CP) x (1000 / Grams Delivered)."
+                ],
+                "commonTrap": "Taking discount % on Cost Price instead of Marked Price, or applying the annual interest rate r% without halving it (r/2%) when compounding is half-yearly.",
+                "bailoutRule": "If a compound interest question involves 4+ unequal installments with awkward primes (like 7.3% over 4 years), skip it on Pass 1 and return only if time permits."
+            }
+        }
     },
     {
         "id": "qa-mixtures-ratios",
@@ -29,16 +54,40 @@ SKILLS_24 = [
         "group": "Arithmetic",
         "name": "Ratios, Mixtures & Alligation",
         "tagline": "Blending two solutions, repeated draw-and-replace, and ratio proportion setups",
-        "frequency": "High Frequency (~2–3 Qs per slot)",
-        "targetTime": "1.25 – 1.75 min",
-        "formulas": [
-            "Alligation Ratio: Quantity₁ / Quantity₂ = (C₂ − C_mean) / (C_mean − C₁)",
-            "Repeated Replacement (n draws of volume r from total V): Final Pure Fraction = (1 − r / V)ⁿ",
-            "Componendo-Dividendo: If a/b = c/d, then (a+b)/(a−b) = (c+d)/(c−d)"
-        ],
-        "howToApproach": "In any mixture problem where liquid is poured from A to B and back, track the invariant quantity (total solute or total volume) or use the alligation see-saw line.",
-        "easyTrigger": "Two vessels mixed to achieve a target concentration, or finding initial volume after 2 replacements.",
-        "commonTrap": "In replacement problems, forgetting that the denominator V is the total solution volume, not just the remaining pure liquid."
+        "frequency": "High Frequency (~2-3 Qs per slot)",
+        "targetTime": "1.25 - 1.75 min",
+        "levels": {
+            "beginner": {
+                "title": "Level 1: The Simple Intuition (Explain Like I'm 5)",
+                "mentalPicture": "Picture a playground see-saw. If a heavy kid (80% syrup) sits on one end and a light kid (20% syrup) sits on the other, the balance point (final mixture %) will always land closer to the heavier kid! And in replacement problems: if you scoop out 1/5 of a bucket of milk and replace it with water, 4/5 of the original milk stays behind.",
+                "toyExample": "Mix 1 cup of 10% sugar water with 1 cup of 30% sugar water -> they meet right in the middle at 20%. If you use 3 cups of the 30% and 1 cup of the 10%, the mix lands 3/4 of the way toward 30%, at 25%.",
+                "goldenRule": "The ratio of quantities mixed is simply the inverse of their distances from the target average."
+            },
+            "intermediate": {
+                "title": "Level 2: Core Exam Mechanics (Explain Like I'm 15)",
+                "stepByStep": [
+                    "Step 1: Write the two starting concentrations C1 and C2 at the ends and the target mean concentration Cm in the center.",
+                    "Step 2: Cross-subtract to get the volume ratio: Volume1 : Volume2 = (C2 - Cm) : (Cm - C1).",
+                    "Step 3: For draw-and-replace, track only the component that is NOT being added back."
+                ],
+                "formulas": [
+                    "Alligation Ratio: Quantity1 / Quantity2 = (C2 - C_mean) / (C_mean - C1)",
+                    "Repeated Replacement (n draws of volume r from total V): Final Pure Fraction = (1 - r / V)^n",
+                    "Componendo-Dividendo: If a/b = c/d, then (a+b)/(a-b) = (c+d)/(c-d)"
+                ],
+                "workedTemplate": "Example: From an 80L milk cask, 8L is drawn and replaced with water twice. Milk left = 80 x (1 - 8/80)^2 = 80 x (9/10)^2 = 64.8L.",
+                "easyTrigger": "Two vessels mixed to achieve a target concentration, or finding initial volume after 2 replacements."
+            },
+            "advanced": {
+                "title": "Level 3: 99%ile Speed Shortcuts & Traps (Explain Like I'm 25)",
+                "speedShortcuts": [
+                    "Invariant Solute Shortcut: When water evaporates or is added, the absolute weight of salt/metal never changes. Set Initial Volume x Initial % = Final Volume x Final %.",
+                    "Square-Root Reversal: If 2 replacements leave a milk-to-water ratio of 16 : 9, the milk-to-TOTAL ratio is 16 / (16+9) = 16/25. Take the square root immediately: 1-step retention = 4/5, so 1/5 of the vessel was drawn each time."
+                ],
+                "commonTrap": "In replacement problems, setting (4/5)^2 = 16/9 (Milk : Water) instead of 16/25 (Milk : Total Mixture). The denominator MUST be the total volume V!",
+                "bailoutRule": "If 3 vessels are poured back and forth into each other in 4 asymmetric stages with unknown volumes, skip on Pass 1 unless an invariant sum jumps out."
+            }
+        }
     },
     {
         "id": "qa-averages",
@@ -46,16 +95,40 @@ SKILLS_24 = [
         "group": "Arithmetic",
         "name": "Averages & Min/Max Bounds",
         "tagline": "Weighted averages, group joins/leaves, and maximizing/minimizing one score",
-        "frequency": "Consistent (~1–2 Qs per slot)",
-        "targetTime": "1.25 – 1.5 min",
-        "formulas": [
-            "Deviation Method: True Mean = Assumed Base + (Sum of deviations from Base) / N",
-            "New member joining: New Total = Old Total + New Value → ΔAverage = (New Value − Old Avg) / (N + 1)",
-            "To Maximize one element in a fixed sum: push all other elements to their minimum allowed integer values."
-        ],
-        "howToApproach": "Never multiply large 3-digit numbers to find a sum if you can work with surpluses and deficits around a round base number (e.g., 50 or 100).",
-        "easyTrigger": "Average of N items changes by k when 1 or 2 items are excluded or replaced.",
-        "commonTrap": "Ignoring distinctness or integer constraints ('distinct positive integers') when minimizing the remaining elements."
+        "frequency": "Consistent (~1-2 Qs per slot)",
+        "targetTime": "1.25 - 1.5 min",
+        "levels": {
+            "beginner": {
+                "title": "Level 1: The Simple Intuition (Explain Like I'm 5)",
+                "mentalPicture": "An average means levelling everyone's candy piles so every kid has the exact same number of candies. If everyone in a room of 5 kids has 10 candies, and a new kid walks in with 22 candies, that new kid brings 12 'extra' candies to share equally among all 6 kids (+2 each, new average = 12).",
+                "toyExample": "Numbers: 48, 50, 55. Pick 50 as your baseline. Deviations are -2, 0, +5 (net +3). Share +3 across 3 numbers = +1, so the average is 50 + 1 = 51.",
+                "goldenRule": "To make one person's share as BIG as possible in a fixed total, make everyone else's share as SMALL as the rules allow."
+            },
+            "intermediate": {
+                "title": "Level 2: Core Exam Mechanics (Explain Like I'm 15)",
+                "stepByStep": [
+                    "Step 1: Instead of multiplying large numbers, pick a round assumed mean Base (e.g., 50 or 80).",
+                    "Step 2: Sum the surpluses (+) and deficits (-) relative to the Base.",
+                    "Step 3: For min/max bounding, write the total sum S = N x Avg and push N-1 elements to their tightest boundary."
+                ],
+                "formulas": [
+                    "Deviation Method: True Mean = Assumed Base + (Sum of deviations from Base) / N",
+                    "New member joining: New Avg = Old Avg + (New Value - Old Avg) / (N + 1)",
+                    "AP Consecutive Integers: The average of any odd number of consecutive integers (or AP terms) is always the exact middle term."
+                ],
+                "workedTemplate": "Example: Avg of 10 distinct positive integers is 15. Max possible value of the largest? Total = 150. Make the other 9 as small as possible: 1+2+3+4+5+6+7+8+9 = 45. Max = 150 - 45 = 105.",
+                "easyTrigger": "Average of N items shifts by k when 1 or 2 items join, leave, or are misread."
+            },
+            "advanced": {
+                "title": "Level 3: 99%ile Speed Shortcuts & Traps (Explain Like I'm 25)",
+                "speedShortcuts": [
+                    "Second-Largest Min/Max: To maximize the 2nd largest of N distinct integers, set the smallest N-2 integers to their floor {1, 2, ..., N-2} and make the top two integers as close to each other as possible (k and k+1).",
+                    "Shifted Subset Mean: If removing 2 elements from N elements raises the average by d, the removed pair's sum is (2 x Old Avg) - (N - 2) x d."
+                ],
+                "commonTrap": "Ignoring words like 'distinct', 'At least 20', or 'median is 45' when pushing the lower elements to their minimum values.",
+                "bailoutRule": "Fast topic: almost never a skip. Double-check the distinctness constraint before typing a TITA answer."
+            }
+        }
     },
     {
         "id": "qa-tsd",
@@ -63,16 +136,41 @@ SKILLS_24 = [
         "group": "Arithmetic",
         "name": "Time, Speed & Distance (Tracks, Trains & Boats)",
         "tagline": "Relative speed, post-meeting times, circular tracks, and upstream/downstream",
-        "frequency": "High Frequency (~2–3 Qs per slot)",
-        "targetTime": "1.5 – 2.0 min",
-        "formulas": [
-            "After meeting on the way, if A takes t₁ and B takes t₂ to reach destinations: Speed_A / Speed_B = √(t₂ / t₁) and Meeting Time t = √(t₁ × t₂)",
-            "Circular Track distinct meeting points (speeds in lowest ratio a : b): Opposite dir = a + b points; Same dir = |a − b| points",
-            "Boats & Streams: Downstream = u + v, Upstream = u − v; Average speed for equal distance = (u² − v²) / u"
-        ],
-        "howToApproach": "Draw a quick 1-line timeline marking where the two travelers are at the exact same moment t. Equal-time ratios convert distance ratios directly into speed ratios.",
-        "easyTrigger": "Two travelers start from A and B, cross each other, or run on a circular track.",
-        "commonTrap": "Starting relative speed calculation before both travelers are actually moving (always advance the earlier traveler to the later start time first!)."
+        "frequency": "High Frequency (~2-3 Qs per slot)",
+        "targetTime": "1.5 - 2.0 min",
+        "levels": {
+            "beginner": {
+                "title": "Level 1: The Simple Intuition (Explain Like I'm 5)",
+                "mentalPicture": "If you and your friend walk toward each other at 3 steps/sec and 2 steps/sec, the gap between you shrinks by 5 steps every second (you add speeds). If you chase your friend in the same direction, the gap only shrinks by 3 - 2 = 1 step every second (you subtract speeds).",
+                "toyExample": "A 100m gap divided by a combined closing speed of 10 m/s means you meet in exactly 10 seconds.",
+                "goldenRule": "When time is the same (two people start together and meet), the ratio of distances they cover is identical to the ratio of their speeds."
+            },
+            "intermediate": {
+                "title": "Level 2: Core Exam Mechanics (Explain Like I'm 15)",
+                "stepByStep": [
+                    "Step 1: Draw a single horizontal line and mark where both runners are at the SAME starting clock time (if A starts at 8 AM and B at 9 AM, move A to 9 AM first!).",
+                    "Step 2: Convert units consistently (km/hr x 5/18 = m/s).",
+                    "Step 3: Use D1/D2 = S1/S2 whenever two events happen over the same time interval."
+                ],
+                "formulas": [
+                    "Post-Meeting Formula: After meeting, if A takes t1 and B takes t2 to reach destinations: Speed_A / Speed_B = sqrt(t2 / t1) and Meeting Time t = sqrt(t1 x t2)",
+                    "Circular Track distinct meeting points (speeds in lowest ratio a : b): Opposite dir = a + b points; Same dir = |a - b| points",
+                    "Boats & Streams: Downstream = u + v, Upstream = u - v; Still-water speed u = (Down + Up)/2"
+                ],
+                "workedTemplate": "Example: Two trains start together from A and B toward each other. After passing, they take 4 hrs and 9 hrs to reach B and A. Speed ratio = sqrt(9/4) = 3 : 2; Time to meet = sqrt(4 x 9) = 6 hrs.",
+                "easyTrigger": "Two travelers start from A and B and cross each other, or runners on a circular track."
+            },
+            "advanced": {
+                "title": "Level 3: 99%ile Speed Shortcuts & Traps (Explain Like I'm 25)",
+                "speedShortcuts": [
+                    "Harmonic Mean Round-Trip: Equal distances at speeds u and v always give Avg Speed = 2uv / (u + v). If 3 equal parts: 3uvw / (uv + vw + wu).",
+                    "Late/Early Arrival Formula: If speed s1 is t1 late and speed s2 is t2 early, Distance D = [s1 x s2 / |s1 - s2|] x (Time difference in hours).",
+                    "Linear Race Shift: In a 1000m race, if A beats B by 100m and B beats C by 100m, Speed ratio A:B:C = 100 : 90 : 81 (so A beats C by 190m, NOT 200m)."
+                ],
+                "commonTrap": "Applying relative speed before advancing the earlier traveler to the later traveler's start time, or forgetting to reduce the speed ratio a : b to lowest coprime integers before using a + b on circular tracks.",
+                "bailoutRule": "If a circular track problem asks for the 17th meeting time of 3 runners with non-integer ratios, skip on Pass 1."
+            }
+        }
     },
     {
         "id": "qa-work",
@@ -80,34 +178,83 @@ SKILLS_24 = [
         "group": "Arithmetic",
         "name": "Time, Work & Pipes",
         "tagline": "LCM total-work units, efficiency changes, and filling/emptying pipes",
-        "frequency": "High Frequency (~1–2 Qs per slot)",
-        "targetTime": "1.25 – 1.5 min",
-        "formulas": [
-            "Set Total Work W = LCM of given days (d₁, d₂, d₃) so daily rates r_i = W / d_i are clean integers",
-            "Man-Days-Efficiency Rule: (M₁ × D₁ × H₁) / W₁ = (M₂ × D₂ × H₂) / W₂",
-            "Net Rate with Leak: r_net = r_inlet − r_leak"
-        ],
-        "howToApproach": "Avoid fractions like 1/12 + 1/15. Immediately pick Total Work = 60 units so A does 5 units/day and B does 4 units/day.",
-        "easyTrigger": "Two or three workers/pipes working together and one leaves k days before completion.",
-        "commonTrap": "In alternating-day problems with a negative leak, computing cycles blindly without reserving the positive fill of the final step."
+        "frequency": "High Frequency (~1-2 Qs per slot)",
+        "targetTime": "1.25 - 1.5 min",
+        "levels": {
+            "beginner": {
+                "title": "Level 1: The Simple Intuition (Explain Like I'm 5)",
+                "mentalPicture": "Never think of '1 job' with messy fractions like 1/12 + 1/15. Instead, pretend the job is eating a bowl of 60 chocolates! If A takes 12 days, A eats 5 chocolates a day. If B takes 15 days, B eats 4 chocolates a day. Together they eat 9 chocolates a day!",
+                "toyExample": "Total work = 60 chocolates. A (5/day) + B (4/day) work for 4 days = 36 chocolates eaten. Remaining 24 chocolates take B (4/day) another 6 days.",
+                "goldenRule": "Pick Total Work as the LCM of the given days so every worker's daily speed is a whole number."
+            },
+            "intermediate": {
+                "title": "Level 2: Core Exam Mechanics (Explain Like I'm 15)",
+                "stepByStep": [
+                    "Step 1: Compute W = LCM(d1, d2, ...) as Total Units of Work.",
+                    "Step 2: Write each person's or pipe's rate r_i = W / d_i (mark leaks/emptying pipes with a minus sign).",
+                    "Step 3: Write the timeline equation: (Rate_Phase1 x Time1) + (Rate_Phase2 x Time2) = W."
+                ],
+                "formulas": [
+                    "Total Work W = LCM(d1, d2, d3); Daily Rate r_i = W / d_i",
+                    "Man-Days-Efficiency Rule: (M1 x D1 x H1) / W1 = (M2 x D2 x H2) / W2",
+                    "If A takes 'a' days more than (A+B) together, and B takes 'b' days more than (A+B) together, then combined time t = sqrt(a x b)"
+                ],
+                "workedTemplate": "Example: Pipe A fills in 10h, Pipe B in 15h, Leak C empties in 30h. Let Tank = 30 units. Rates: A = +3, B = +2, C = -1. Net rate = 3 + 2 - 1 = 4 units/hr -> Time = 30/4 = 7.5 hrs.",
+                "easyTrigger": "Two or three workers/pipes working together where one joins or leaves partway through."
+            },
+            "advanced": {
+                "title": "Level 3: 99%ile Speed Shortcuts & Traps (Explain Like I'm 25)",
+                "speedShortcuts": [
+                    "Last-Anchor Substitution: If 'A leaves 3 days before completion', don't subtract A's work—pretend A stayed for those extra 3 days and add 3 x r_A to the Total Work W, then divide by the full combined rate!",
+                    "Wage Distribution: Wages are split strictly in the ratio of Total Work Done by each person (Rate x Days Worked), not daily rates alone if they worked different durations."
+                ],
+                "commonTrap": "In alternating-hour problems with an emptying pipe (e.g., +5 units in Hr 1, -3 units in Hr 2), dividing 50 units by the 2-hour net rate (+2) gives 50 hours—wrong! Once the tank hits 45 units at Hour 44, Pipe A fills the final 5 units in Hour 45 and you stop.",
+                "bailoutRule": "Time & Work is almost always a 90-second banker; solve on Pass 1."
+            }
+        }
     },
     {
         "id": "qa-quad-poly",
         "section": "QA",
         "group": "Algebra",
         "name": "Quadratics, Polynomials & Linear Equations",
-        "tagline": "Vieta’s root relations, discriminant conditions, and integer linear systems",
-        "frequency": "High Frequency (~2–3 Qs per slot)",
-        "targetTime": "1.5 – 2.0 min",
-        "formulas": [
-            "For ax² + bx + c = 0: Sum of roots α + β = −b/a, Product αβ = c/a",
-            "Sum of squares: α² + β² = (α + β)² − 2αβ; Difference: |α − β| = √[(α + β)² − 4αβ]",
-            "Real roots condition: Discriminant Δ = b² − 4ac ≥ 0",
-            "Identities: a³ + b³ + c³ − 3abc = (a + b + c)(a² + b² + c² − ab − bc − ca)"
-        ],
-        "howToApproach": "Whenever a question mentions 'roots of a quadratic', write down α + β and αβ first before trying the quadratic formula.",
-        "easyTrigger": "Finding the value of an expression involving roots α, β or finding k for equal/real roots.",
-        "commonTrap": "Forgetting to check that the discriminant b² − 4ac is non-negative when finding valid parameter values."
+        "tagline": "Vieta's root relations, discriminant conditions, and integer linear systems",
+        "frequency": "High Frequency (~2-3 Qs per slot)",
+        "targetTime": "1.5 - 2.0 min",
+        "levels": {
+            "beginner": {
+                "title": "Level 1: The Simple Intuition (Explain Like I'm 5)",
+                "mentalPicture": "A quadratic equation x^2 - (Sum)x + (Product) = 0 is just a riddle that tells you the sum and product of two mystery numbers right on its sleeve! You don't even need to find the two mystery numbers to know what their sum, product, or sum of squares is.",
+                "toyExample": "In x^2 - 7x + 12 = 0, the middle number says the two roots add up to 7, and the last number says they multiply to 12 (the roots are 3 and 4).",
+                "goldenRule": "Before touching the quadratic formula, always read off Sum of Roots = -b/a and Product of Roots = c/a."
+            },
+            "intermediate": {
+                "title": "Level 2: Core Exam Mechanics (Explain Like I'm 15)",
+                "stepByStep": [
+                    "Step 1: Write S = alpha + beta = -b/a and P = alpha x beta = c/a.",
+                    "Step 2: Express symmetric expressions like alpha^2 + beta^2, 1/alpha + 1/beta, or |alpha - beta| purely in terms of S and P.",
+                    "Step 3: Check Discriminant D = b^2 - 4ac >= 0 whenever the problem says 'real roots'."
+                ],
+                "formulas": [
+                    "For ax^2 + bx + c = 0: Sum alpha + beta = -b/a, Product alpha x beta = c/a",
+                    "alpha^2 + beta^2 = S^2 - 2P; |alpha - beta| = sqrt(S^2 - 4P); alpha^3 + beta^3 = S^3 - 3SP",
+                    "Real roots: b^2 - 4ac >= 0; Equal roots: b^2 - 4ac = 0; Roots of opposite signs: c/a < 0",
+                    "Remainder Theorem: Remainder when P(x) is divided by (x - k) is simply P(k)"
+                ],
+                "workedTemplate": "Example: If roots of x^2 - 5x + k = 0 differ by 1, find k. Setup: S = 5, P = k. Since (alpha - beta)^2 = S^2 - 4P -> 1^2 = 25 - 4k -> 4k = 24 -> k = 6.",
+                "easyTrigger": "Finding an expression in roots alpha, beta or finding parameter k for real/equal roots."
+            },
+            "advanced": {
+                "title": "Level 3: 99%ile Speed Shortcuts & Traps (Explain Like I'm 25)",
+                "speedShortcuts": [
+                    "Coefficient Sum Test: If a + b + c = 0 in ax^2 + bx + c = 0, then x = 1 is ALWAYS one root and x = c/a is the other root! If a - b + c = 0, then x = -1 is one root and x = -c/a is the other.",
+                    "New Quadratic with Shifted Roots: To form the equation whose roots are (alpha + k) and (beta + k), simply replace x with (x - k) in the original equation.",
+                    "Integer Diophantine Equations (ax + by = N): Once you spot one integer solution (x0, y0), all others jump by x = x0 + k(b), y = y0 - k(a)."
+                ],
+                "commonTrap": "Finding two possible values of parameter k from a root relation and forgetting to plug both back into D = b^2 - 4ac >= 0 (often one value of k yields imaginary roots!).",
+                "bailoutRule": "Skip degree-4 polynomials unless they factor cleanly via (x + 1/x) symmetry or substitution t = x^2 + ax."
+            }
+        }
     },
     {
         "id": "qa-logs-surds",
@@ -115,16 +262,41 @@ SKILLS_24 = [
         "group": "Algebra",
         "name": "Logarithms, Exponents & Surds",
         "tagline": "Base change rules, log equations, and nested square roots",
-        "frequency": "Very High ROI (~1–2 Qs almost every slot)",
-        "targetTime": "1.25 – 1.75 min",
-        "formulas": [
-            "Base Power Rule: log_(a^k)(b^m) = (m / k) × log_a(b)",
-            "Reciprocal Base: log_a(b) = 1 / log_b(a); Chain product: log_a(b) × log_b(c) = log_a(c)",
-            "Nested Surd: √(a ± 2√b) = √x ± √y where x + y = a and xy = b (with x > y)"
-        ],
-        "howToApproach": "Convert all logarithms in an equation to a single common prime base (like 2, 3, or 10). Substitute t = log_a(x) if you see a quadratic in logs.",
-        "easyTrigger": "Any equation with logs of bases like 2, 4, 8 or 3, 9, 27 — convert all to base 2 or 3 immediately.",
-        "commonTrap": "Keeping a root x that makes the argument of any original log(f(x)) zero or negative (always check f(x) > 0!)."
+        "frequency": "Very High ROI (~1-2 Qs almost every slot)",
+        "targetTime": "1.25 - 1.75 min",
+        "levels": {
+            "beginner": {
+                "title": "Level 1: The Simple Intuition (Explain Like I'm 5)",
+                "mentalPicture": "A logarithm log_2(8) is just asking a simple counting question: 'How many 2s do I multiply together to get 8?' Since 2 x 2 x 2 = 8, the answer is 3! Logs turn multiplication into simple addition, and powers into simple multiplication.",
+                "toyExample": "log_3(9) = 2 because 3^2 = 9. log_10(1000) = 3 because 1000 has three zeros (10^3).",
+                "goldenRule": "Logs hate different bases: your first move is always to rewrite every number as a power of the same prime base (like 2, 3, or 5)."
+            },
+            "intermediate": {
+                "title": "Level 2: Core Exam Mechanics (Explain Like I'm 15)",
+                "stepByStep": [
+                    "Step 1: Spot the common prime base (e.g., if you see 4, 8, 16, rewrite all of them as 2^2, 2^3, 2^4).",
+                    "Step 2: Pull exponents out front: powers on the argument go to the numerator; powers on the base go to the denominator.",
+                    "Step 3: After solving for x, verify that every original log argument is strictly positive (> 0)."
+                ],
+                "formulas": [
+                    "Base & Argument Power Rule: log_(a^k)(b^m) = (m / k) x log_a(b)",
+                    "Product & Quotient: log(xy) = log(x) + log(y); log(x/y) = log(x) - log(y)",
+                    "Base Change & Chain: log_a(b) = 1 / log_b(a); log_a(b) x log_b(c) = log_a(c)",
+                    "Exponent Swap Identity: a^(log_b(c)) = c^(log_b(a))"
+                ],
+                "workedTemplate": "Example: Solve log_2(x) + log_4(x) + log_16(x) = 7. Setup: Convert to base 2 -> log_2(x) x (1 + 1/2 + 1/4) = 7 -> (7/4) log_2(x) = 7 -> log_2(x) = 4 -> x = 16.",
+                "easyTrigger": "Any equation where bases are powers of the same number (2, 4, 8 or 3, 9, 27) or a product chain of logs."
+            },
+            "advanced": {
+                "title": "Level 3: 99%ile Speed Shortcuts & Traps (Explain Like I'm 25)",
+                "speedShortcuts": [
+                    "Nested Surd Denesting: To simplify sqrt(a +/- 2*sqrt(b)), find two numbers x > y such that x + y = a and x*y = b. The answer is immediately sqrt(x) +/- sqrt(y) (e.g., sqrt(7 + 2*sqrt(12)) = sqrt(4) + sqrt(3) = 2 + sqrt(3)).",
+                    "Telescoping Log Series: Sums of log(1 + 1/k) = log((k+1)/k) collapse in a chain where every numerator cancels the next denominator, leaving only log(Last / First)."
+                ],
+                "commonTrap": "Combining log(x - 1) + log(x - 3) = log((x - 1)(x - 3)) and keeping a negative root like x = 0 that makes (x - 1) negative! Log arguments must be > 0, and log bases must be > 0 and != 1.",
+                "bailoutRule": "Logs are the highest-accuracy algebra questions in CAT—never skip a log question before trying base-conversion."
+            }
+        }
     },
     {
         "id": "qa-mod-ineq-fn",
@@ -132,17 +304,41 @@ SKILLS_24 = [
         "group": "Algebra",
         "name": "Modulus, Inequalities & Functions",
         "tagline": "Absolute value graphs, AM-GM minimum values, and functional equations",
-        "frequency": "High Frequency (~2–3 Qs per slot)",
-        "targetTime": "1.5 – 2.25 min",
-        "formulas": [
-            "Minimum of |x − a| + |x − b| is |a − b|, achieved at any x between a and b",
-            "For odd number of terms ∑|x − a_i|, minimum occurs at the median of {a_i}",
-            "AM ≥ GM (for positive numbers): (x + y)/2 ≥ √(xy); x + c/x ≥ 2√c for x > 0",
-            "|x| < k ⇔ −k < x < k; |x| > k ⇔ x > k or x < −k"
-        ],
-        "howToApproach": "Treat |x − a| as distance on a number line instead of splitting into 4 algebraic cases. For functional equations f(x+y), test x=0, y=0, or x=1 first.",
-        "easyTrigger": "Finding the minimum value of a sum of modulus terms or number of integer solutions to |x − a| + |x − b| ≤ c.",
-        "commonTrap": "Applying AM ≥ GM without checking that the variables are strictly positive and that the equality condition can actually be reached."
+        "frequency": "High Frequency (~2-3 Qs per slot)",
+        "targetTime": "1.5 - 2.25 min",
+        "levels": {
+            "beginner": {
+                "title": "Level 1: The Simple Intuition (Explain Like I'm 5)",
+                "mentalPicture": "Think of |x - 3| as 'How many steps away is my house x from the ice-cream shop at 3?' Distance is never negative! If you have two shops at 3 and 7, and you want the shortest total walk |x - 3| + |x - 7|, just stand anywhere BETWEEN 3 and 7—your total walk to both is always the distance between the shops (7 - 3 = 4).",
+                "toyExample": "Minimum value of |x - 2| + |x - 10| is simply 10 - 2 = 8, achieved for any x from 2 to 10.",
+                "goldenRule": "Read |x - a| geometrically as distance on a number line instead of splitting into messy algebraic +/- cases."
+            },
+            "intermediate": {
+                "title": "Level 2: Core Exam Mechanics (Explain Like I'm 15)",
+                "stepByStep": [
+                    "Step 1: For sums of modulus terms |x - a1| + |x - a2| + ..., mark the critical points a1 < a2 < ... on a number line.",
+                    "Step 2: The minimum always occurs at the median critical point (or anywhere between the two middle points if there are an even number).",
+                    "Step 3: For rational inequalities P(x)/Q(x) <= 0, plot all roots on a sign-chart (wavy curve) and never cross-multiply by an unknown variable x."
+                ],
+                "formulas": [
+                    "Min of |x - a| + |x - b| is |a - b| (for any x in [a, b]); Max of ||x - a| - |x - b|| is also |a - b|",
+                    "Diamond Lattice Area: The region |x| + |y| <= k is a tilted square of side k*sqrt(2) and Area = 2k^2",
+                    "AM >= GM (for x, y > 0): (x + y)/2 >= sqrt(xy), with equality if and only if x = y",
+                    "Reciprocal Bound: For x > 0, x + 1/x >= 2; and ax + b/x >= 2*sqrt(ab)"
+                ],
+                "workedTemplate": "Example: How many integer values of x satisfy |x - 2| + |x - 8| = 6? Since the distance between 2 and 8 is already 8 - 2 = 6, EVERY integer in the interval [2, 8] works! Count = 8 - 2 + 1 = 7 integers.",
+                "easyTrigger": "Minimum value of a sum of modulus expressions, or integer solutions to |x - a| + |x - b| <= c."
+            },
+            "advanced": {
+                "title": "Level 3: 99%ile Speed Shortcuts & Traps (Explain Like I'm 25)",
+                "speedShortcuts": [
+                    "Weighted AM-GM Balancing: To minimize x^2 + 8/x for x > 0, split 8/x into two equal parts (4/x + 4/x) so the product x^2 * (4/x) * (4/x) = 16 cancels x completely! By AM-GM: (x^2 + 4/x + 4/x)/3 >= (16)^(1/3).",
+                    "Standard Functional Templates: f(x+y) = f(x) + f(y) -> f(x) = kx; f(x+y) = f(x)f(y) -> f(x) = a^x; f(xy) = f(x) + f(y) -> f(x) = k*ln(x). Test small values x=0, 1, 2 first!"
+                ],
+                "commonTrap": "Cross-multiplying an inequality like (x + 2)/(x - 3) > 1 to get x + 2 > x - 3 without knowing if (x - 3) is positive or negative. Always subtract 1 and combine over a common denominator!",
+                "bailoutRule": "If a modulus equation has 3+ nested absolute values with unequal coefficients (like |2x - |3x + 1|| = |x - 5|), test options first; if TITA, save for Pass 2."
+            }
+        }
     },
     {
         "id": "qa-sequences",
@@ -150,17 +346,41 @@ SKILLS_24 = [
         "group": "Algebra",
         "name": "Sequences & Series (AP, GP & Telescoping)",
         "tagline": "Arithmetic & Geometric Progressions, common terms, and telescoping sums",
-        "frequency": "High Frequency (~1–2 Qs per slot)",
-        "targetTime": "1.5 – 2.0 min",
-        "formulas": [
-            "AP n-th term: T_n = a + (n−1)d; Sum S_n = (n/2)[2a + (n−1)d] = n × (Middle Term)",
-            "GP n-th term: T_n = a × r^(n−1); Infinite GP Sum (|r| < 1): S_∞ = a / (1 − r)",
-            "Telescoping Fraction: 1 / [n(n + d)] = (1 / d) × [1/n − 1/(n + d)]",
-            "Common terms of two APs with differences d₁ and d₂ form an AP with common difference LCM(d₁, d₂)"
-        ],
-        "howToApproach": "If a sequence is defined recursively or asks for S_100, compute the first 3 terms (n=1, 2, 3) to spot the cancellation pattern or period.",
-        "easyTrigger": "Sum of n terms of an AP/GP or common terms between two arithmetic progressions.",
-        "commonTrap": "Off-by-one error when counting the number of terms from index k to m (number of terms is m − k + 1, not m − k)."
+        "frequency": "High Frequency (~1-2 Qs per slot)",
+        "targetTime": "1.5 - 2.0 min",
+        "levels": {
+            "beginner": {
+                "title": "Level 1: The Simple Intuition (Explain Like I'm 5)",
+                "mentalPicture": "An Arithmetic Progression (AP) is climbing a staircase where every step is the exact same height (+d). If you pair the first step with the last step, the second with the second-to-last, every single pair adds up to the exact same number (twice the middle step)!",
+                "toyExample": "To add 2 + 4 + 6 + 8 + 10: the middle number is 6, and there are 5 numbers, so the sum is immediately 5 x 6 = 30.",
+                "goldenRule": "If a scary formula asks for the sum of 100 terms (S_100), just compute the sum for n = 1, n = 2, and n = 3—the pattern will jump right out at you."
+            },
+            "intermediate": {
+                "title": "Level 2: Core Exam Mechanics (Explain Like I'm 15)",
+                "stepByStep": [
+                    "Step 1: For an AP, replace S_n with n x (Middle Term) whenever possible.",
+                    "Step 2: If given S_n as a quadratic An^2 + Bn, the common difference is always d = 2A and first term is a = A + B.",
+                    "Step 3: For fraction sums 1/(a_k * a_(k+1)), split each term into (1/d) x [1/a_k - 1/a_(k+1)] so middle terms cancel."
+                ],
+                "formulas": [
+                    "AP n-th term: T_n = a + (n - 1)d; Sum S_n = (n/2)(First + Last) = (n/2)[2a + (n - 1)d]",
+                    "GP n-th term: T_n = a * r^(n - 1); Sum S_n = a(r^n - 1)/(r - 1); Infinite GP (|r| < 1): S_inf = a / (1 - r)",
+                    "Telescoping Split: 1 / [n(n + d)] = (1 / d) x (1/n - 1/(n + d))",
+                    "Common terms of two APs (differences d1, d2): form a new AP with common difference d = LCM(d1, d2)"
+                ],
+                "workedTemplate": "Example: Find 1/(1x3) + 1/(3x5) + ... + 1/(19x21). Setup: Factor out 1/2 -> (1/2)[(1 - 1/3) + (1/3 - 1/5) + ... + (1/19 - 1/21)] = (1/2)(1 - 1/21) = 10/21.",
+                "easyTrigger": "Sum of AP/GP terms, common terms of two APs, or recursive sequence where T_(n+1) depends on T_n."
+            },
+            "advanced": {
+                "title": "Level 3: 99%ile Speed Shortcuts & Traps (Explain Like I'm 25)",
+                "speedShortcuts": [
+                    "Small-n Option Elimination: When options are algebraic formulas in n (like n(n+1)/(2n+1)), plug n = 1 or n = 2 and match against the first term T_1 or T_1 + T_2 in 15 seconds.",
+                    "3-Term Symmetry Choice: When 3 unknown numbers are in AP with given sum, write them as (a - d, a, a + d) so d cancels in the sum! For 3 numbers in GP with given product, write (a/r, a, ar)."
+                ],
+                "commonTrap": "Off-by-one counting error: the number of multiples or terms from index k to index m inclusive is (m - k + 1), not (m - k).",
+                "bailoutRule": "Almost always solvable in under 2 minutes via small-n pattern checking."
+            }
+        }
     },
     {
         "id": "qa-geometry",
@@ -169,16 +389,42 @@ SKILLS_24 = [
         "name": "Geometry, Mensuration & Coordinate Geometry",
         "tagline": "Triangles, circles, quadrilaterals, 3D solids, and coordinate lines",
         "frequency": "High Frequency (~3 Qs per slot)",
-        "targetTime": "1.5 – 2.25 min",
-        "formulas": [
-            "Similar Triangles (side ratio k): Area ratio = k²; Cevians sharing vertex height: Area ratio = Base ratio",
-            "Right Triangle altitude h to hypotenuse c: h = (ab)/c; Inradius r = (a + b − c)/2; Circumradius R = c/2",
-            "Circle Chords: PA × PB = PC × PD; Tangent-Secant: PT² = PA × PB",
-            "Rhombus Area = ½ × d₁ × d₂ with (d₁/2)² + (d₂/2)² = side²; Trapezium diagonals divide into 4 triangles with Area(Left) = Area(Right) = √(A_top × A_bottom)"
-        ],
-        "howToApproach": "Draw a large, clean diagram first. Look for standard Pythagorean triples (3-4-5, 5-12-13, 8-15-17, 7-24-25) and similar triangles created by parallel lines.",
-        "easyTrigger": "Direct angle chasing, rhombus/trapezium area, or coordinate intersection of lines.",
-        "commonTrap": "Confusing diameter with radius in circle/sphere formulas, or assuming a triangle is isosceles when not stated."
+        "targetTime": "1.5 - 2.25 min",
+        "levels": {
+            "beginner": {
+                "title": "Level 1: The Simple Intuition (Explain Like I'm 5)",
+                "mentalPicture": "If you zoom in on a photo of a triangle to make its sides 2 times as long, how much more paint do you need to color the inside? Not 2 times, but 2 x 2 = 4 times as much! (Length scales by k, Area scales by k^2, Volume scales by k^3). And if two triangles share the same roof height, their areas are simply in the ratio of their floor bases.",
+                "toyExample": "A triangle is cut by a line parallel to the base halfway down (side ratio 1 : 2). The top mini-triangle has 1^2 / 2^2 = 1/4 of the total area, leaving 3/4 for the bottom trapezium.",
+                "goldenRule": "Draw a clean figure first and hunt for parallel lines (similar triangles) or 90-degree right angles (Pythagoras triples)."
+            },
+            "intermediate": {
+                "title": "Level 2: Core Exam Mechanics (Explain Like I'm 15)",
+                "stepByStep": [
+                    "Step 1: Label all given lengths/angles and drop a perpendicular or draw a radius to any point of tangency (radius is ALWAYS perpendicular to tangent!).",
+                    "Step 2: Check standard Pythagorean triples (3-4-5, 5-12-13, 8-15-17, 7-24-25) before writing ugly square roots.",
+                    "Step 3: Use area ratios (same height -> base ratio; similar figures -> side^2 ratio) to bypass trig."
+                ],
+                "formulas": [
+                    "Right Triangle (legs a, b, hyp c): Altitude h = ab/c; Inradius r = (a + b - c)/2; Circumradius R = c/2",
+                    "Equilateral Triangle (side a): Height = (sqrt(3)/2)a; Area = (sqrt(3)/4)a^2; R = a/sqrt(3); r = a/(2*sqrt(3))",
+                    "Circle Power of a Point: Intersecting chords PA x PB = PC x PD; Tangent-Secant PT^2 = PA x PB",
+                    "Trapezium Diagonals (4 sub-triangles): Left Wing Area = Right Wing Area = sqrt(Top Area x Bottom Area)",
+                    "Coordinate Distance from (x0, y0) to ax + by + c = 0: d = |ax0 + by0 + c| / sqrt(a^2 + b^2)"
+                ],
+                "workedTemplate": "Example: In a trapezium, parallel sides divide diagonals so top triangle area is 4 and bottom is 9. Both side wing triangles have area sqrt(4 x 9) = 6 each -> Total Area = 4 + 9 + 6 + 6 = 25.",
+                "easyTrigger": "Direct angle-chasing, rhombus/trapezium areas, right-triangle inradius/circumradius, or coordinate line intersections."
+            },
+            "advanced": {
+                "title": "Level 3: 99%ile Speed Shortcuts & Traps (Explain Like I'm 25)",
+                "speedShortcuts": [
+                    "Angle Bisector Theorem: An internal bisector of angle A splits the opposite side BC in the exact ratio of the adjacent sides AB : AC.",
+                    "Shoelace Coordinate Area: For vertices (0, 0), (x1, y1), (x2, y2) (shift one vertex to origin first!), Triangle Area = 1/2 x |x1*y2 - x2*y1| in 10 seconds.",
+                    "Regular Hexagon (side a): Consists of 6 equilateral triangles of side a; short diagonal = a*sqrt(3), long diagonal = 2a."
+                ],
+                "commonTrap": "Confusing diameter with radius in 3D volume/surface formulas, or assuming an acute triangle when an obtuse configuration is also valid.",
+                "bailoutRule": "If a geometry problem has no right angles, no parallel lines, and requires 3+ cosine-rule equations, skip it on Pass 1."
+            }
+        }
     },
     {
         "id": "qa-numbers-pnc",
@@ -186,17 +432,41 @@ SKILLS_24 = [
         "group": "Number Systems & Modern Math",
         "name": "Number Systems, Divisibility & Combinatorics",
         "tagline": "Factors, remainders, digit puzzles, and Stars-and-Bars counting",
-        "frequency": "Consistent (~2–3 Qs per slot)",
-        "targetTime": "1.25 – 2.0 min",
-        "formulas": [
-            "For N = p₁^a × p₂^b: Total Factors = (a+1)(b+1); Odd factors = ignore power of 2",
-            "2-Digit reversal: |(10a + b) − (10b + a)| = 9|a − b|; 3-Digit reversal difference = 99|a − c|",
-            "Divisibility by 9 (or 3): Sum of digits is divisible by 9 (or 3); by 11: |(Odd pos sum) − (Even pos sum)| is 0 or 11k",
-            "Distributing n identical items into r distinct bins: C(n + r − 1, r − 1) (if each bin ≥ 1: C(n − 1, r − 1))"
-        ],
-        "howToApproach": "For remainders, reduce the base modulo the divisor first (aim for ±1 mod d). For counting problems with 'at least one', compute Total − (None).",
-        "easyTrigger": "Finding number of factors, remainder of a power, or 3-digit number with digit constraints.",
-        "commonTrap": "Allowing the leading digit of an n-digit number to be 0 in permutation problems."
+        "frequency": "Consistent (~2-3 Qs per slot)",
+        "targetTime": "1.25 - 2.0 min",
+        "levels": {
+            "beginner": {
+                "title": "Level 1: The Simple Intuition (Explain Like I'm 5)",
+                "mentalPicture": "Prime numbers (2, 3, 5, 7...) are the Lego bricks of all numbers. Every number is built from a unique recipe of prime bricks! And in counting (Combinatorics): if you have 3 shirts and 4 pants, you can make 3 x 4 = 12 outfits (multiply when you do Task A AND Task B; add when you do Task A OR Task B).",
+                "toyExample": "How many factors does 12 = 2^2 x 3^1 have? You can pick zero, one, or two 2s (3 choices) AND zero or one 3 (2 choices) -> 3 x 2 = 6 factors (1, 2, 3, 4, 6, 12).",
+                "goldenRule": "When counting 'at least one', never count all the overlapping cases: just take (All Possible Ways) minus (Zero Ways)."
+            },
+            "intermediate": {
+                "title": "Level 2: Core Exam Mechanics (Explain Like I'm 15)",
+                "stepByStep": [
+                    "Step 1: Break every composite number in the problem into prime powers N = p1^a * p2^b * p3^c.",
+                    "Step 2: For 2-digit or 3-digit numbers, write 10a + b or 100a + 10b + c and use the reversal difference rule.",
+                    "Step 3: For distributing identical coins/items into distinct boxes, use the Stars-and-Bars formula."
+                ],
+                "formulas": [
+                    "For N = p1^a * p2^b: Total Factors = (a + 1)(b + 1); Perfect square has all even exponents (so odd total factors)",
+                    "Digit Reversal: |(10a + b) - (10b + a)| = 9|a - b|; |(100a + 10b + c) - (100c + 10b + a)| = 99|a - c|",
+                    "Identical items (n) into distinct bins (r): Non-negative (bins >= 0) = C(n + r - 1, r - 1); Positive (bins >= 1) = C(n - 1, r - 1)",
+                    "Trailing Zeros in N! = floor(N/5) + floor(N/25) + floor(N/125) + ..."
+                ],
+                "workedTemplate": "Example: How many positive integer solutions to x + y + z = 10? Setup: Distribute 10 identical units into 3 bins with each >= 1 -> C(10 - 1, 3 - 1) = C(9, 2) = 36.",
+                "easyTrigger": "Counting factors, digit reversal word problems, trailing zeros, or distributing identical objects."
+            },
+            "advanced": {
+                "title": "Level 3: 99%ile Speed Shortcuts & Traps (Explain Like I'm 25)",
+                "speedShortcuts": [
+                    "Negative Remainder Shortcut: To find 17^23 mod 18, note that 17 = -1 (mod 18). So (-1)^23 = -1 = 17 (mod 18) in 3 seconds!",
+                    "Co-prime Factor Pairs: Number of ways to write N as a product of two co-prime factors is 2^(k - 1), where k is the number of distinct prime factors of N."
+                ],
+                "commonTrap": "In digit-counting problems, forgetting that the first (most significant) digit of an n-digit number CANNOT be 0!",
+                "bailoutRule": "If a combinatorics problem has 4+ overlapping restrictions that require manually enumerating 10+ sub-cases, skip it on Pass 1."
+            }
+        }
     },
 
     # ==================== DILR (6 Skills) ====================
@@ -207,15 +477,39 @@ SKILLS_24 = [
         "name": "Visual Charts, Bar Graphs & Candlestick Plots",
         "tagline": "Bar/line charts, scatter plots, stacked percentages, and min-max-open-close charts",
         "frequency": "Top Round-1 Pick (1 set in almost every slot)",
-        "targetTime": "8 – 10 min per set",
-        "formulas": [
-            "Read the X/Y axes, units (₹ million vs. %), and legend definitions for 45 seconds before touching Q1",
-            "In Candlestick / Box plots: White/hollow box vs. shaded box tells you whether Close > Open or Open > Close",
-            "Growth Rate = (Final − Initial) / Initial; Average share = Part / Total"
-        ],
-        "howToApproach": "Visual DI sets are your #1 Round-1 confidence anchors because they rarely require a global 10-minute deduction before Q1. Read the chart values directly for the specific rows asked in each question.",
-        "easyTrigger": "Any set with a horizontal/vertical bar chart, scatter plot, or explicit numeric table.",
-        "commonTrap": "Misreading 'percentage points increase' vs. 'percentage increase', or swapping 2019 markers with 2020 bars."
+        "targetTime": "8 - 10 min per set",
+        "levels": {
+            "beginner": {
+                "title": "Level 1: The Simple Intuition (Explain Like I'm 5)",
+                "mentalPicture": "A visual DI chart is not a puzzle you have to 'crack' before answering questions—all the answers are already painted right on the page! The only trick is learning the map legend first so you don't read the blue bar when the question asks for the red dot.",
+                "toyExample": "In a Candlestick (box-and-whisker) plot: the top tip of the thin vertical line is the Maximum, the bottom tip is the Minimum, and the top/bottom edges of the rectangle are Open and Close.",
+                "goldenRule": "Spend 45 calm seconds reading the axes, units, and legend before looking at Question 1."
+            },
+            "intermediate": {
+                "title": "Level 2: Core Exam Mechanics (Explain Like I'm 15)",
+                "stepByStep": [
+                    "Step 1: Verify the exact rules in the legend (e.g., 'White box means Close > Open; Shaded box means Open > Close').",
+                    "Step 2: Don't tabulate all 20 bars upfront! Only read off the numbers for the 3 or 4 items mentioned in Question 1.",
+                    "Step 3: Keep your scratch table clean so numbers extracted in Q1 can be reused in Q3 and Q4."
+                ],
+                "formulas": [
+                    "Percentage Growth = (Final - Initial) / Initial x 100%",
+                    "Percentage Points Change = Final % - Initial % (simple subtraction, no division!)",
+                    "In a 2D Scatter Plot (X vs Y): slope from the origin (Y / X) stays constant along radial lines; (X + Y) stays constant along downward diagonals"
+                ],
+                "workedTemplate": "Archetype (CAT 2021 Subcategory Sales / CAT 2024 Candlestick Plot): Write a 1-line note on your pad: 'White = UP (Bottom=Open, Top=Close); Black = DOWN (Top=Open, Bottom=Close)'. Then answer Q1-Q4 directly.",
+                "easyTrigger": "Any DILR set with a bar chart, scatter plot, candlestick graph, or explicit data table."
+            },
+            "advanced": {
+                "title": "Level 3: 99%ile Speed Shortcuts & Traps (Explain Like I'm 25)",
+                "speedShortcuts": [
+                    "Visual Ruler Comparison: Before calculating 4 exact percentage growths like 34/142 vs 29/118, compare their cross-multiplied ratios or visual bar lengths to eliminate 2 MCQ options immediately.",
+                    "Average Line Balancing: To check if the average of 5 bars exceeds 60, just sum the visual surpluses (+ above 60) and deficits (- below 60)."
+                ],
+                "commonTrap": "Confusing 'percentage growth' with 'percentage points increase', or reading the X-axis and Y-axis backwards on a scatter plot.",
+                "bailoutRule": "Visual DI sets are almost always Round-1 Must-Solves. Even if 1 question in the set is calculation-heavy, bank the other 3 questions first!"
+            }
+        }
     },
     {
         "id": "dilr-grids",
@@ -223,16 +517,40 @@ SKILLS_24 = [
         "group": "Logical Reasoning",
         "name": "Distribution Grids & Constraint Tables",
         "tagline": "Assigning people/items across categories, ratings, departments, or slots",
-        "frequency": "Very High Frequency (~1–2 sets per slot)",
-        "targetTime": "9 – 11 min per set",
-        "formulas": [
-            "Always check Row Totals and Column Totals first — hidden cells are often forced by Total − (Known Sum)",
-            "Start with the most restricted clue ('neither A nor B', 'unique integer', or exact product/sum)",
-            "Maintain a single clean 2D matrix rather than scattered notes"
-        ],
-        "howToApproach": "Draw the master entity × attribute table immediately. Fill in the 100% definite clues first, mark impossible cells with '×', and check which row/column sum forces a unique split.",
-        "easyTrigger": "Fixed 4×4 or 5×4 assignment matrix with explicit row and column totals.",
-        "commonTrap": "Jumping into trial-and-error branching before using the total sum invariant across all rows."
+        "frequency": "Very High Frequency (~1-2 sets per slot)",
+        "targetTime": "9 - 11 min per set",
+        "levels": {
+            "beginner": {
+                "title": "Level 1: The Simple Intuition (Explain Like I'm 5)",
+                "mentalPicture": "Think of a Sudoku grid where you match People (rows) to Items/Days (columns). You never guess randomly! You always start with the clue that leaves only ONE possible box, fill it in, and then check what the row total and column total force next.",
+                "toyExample": "If 3 kids share 10 apples, and Kid A gets 4 and Kid B gets 4, you don't need a clue for Kid C—the row total (10 - 8 = 2) forces Kid C to have 2!",
+                "goldenRule": "Row totals and column totals are your secret weapons: always add up the rows and columns."
+            },
+            "intermediate": {
+                "title": "Level 2: Core Exam Mechanics (Explain Like I'm 15)",
+                "stepByStep": [
+                    "Step 1: Draw ONE master table on your scratchpad with rows = primary entities (e.g., 5 employees) and columns = attributes/days.",
+                    "Step 2: Write the row totals and column totals along the outside borders of your table.",
+                    "Step 3: Process 'negative' clues ('A did not visit France or Italy') by putting small X marks inside the grid cells."
+                ],
+                "formulas": [
+                    "Grand Total Invariant: Sum of all Row Totals MUST equal Sum of all Column Totals",
+                    "Pigeonhole Forcing: If a row of 4 cells must sum to 19 using integers from {1..5}, the only possible multiset is {5, 5, 5, 4}",
+                    "Unique Extremes: Clues mentioning 'the only person who...' or 'maximum possible...' always unlock the first 3 cells"
+                ],
+                "workedTemplate": "Archetype (CAT 2024 Web Surfers 30 Stars / CAT 2021 Project Assignment): Sum the column totals first to find the missing grand total, then use the row with the tightest min/max sum to lock its exact cell values.",
+                "easyTrigger": "A 4x4 or 5x5 assignment table with explicit numeric row/column totals and 5-6 bullet clues."
+            },
+            "advanced": {
+                "title": "Level 3: 99%ile Speed Shortcuts & Traps (Explain Like I'm 25)",
+                "speedShortcuts": [
+                    "2-Case Split Discipline: If a grid reduces to 2 possibilities for Cell (A, 1), don't stare at it for 3 minutes—write the secondary case in brackets next to the primary value and read the next clue; the false case usually dies on the very next line.",
+                    "Question-Driven Completion: If 80% of the table is filled and 4 cells remain ambiguous, check the questions! Often Q2 starts with 'If B scored 4 in Round 2, then...'—meaning those 4 cells were meant to stay open until the question stem!"
+                ],
+                "commonTrap": "Wasting 4 minutes trying to uniquely determine every single cell of the master grid when the set intentionally left 2 cells variable for 'If... then...' questions!",
+                "bailoutRule": "If after 3 minutes of drawing the table you have zero filled cells and 6+ branching cases, bail out and switch to another set."
+            }
+        }
     },
     {
         "id": "dilr-quant",
@@ -241,15 +559,39 @@ SKILLS_24 = [
         "name": "Quant-Based Puzzles & Numerical Logic",
         "tagline": "Missing-number tables, coin/token distributions, and average/rating puzzles",
         "frequency": "High Frequency (~1 set per slot)",
-        "targetTime": "10 – 12 min per set",
-        "formulas": [
-            "Write out the allowed set of integers first (e.g., primes {2, 3, 5, 7, 11} or ratings {1, 2, 3, 4, 5})",
-            "Find which target sums can only be partitioned in 1 unique way (e.g., 3 distinct ratings summing to 14 from 1..5 MUST be {4, 5, 5} or {3, 5, 6})",
-            "Use parity (odd/even) and divisibility to eliminate cases rapidly"
-        ],
-        "howToApproach": "List the extreme integer partitions first (minimum possible sum and maximum possible sum). That usually locks 2 or 3 rows immediately without any guessing.",
-        "easyTrigger": "Small integer domains (ratings 1 to 5, prime tokens, or fixed total coins) where extreme sums have unique combinations.",
-        "commonTrap": "Forgetting whether values in a row must be distinct or can repeat."
+        "targetTime": "10 - 12 min per set",
+        "levels": {
+            "beginner": {
+                "title": "Level 1: The Simple Intuition (Explain Like I'm 5)",
+                "mentalPicture": "Suppose I tell you I have 3 coins from {Rs 1, Rs 2, Rs 5} in my pocket and they add up to Rs 12. Wait—even three Rs 5 coins only make Rs 15, and to make Rs 12 you MUST have two Rs 5 coins and one Rs 2 coin! Numbers have very few ways to add up to extreme totals.",
+                "toyExample": "3 distinct numbers from {1, 2, 3, 4, 5} adding to 12 MUST be {3, 4, 5}. Adding to 6 MUST be {1, 2, 3}.",
+                "goldenRule": "Write down the allowed list of numbers first, and attack the highest and lowest totals—they only have 1 possible combination!"
+            },
+            "intermediate": {
+                "title": "Level 2: Core Exam Mechanics (Explain Like I'm 15)",
+                "stepByStep": [
+                    "Step 1: List the exact allowed domain at the top of your page (e.g., primes {2, 3, 5, 7, 11, 13} or ratings {1, 2, 3, 4, 5}).",
+                    "Step 2: Convert any given averages into integer sums immediately (Sum = N x Average).",
+                    "Step 3: Write down all valid partitions for the most constrained sums and eliminate clashes using parity (odd/even)."
+                ],
+                "formulas": [
+                    "Average to Integer Sum: If average of 4 integer ratings is 3.75, the sum MUST be 4 x 3.75 = 15",
+                    "Odd/Even Parity: Odd + Odd = Even; an odd sum of 3 integers requires either (Odd + Odd + Odd) or (Odd + Even + Even)",
+                    "Prime Parity Rule: 2 is the ONLY even prime! Every other prime is odd, so if the difference between two primes is odd, one of them MUST be 2!"
+                ],
+                "workedTemplate": "Archetype (CAT 2022 Six Interviewers & Prime Tokens): Since all tokens are primes and two totals differ by an odd number, token '2' is immediately forced into that transfer slot.",
+                "easyTrigger": "Puzzles involving small integer ratings (1 to 5), prime numbers, or fixed coin denominations."
+            },
+            "advanced": {
+                "title": "Level 3: 99%ile Speed Shortcuts & Traps (Explain Like I'm 25)",
+                "speedShortcuts": [
+                    "Median + Mean Lock: For 3 integers (a <= b <= c), the middle number b IS the median, and a + b + c = 3 x Mean. Knowing the mean and median immediately fixes (a + c)!",
+                    "Last-Digit / Modulo Check: When sums involve multiples of 5 or 10 alongside odd weights (like 3s and 7s), check the last digit (mod 5 or mod 10) to lock the count of 3s/7s instantly."
+                ],
+                "commonTrap": "Misreading whether the integers assigned to a person must be 'distinct' or 'not necessarily distinct'. Circle that phrase in the directions!",
+                "bailoutRule": "If the integer domain is wide (e.g., any integer from 1 to 100) with no tight average/divisibility anchor, treat as a Round-2 or Skip set."
+            }
+        }
     },
     {
         "id": "dilr-games-venn",
@@ -258,15 +600,39 @@ SKILLS_24 = [
         "name": "Games, Tournaments & Venn Set Theory",
         "tagline": "Round-robin tables, knockout brackets, and 3-set/4-set Venn overlaps",
         "frequency": "Consistent (~1 set per slot)",
-        "targetTime": "10 – 12 min per set",
-        "formulas": [
-            "Round-Robin with n teams: Total Matches = n(n − 1)/2; Total Wins = Total Losses (if no draws)",
-            "3-Set Venn: Total = (A + B + C) − (Exactly 2) − 2×(All 3) + None",
-            "Sum of goals scored by all teams = Sum of goals conceded by all teams"
-        ],
-        "howToApproach": "For tournaments, build a Wins / Losses / Draws / Points table and check the total points invariant. For Venn diagrams, label the atomic regions ('Only A', 'Exactly 2', 'All 3') with variables rather than overlapping circles.",
-        "easyTrigger": "Standard round-robin point table or 3-group Venn overlap with 'exactly k' counts given.",
-        "commonTrap": "Confusing 'at least two' (which is Exactly 2 + All 3) with 'more than two'."
+        "targetTime": "10 - 12 min per set",
+        "levels": {
+            "beginner": {
+                "title": "Level 1: The Simple Intuition (Explain Like I'm 5)",
+                "mentalPicture": "In any tournament, every time someone wins a match, somebody else loses that exact match! So Total Wins across all players MUST equal Total Losses. And in Venn diagrams: instead of staring at confusing overlapping circles, just think of 3 separate buckets: 'People in ONLY 1 club', 'People in EXACTLY 2 clubs', and 'People in ALL 3 clubs'.",
+                "toyExample": "In a 4-team round-robin (everyone plays everyone once), there are 4 x 3 / 2 = 6 matches total. If a win gives 2 points and a draw gives 1+1=2 points, every match hands out 2 points, so the sum of everyone's points MUST be 6 x 2 = 12.",
+                "goldenRule": "In tournaments, count total matches and total points first; in Venn sets, write equations for 'Exactly 1', 'Exactly 2', and 'All 3'."
+            },
+            "intermediate": {
+                "title": "Level 2: Core Exam Mechanics (Explain Like I'm 15)",
+                "stepByStep": [
+                    "Step 1: For tournaments, build a Team x (Played, Won, Drawn, Lost, Goals For, Goals Against, Points) table.",
+                    "Step 2: Use the symmetries: Sum(Won) = Sum(Lost), Sum(Drawn) is always even, and Sum(Goals For) = Sum(Goals Against).",
+                    "Step 3: For Venn sets, let E1 = sum of 'only one' regions, E2 = sum of 'exactly two' regions, E3 = 'all three'."
+                ],
+                "formulas": [
+                    "Round-Robin Matches among n teams = n(n - 1)/2; Knockout Matches to crown 1 winner among n teams = n - 1",
+                    "3-Set Venn Equations: (1) Total = E1 + E2 + E3 + None; (2) A + B + C = E1 + 2*E2 + 3*E3",
+                    "Subtracting (1) from (2) immediately gives: (A + B + C) - (Total - None) = E2 + 2*E3!"
+                ],
+                "workedTemplate": "Archetype (CAT 2024 Game of QUIET / CAT 2022 Supermarket Venn): In a 6-team split-group tournament where each team plays group-mates once (2 games) and other-group teams twice (6 games), every team plays 2 + 6 = 8 games (total 24 games).",
+                "easyTrigger": "Standard 4-to-6 team round-robin points table or 3-group Venn overlap with 'at least two' / 'exactly two' counts."
+            },
+            "advanced": {
+                "title": "Level 3: 99%ile Speed Shortcuts & Traps (Explain Like I'm 25)",
+                "speedShortcuts": [
+                    "Match Matrix Diagonal: Draw an n x n match grid with X on the diagonal. Fill in symmetric results (if Row A beats Col B, mark W at (A,B) and L at (B,A)).",
+                    "Venn Min/Max Overlap: To minimize the 'All 3' region E3 when A, B, C and Total T are fixed, maximize E2 first; to maximize E3, push E2 as small as the pairwise constraints allow."
+                ],
+                "commonTrap": "In football/points tables where Win = 3 pts and Draw = 1 pt each (2 pts total per drawn match!), each drawn match reduces the total points pool by 1 compared to a decisive match (3 pts).",
+                "bailoutRule": "If a 4-set Venn diagram has variable inequalities on every region with no fixed total, skip on Pass 1 unless you are strong in 4-set tables."
+            }
+        }
     },
     {
         "id": "dilr-scheduling",
@@ -274,16 +640,40 @@ SKILLS_24 = [
         "group": "Logical Reasoning",
         "name": "Scheduling, Timelines & Queues",
         "tagline": "Time-slot allocation, counter wait-times, and multi-day/quarter transitions",
-        "frequency": "Moderate (~1 set every 1–2 slots)",
-        "targetTime": "10 – 13 min per set",
-        "formulas": [
-            "Service Start Time = max(Customer Arrival Time, Counter Free Time)",
-            "Use a discrete time grid (e.g., 9:00, 9:10, 9:20 or Q1, Q2, Q3, Q4) as your table columns",
-            "Track capacity bottlenecks (maximum parallel servers/rooms available at time t)"
-        ],
-        "howToApproach": "Step through time chronologically from t = 0. Never try to solve t = 4 before locking who finishes at t = 1 and t = 2.",
-        "easyTrigger": "Short 4-period or 5-slot timeline with deterministic transition rules.",
-        "commonTrap": "Off-by-one boundary error on whether a counter freeing up at 10:15 can take a customer arriving at 10:15 immediately."
+        "frequency": "Moderate (~1 set every 1-2 slots)",
+        "targetTime": "10 - 13 min per set",
+        "levels": {
+            "beginner": {
+                "title": "Level 1: The Simple Intuition (Explain Like I'm 5)",
+                "mentalPicture": "Imagine a barber shop with 2 chairs. If Chair 1 is busy until 10:15 and a customer walks in at 10:05, when does their haircut start? Not at 10:05—they have to wait until 10:15 when the chair is free! You just step forward through time minute by minute like watching a movie.",
+                "toyExample": "Customer arrives at 9:10. Counter is free at 9:00 -> Service starts at max(9:10, 9:00) = 9:10. If service takes 15 mins, counter is next free at 9:25.",
+                "goldenRule": "Never try to jump to the end of a timeline—solve Period 1 completely, which unlocks Period 2, which unlocks Period 3."
+            },
+            "intermediate": {
+                "title": "Level 2: Core Exam Mechanics (Explain Like I'm 15)",
+                "stepByStep": [
+                    "Step 1: Set up your columns chronologically (e.g., Slot 1, Slot 2, Slot 3, Slot 4 or Arrival, Start, End, Wait Time).",
+                    "Step 2: Lock in the boundary anchors (who starts first at t = 0, and who finishes last).",
+                    "Step 3: Apply the state-transition rule (e.g., promotion/demotion between Quarter 1 and Quarter 2) step by step."
+                ],
+                "formulas": [
+                    "Service Start Time = max(Arrival Time, Server Available Time)",
+                    "Waiting Time = Service Start Time - Arrival Time; Total Time in System = End Time - Arrival Time",
+                    "Interval Overlap: If k tasks overlap at time t, you need at least k parallel rooms/servers"
+                ],
+                "workedTemplate": "Archetype (CAT 2023 Visa Processing Office / CAT 2025 InnovateX Quarters): Track the state vector at the end of each step (Counter Free Times or Group Rosters) before moving to the next step.",
+                "easyTrigger": "A 4-quarter or 5-day timeline with deterministic promotion/swap rules and few entities."
+            },
+            "advanced": {
+                "title": "Level 3: 99%ile Speed Shortcuts & Traps (Explain Like I'm 25)",
+                "speedShortcuts": [
+                    "Duration Block Sliding: Think of a 3-hour task as a solid rigid block of width 3 that slides along the timeline. If two blocks of width 3 fit inside a 5-hour window, they MUST overlap during the middle 1 hour!",
+                    "Reverse Backtracking: When the final state at Quarter 4 is given and the transition rule is reversible, step backward from Q4 -> Q3 while stepping forward from Q1 -> Q2 so they meet in the middle."
+                ],
+                "commonTrap": "Tie-breaking rules in queues (e.g., 'If two counters become free at the same instant, the customer goes to Counter A; if a customer arrives at the exact minute another leaves, priority goes to...'). Read tie-breakers twice!",
+                "bailoutRule": "Multi-counter queue sets with 12+ customers and conditional branching are often the hardest time-sink in a DILR paper—save for Round 2/3 unless the customer count is small (<= 6)."
+            }
+        }
     },
     {
         "id": "dilr-networks",
@@ -292,14 +682,39 @@ SKILLS_24 = [
         "name": "Routes, Networks & Flow Diagrams",
         "tagline": "Pipelines, metro/train passenger flow, and delivery routing graphs",
         "frequency": "Moderate (~1 set every 2 slots)",
-        "targetTime": "9 – 11 min per set",
-        "formulas": [
-            "Flow Conservation at any station/node: (Existing + Boarding/Inflow) = (Alighting/Outflow + Continuing)",
-            "Start at degree-1 leaf nodes (first station A or final destination E) where the flow is 100% determined"
-        ],
-        "howToApproach": "Label the directed edges or build a Station × (Boarded / Alighted / On-Train) table. Work inward from the start and end stations.",
-        "easyTrigger": "5-station linear train/bus route or simple directed delivery network with fixed node demands.",
-        "commonTrap": "Ignoring direction arrows on one-way links or exceeding edge/train capacity."
+        "targetTime": "9 - 11 min per set",
+        "levels": {
+            "beginner": {
+                "title": "Level 1: The Simple Intuition (Explain Like I'm 5)",
+                "mentalPicture": "Think of water flowing through pipes or passengers riding a train from Station A to Station E. Whatever goes INTO a station must either get off there or keep riding out the other side—nothing ever vanishes into thin air! Start at the very first station and the very last station, because at the first station nobody gets off, and at the last station everybody gets off.",
+                "toyExample": "If 120 people are on the train leaving Station A, and at Station B 30 get off and 50 get on, then 120 - 30 + 50 = 140 people leave Station B.",
+                "goldenRule": "Always start at the ends of the route (First Station / Last Station or degree-1 leaf nodes) where flow has only one pipe."
+            },
+            "intermediate": {
+                "title": "Level 2: Core Exam Mechanics (Explain Like I'm 15)",
+                "stepByStep": [
+                    "Step 1: For a train/bus route (A -> B -> C -> D -> E), build a 4-column table: Station | Boarded (+) | Alighted (-) | On Train After Station.",
+                    "Step 2: Fill in the guaranteed zeros: Alighted at Start Station A = 0; Boarded at Final Station E = 0; On Train after E = 0.",
+                    "Step 3: Use total passengers = Sum(Boarded) = Sum(Alighted) to lock the middle stations."
+                ],
+                "formulas": [
+                    "Station Flow Conservation: On_Train(after k) = On_Train(after k-1) - Alighted(k) + Boarded(k)",
+                    "Global Conservation: Sum of all Boarded across all stations = Sum of all Alighted across all stations",
+                    "Node Balance (Pipelines): Total Inflow to Node X = Local Demand at X + Total Outflow from X"
+                ],
+                "workedTemplate": "Archetype (CAT 2025 Slot 1 Train Route Station A to E): Set up the Station A..E table with Boarded, Alighted, and Occupancy. Lock Station A and Station E first, then apply the ratio clues for B, C, D.",
+                "easyTrigger": "Linear 5-station train/metro route or a directed network with 5-7 nodes and explicit inflows/outflows."
+            },
+            "advanced": {
+                "title": "Level 3: 99%ile Speed Shortcuts & Traps (Explain Like I'm 25)",
+                "speedShortcuts": [
+                    "Cut-Set Conservation: If you draw a line cutting a network into Left and Right halves, the total flow crossing that line from Left to Right must equal (Total Supply on Left) minus (Total Demand on Left). That lets you find the flow in a middle pipe without solving the individual nodes!",
+                    "Origin-Destination Matrix: When a question asks 'How many passengers who boarded at A got off at D?', draw a small upper-triangular table (Origin A..D x Destination B..E)."
+                ],
+                "commonTrap": "Confusing 'number of passengers on the train WHEN it arrives at Station C' (which is occupancy leaving B) with 'number of passengers on the train leaving Station C'.",
+                "bailoutRule": "Linear route and flow-conservation sets are high-yield Round-1/Round-2 winners once you draw the Boarded/Alighted/Occupancy table."
+            }
+        }
     },
 
     # ==================== VARC (7 Skills) ====================
@@ -310,14 +725,37 @@ SKILLS_24 = [
         "name": "RC: Main Idea, Purpose & Tone",
         "tagline": "Spotting the author's overarching thesis across paragraphs",
         "frequency": "Every RC Passage (~4 Qs per slot)",
-        "targetTime": "1.25 – 1.5 min",
-        "formulas": [
-            "After each paragraph, mentally note a 4-word role tag (e.g., 'Old theory', 'Why it fails', 'Author's alternative')",
-            "The correct Main Idea must cover the arc of the whole passage, not just a single vivid example from Paragraph 2"
-        ],
-        "howToApproach": "Ask yourself: 'Why did the author write this piece — to critique a view, explain a paradox, or trace a shift?' Eliminate options that are too narrow (1-paragraph detail) or too extreme in tone.",
-        "easyTrigger": "Questions asking for the 'central theme', 'primary purpose', or 'best title/keywords'.",
-        "commonTrap": "Picking an option that repeats catchy keywords from the final paragraph while missing the main argument."
+        "targetTime": "1.25 - 1.5 min",
+        "levels": {
+            "beginner": {
+                "title": "Level 1: The Simple Intuition (Explain Like I'm 5)",
+                "mentalPicture": "If a friend tells you a 3-minute story, and someone asks 'What was that about?', you wouldn't repeat one tiny detail about the color of a car in minute 1. You'd say the big point of the whole story! The Main Idea is the umbrella big enough to cover every paragraph without being too big.",
+                "toyExample": "Paragraph 1: People think wolves are cruel. Paragraph 2: Actually, wolves keep ecosystems healthy. Paragraph 3: Saving wolves saves forests. Main Idea = Why wolves are vital to ecosystems (NOT 'People hate wolves').",
+                "goldenRule": "Pay special attention to where the author says 'However', 'Yet', or 'But'—everything before 'However' is just setup; what comes AFTER 'However' is the author's real thesis!"
+            },
+            "intermediate": {
+                "title": "Level 2: Core Exam Mechanics (Explain Like I'm 15)",
+                "stepByStep": [
+                    "Step 1: As you finish each paragraph, mentally tag its 4-word job (e.g., 'P1: Common belief', 'P2: New evidence against it', 'P3: Why this matters').",
+                    "Step 2: State the author's central claim in your own words before reading options A, B, C, D.",
+                    "Step 3: Eliminate options using the 3 classic flaws: Too Narrow (1-paragraph detail), Too Broad/Extreme, or Wrong Tone."
+                ],
+                "formulas": [
+                    "Passage Arc = [Old View / Context] + [Pivot: 'However / Yet'] + [Author's Core Thesis + Implication]",
+                    "Tone Calibration: CAT authors are almost always 'analytical', 'critical yet nuanced', or 'cautiously optimistic'—never 'furious', 'mocking', or 'indifferent'"
+                ],
+                "workedTemplate": "When choosing between two close Main Idea options, ask: 'Which option captures BOTH the problem introduced in Paragraph 1 AND the resolution/argument in the final paragraphs?'",
+                "easyTrigger": "Prompts asking for 'main idea', 'primary purpose', 'central theme', or 'best set of keywords'."
+            },
+            "advanced": {
+                "title": "Level 3: 99%ile Speed Shortcuts & Traps (Explain Like I'm 25)",
+                "speedShortcuts": [
+                    "Verb-of-Intent Scan: In 'Primary Purpose' questions, look only at the first verb of each option first ('To critique...', 'To advocate...', 'To trace the history of...', 'To reconcile...'). Usually 2 options have the wrong verb right away!"
+                ],
+                "commonTrap": "The 'Last-Paragraph Recency Trap': picking an option that summarizes only the final paragraph's concluding remark while ignoring the main subject of Paragraphs 1-3.",
+                "bailoutRule": "Never skip a Main Idea question on a passage you have already read—it's the fastest +3 marks in RC."
+            }
+        }
     },
     {
         "id": "varc-rc-inference",
@@ -325,15 +763,38 @@ SKILLS_24 = [
         "group": "Reading Comprehension",
         "name": "RC: Contextual Inference & Detail",
         "tagline": "Deducing what must be true from a specific argument in the passage",
-        "frequency": "Highest Volume in VARC (~7–8 Qs per slot)",
-        "targetTime": "1.5 – 1.75 min",
-        "formulas": [
-            "CAT Inference = Unstated premise or direct logical consequence of the text (never an outside opinion)",
-            "Check the quantifiers: 'some/often/may' in the passage can NEVER support 'all/always/only' in an option"
-        ],
-        "howToApproach": "Go back to the specific 4–5 lines referenced by the question stem. Compare the final 2 contenders word-by-word against the author's qualifiers.",
-        "easyTrigger": "Questions pointing to a specific phrase, quote, or paragraph ('In the context of the second paragraph...').",
-        "commonTrap": "Selecting a 'True but Irrelevant' option or an option that reverses cause and effect."
+        "frequency": "Highest Volume in VARC (~7-8 Qs per slot)",
+        "targetTime": "1.5 - 1.75 min",
+        "levels": {
+            "beginner": {
+                "title": "Level 1: The Simple Intuition (Explain Like I'm 5)",
+                "mentalPicture": "In real life, 'infer' means making an educated guess. In CAT, 'infer' means something much stricter: 'What MUST be 100% true based ONLY on the exact sentences in this passage?' If the passage says 'Some cats like rain', you can NEVER infer 'Most cats like rain' or 'Dogs hate rain'.",
+                "toyExample": "Passage: 'All employees hired after 2022 work remotely.' Valid CAT Inference: 'If Ravi works in the office, he was not hired after 2022.'",
+                "goldenRule": "If an option says 'always', 'never', 'only', or 'all', and the passage said 'often' or 'some', cross that option out immediately!"
+            },
+            "intermediate": {
+                "title": "Level 2: Core Exam Mechanics (Explain Like I'm 15)",
+                "stepByStep": [
+                    "Step 1: Find the exact keyword or quote from the question stem inside the passage and read 2 sentences above and below it.",
+                    "Step 2: Cross out any option that brings in an outside comparison ('better than...', 'more important than...') not mentioned in those lines.",
+                    "Step 3: Between the final 2 options, pick the more conservative, text-anchored statement."
+                ],
+                "formulas": [
+                    "Valid CAT Inference = Restated Premise OR Contrapositive (If A -> B, then Not B -> Not A)",
+                    "Qualifier Hierarchy: 'Some / May / Can' (Soft, easy to prove) vs. 'All / Always / Only / Never' (Extreme, almost always wrong unless explicitly stated)"
+                ],
+                "workedTemplate": "Use the 'Strike' button in the Practice Desk to cross out two options immediately, then compare the exact adjectives/verbs of the remaining two options against the anchor sentence.",
+                "easyTrigger": "Questions pointing to a specific quote, term, or paragraph ('Based on the second paragraph...')."
+            },
+            "advanced": {
+                "title": "Level 3: 99%ile Speed Shortcuts & Traps (Explain Like I'm 25)",
+                "speedShortcuts": [
+                    "Half-Right = All-Wrong Rule: CAT trap options are built by making the first half of the sentence 100% true to the passage and slipping a tiny false word into the second half. Read the SECOND half of every long option carefully!"
+                ],
+                "commonTrap": "The 'Familiar Truth Trap': an option that is true in the real world (common sense) or uses 6 words copied verbatim from the passage, but reverses the author's cause-and-effect relationship.",
+                "bailoutRule": "If you are torn 50-50 between two options after 90 seconds, pick the one with softer qualifiers ('can', 'often', 'tends to') and move on immediately."
+            }
+        }
     },
     {
         "id": "varc-rc-except",
@@ -341,32 +802,76 @@ SKILLS_24 = [
         "group": "Reading Comprehension",
         "name": "RC: Negative / EXCEPT Questions",
         "tagline": "Eliminating 3 supported statements to isolate the 1 unsupported/contradicted claim",
-        "frequency": "High Frequency (~3–4 Qs per slot)",
-        "targetTime": "1.5 – 2.0 min",
-        "formulas": [
-            "Use the Strike (✕) button to cross out each option as soon as you find its supporting sentence in the passage",
-            "The winner is either directly contradicted by the passage or brings in an alien comparison never made by the author"
-        ],
-        "howToApproach": "Treat EXCEPT questions as a 3-item scavenger hunt. Three options will map cleanly to specific sentences in the text; the odd one out is your answer.",
-        "easyTrigger": "Questions containing 'EXCEPT', 'NOT true', or 'cannot be inferred'.",
-        "commonTrap": "Misreading the negative prompt under time pressure and clicking the first option that IS true!"
+        "frequency": "High Frequency (~3-4 Qs per slot)",
+        "targetTime": "1.5 - 2.0 min",
+        "levels": {
+            "beginner": {
+                "title": "Level 1: The Simple Intuition (Explain Like I'm 5)",
+                "mentalPicture": "An EXCEPT question is simply 'Three Truths and a Lie'! Three of the options are right there in the passage. Your job is to play detective, find where the three truths live in the passage, cross them out, and the one left standing is your answer.",
+                "toyExample": "Prompt: 'The author mentions all of the following EXCEPT:' -> Option A is in Para 1 (Strike!), Option B is in Para 2 (Strike!), Option D is in Para 3 (Strike!) -> Option C is the winner.",
+                "goldenRule": "Use the 'Strike' button on every option you verify in the text so your brain doesn't accidentally click a TRUE statement!"
+            },
+            "intermediate": {
+                "title": "Level 2: Core Exam Mechanics (Explain Like I'm 15)",
+                "stepByStep": [
+                    "Step 1: Notice the negative word ('EXCEPT', 'NOT', 'LEAST likely', 'FALSE') in the prompt.",
+                    "Step 2: Scan the 4 options first for any extreme claim or obvious contradiction of the passage's main idea.",
+                    "Step 3: Verify and strike out the supported options one by one against the passage paragraphs."
+                ],
+                "formulas": [
+                    "3 Supported Options (Strike out) + 1 Contradicted or Unmentioned Option (Select!)"
+                ],
+                "workedTemplate": "Often you don't even need to hunt down all 3 true options: 1 option will directly state the exact opposite of the author's thesis, making it a 30-second win.",
+                "easyTrigger": "Questions with 'EXCEPT', 'NOT true', or 'cannot be inferred' in capital letters."
+            },
+            "advanced": {
+                "title": "Level 3: 99%ile Speed Shortcuts & Traps (Explain Like I'm 25)",
+                "speedShortcuts": [
+                    "Paragraph Clustering: In many CAT 'EXCEPT' questions, all 3 true options come from the SAME single paragraph listing 3-4 factors or examples. Find that list paragraph and all 3 check out in 20 seconds!"
+                ],
+                "commonTrap": "Double-Negative Confusion: Prompts like 'Which of the following is NOT unsupported by the passage?' or forgetting it's an EXCEPT question halfway through checking Option A and clicking Option A because it's true!",
+                "bailoutRule": "High-accuracy question type—use the Strike button religiously to avoid the accidental-true click."
+            }
+        }
     },
     {
         "id": "varc-rc-cr",
         "section": "VARC",
         "group": "Reading Comprehension",
         "name": "RC: Critical Reasoning (Strengthen / Weaken)",
-        "tagline": "Testing how a new fact impacts the author’s causal argument",
-        "frequency": "Consistent (~1–2 Qs per slot)",
-        "targetTime": "1.75 – 2.0 min",
-        "formulas": [
-            "Isolate the exact link: [Premise / Evidence] → [Author's Conclusion]",
-            "To Weaken/Invalidate: break the causal link or show a counter-example where the premise holds but the conclusion fails",
-            "To Strengthen/Support: remove an alternative explanation or reinforce the core assumption"
-        ],
-        "howToApproach": "Before reading the 4 options, state in one sentence WHICH claim the question asks you to weaken or strengthen (sometimes it's a critic's claim quoted in the passage, not the author's!).",
-        "easyTrigger": "Prompts asking 'Which of the following, if true, would most undermine/bolster the argument...'",
-        "commonTrap": "Attacking a side detail instead of the specific argument named in the question prompt."
+        "tagline": "Testing how a new fact impacts the author's causal argument",
+        "frequency": "Consistent (~1-2 Qs per slot)",
+        "targetTime": "1.75 - 2.0 min",
+        "levels": {
+            "beginner": {
+                "title": "Level 1: The Simple Intuition (Explain Like I'm 5)",
+                "mentalPicture": "Suppose the author argues: 'Eating carrots makes you see in the dark, because rabbits eat carrots and see well at night.' To WEAKEN that argument, you show a new fact that breaks the link (e.g., 'Cats never eat carrots and see even better at night!'). To STRENGTHEN it, you show the link really works.",
+                "toyExample": "Claim: 'Remote work caused our sales to drop this year.' Weaken: 'Competitors who stayed 100% in-office had the exact same drop in sales.'",
+                "goldenRule": "Before looking at A, B, C, D, pinpoint whose argument you are testing and what their exact Cause -> Effect claim is."
+            },
+            "intermediate": {
+                "title": "Level 2: Core Exam Mechanics (Explain Like I'm 15)",
+                "stepByStep": [
+                    "Step 1: Read the question stem carefully: are you weakening the AUTHOR'S claim, or a CRITIC'S claim quoted in Paragraph 2?",
+                    "Step 2: Frame the argument as [Evidence / Premise] -> [Conclusion].",
+                    "Step 3: Pick the option that directly attacks (for Weaken) or reinforces (for Strengthen) the hidden assumption bridging Evidence to Conclusion."
+                ],
+                "formulas": [
+                    "Weaken / Undermine / Invalidate = Show Premise can be true while Conclusion is false (or offer an alternate cause)",
+                    "Strengthen / Bolster / Support = Rule out alternate causes or confirm the core assumption holds"
+                ],
+                "workedTemplate": "If an option talks about something outside the Cause -> Effect chain (even if it uses keywords from the passage), it does ZERO work to strengthen or weaken the argument.",
+                "easyTrigger": "Prompts asking 'Which of the following, if true, would most weaken/strengthen/invalidate...'"
+            },
+            "advanced": {
+                "title": "Level 3: 99%ile Speed Shortcuts & Traps (Explain Like I'm 25)",
+                "speedShortcuts": [
+                    "Negation Test for Assumptions: To check if Option X is a required assumption of the author's argument, mentally negate Option X ('Suppose X is NOT true'). If the author's conclusion collapses, Option X is the winner!"
+                ],
+                "commonTrap": "Picking an option that strengthens the author's view when the prompt actually asked: 'Which of the following would weaken the view critiqued by the author in Paragraph 1?'",
+                "bailoutRule": "Always re-read the exact target named in the question stem before locking your choice."
+            }
+        }
     },
     {
         "id": "varc-va-summary",
@@ -375,14 +880,36 @@ SKILLS_24 = [
         "name": "VA: Para Summary",
         "tagline": "Condensing a short paragraph into its core claim + primary reason",
         "frequency": "Guaranteed (~3 Qs every slot)",
-        "targetTime": "1.25 – 1.5 min",
-        "formulas": [
-            "Formula for a 60-word CAT paragraph: [Main Conclusion] + [Primary Supporting Mechanism / Contrast]",
-            "Eliminate options that: (1) add new advice/facts, (2) leave out the main conclusion, or (3) distort a neutral tone"
-        ],
-        "howToApproach": "Read the paragraph and summarize it in your own 10 words before looking at A, B, C, D. Usually 2 options are immediately out for being too narrow or adding an extra claim.",
-        "easyTrigger": "Every Para Summary question is a high-ROI Round-1 anchor.",
-        "commonTrap": "Falling for an option that copies whole phrases verbatim from the first sentence while missing the 'However...' turn in the middle."
+        "targetTime": "1.25 - 1.5 min",
+        "levels": {
+            "beginner": {
+                "title": "Level 1: The Simple Intuition (Explain Like I'm 5)",
+                "mentalPicture": "Imagine shrinking a 5-sentence paragraph into a 1-sentence tweet without changing what the author meant. If the paragraph explains 'Why A happens AND what it causes', your tweet must include both parts—and must never invent advice the author didn't give!",
+                "toyExample": "Paragraph: 'Solar panels are cheaper than ever. However, without better batteries, grids cannot rely on solar alone.' Summary: 'Despite falling solar panel costs, grid reliance requires better battery storage.'",
+                "goldenRule": "A summary is a mirror, not an extension: never pick an option that adds 'Therefore, we should...' if the author only described a problem."
+            },
+            "intermediate": {
+                "title": "Level 2: Core Exam Mechanics (Explain Like I'm 15)",
+                "stepByStep": [
+                    "Step 1: Read the short paragraph once and highlight the main pivot ('However', 'Consequently', 'In contrast').",
+                    "Step 2: Formulate a 10-word mental equation: [Main Point] + [Supporting Reason / Contrast].",
+                    "Step 3: Eliminate options using the 3 Summary Sins: (1) Too Narrow (misses the second half), (2) New Idea / Distortion, (3) Extreme Qualifier."
+                ],
+                "formulas": [
+                    "Winning Summary = Core Claim + Primary Support/Contrast (at the exact same scope and tone as the original)"
+                ],
+                "workedTemplate": "If two options look very similar, check which one preserves the logical connector (e.g., 'because' vs 'although') between the two ideas in the paragraph.",
+                "easyTrigger": "All 3 Para Summary questions in a slot are first-pass anchors."
+            },
+            "advanced": {
+                "title": "Level 3: 99%ile Speed Shortcuts & Traps (Explain Like I'm 25)",
+                "speedShortcuts": [
+                    "Example Stripper: Mentally delete any sentence in the paragraph that starts with 'For example...', 'For instance...', or a specific study statistic. The correct summary NEVER focuses on the illustration—it summarizes the rule that the example was illustrating!"
+                ],
+                "commonTrap": "The 'Copy-Paste Patchwork Trap': an option that stitches together exact phrases from Sentence 1 and Sentence 2 while completely leaving out the main conclusion in Sentence 4.",
+                "bailoutRule": "Never spend more than 90 seconds on a Para Summary; your first elimination down to 2 options and quick scope check is almost always right."
+            }
+        }
     },
     {
         "id": "varc-va-insertion",
@@ -391,14 +918,36 @@ SKILLS_24 = [
         "name": "VA: Sentence Insertion (Para Completion)",
         "tagline": "Placing a missing sentence into blank (1), (2), (3), or (4)",
         "frequency": "High Frequency (~2 Qs per slot in modern papers)",
-        "targetTime": "1.0 – 1.25 min",
-        "formulas": [
-            "Circle the hooks in the target sentence: pronouns ('this', 'these', 'such', 'they') and connectors ('yet', 'therefore', 'for instance')",
-            "The sentence MUST bridge BOTH the sentence before the blank and the sentence after the blank"
-        ],
-        "howToApproach": "Check what the sentence *after* each blank refers back to. Often placing the sentence into blank (k) repairs a broken pronoun reference in the sentence right after blank (k).",
-        "easyTrigger": "Fastest questions in the entire VARC section (often solvable in 60 seconds).",
-        "commonTrap": "Checking only that the sentence flows nicely after the preceding sentence without checking if the NEXT sentence still makes sense."
+        "targetTime": "1.0 - 1.25 min",
+        "levels": {
+            "beginner": {
+                "title": "Level 1: The Simple Intuition (Explain Like I'm 5)",
+                "mentalPicture": "Think of the missing sentence as a puzzle piece with a hook on its LEFT side (connecting to the sentence before it) and a hook on its RIGHT side (connecting to the sentence after it). Most people only check the left hook—if you check the right hook too, the piece only fits in one spot!",
+                "toyExample": "Missing sentence: 'This unexpected discovery changed everything.' It MUST go right after a sentence describing a discovery, AND the sentence after it must explain what changed.",
+                "goldenRule": "Check the sentence AFTER the blank: often a dangling pronoun ('These...', 'Such a view...') right after Blank (3) proves the missing sentence belongs in Blank (3)!"
+            },
+            "intermediate": {
+                "title": "Level 2: Core Exam Mechanics (Explain Like I'm 15)",
+                "stepByStep": [
+                    "Step 1: Read the target sentence first and underline its referents ('this', 'they', 'however', 'such').",
+                    "Step 2: Read the paragraph and notice where there is an abrupt jump or a broken pronoun reference between two adjacent sentences.",
+                    "Step 3: Read [Sentence Before Blank] -> [Target Sentence] -> [Sentence After Blank] together to confirm a smooth 3-sentence bridge."
+                ],
+                "formulas": [
+                    "Valid Insertion at (k) requires: [Sentence Before k] -> [Missing Sentence] AND [Missing Sentence] -> [Sentence After k]"
+                ],
+                "workedTemplate": "If Blank (1) is at the very start of the paragraph and the missing sentence starts with 'This contradiction, however...', Blank (1) is instantly eliminated in 2 seconds!",
+                "easyTrigger": "Every Sentence Insertion question (1 to 1.25 minutes per question—fastest marks in VARC)."
+            },
+            "advanced": {
+                "title": "Level 3: 99%ile Speed Shortcuts & Traps (Explain Like I'm 25)",
+                "speedShortcuts": [
+                    "Don't Break a Married Pair: If the sentence before Blank (2) and the sentence after Blank (2) already connect tightly (e.g., Sentence A introduces 'two reasons' and Sentence B starts 'The first reason is...'), you can NEVER wedge the missing sentence into Blank (2)!"
+                ],
+                "commonTrap": "Placing the sentence in Blank (2) because it matches the topic of the sentence before Blank (2), without noticing that the sentence after Blank (2) says 'This argument...' referring to the earlier sentence!",
+                "bailoutRule": "Fastest question type in VARC—always attempt on Pass 1."
+            }
+        }
     },
     {
         "id": "varc-va-tita",
@@ -406,97 +955,55 @@ SKILLS_24 = [
         "group": "Verbal Ability",
         "name": "VA: Para Jumbles & Odd Sentence Out (TITA)",
         "tagline": "4-sentence sequencing and 5-sentence odd-one-out (Zero Negative Marking!)",
-        "frequency": "Guaranteed (~4–5 TITA Qs per slot)",
-        "targetTime": "1.5 – 1.75 min",
-        "formulas": [
-            "Zero Negative Marking: Never leave a VA TITA blank!",
-            "Para Jumbles: Find the independent opening sentence (introduces the main noun/concept) and 1 ironclad mandatory pair (Pronoun → Noun or Cause → Effect)",
-            "Odd One Out: Form the coherent 4-sentence paragraph first; the 5th sentence usually shares the same topic word but shifts era, scope, or angle"
-        ],
-        "howToApproach": "Don't try to guess all 24 permutations. Lock one 2-sentence link (e.g., 3→1) and check whether the remaining sentences go before or after that block.",
-        "easyTrigger": "Sentences with explicit chronological markers, full name → surname, or 'This phenomenon...' hooks.",
-        "commonTrap": "Spending 3.5+ minutes agonizing over a TITA Para Jumble when you could bank two MCQ questions in that time."
+        "frequency": "Guaranteed (~4-5 TITA Qs per slot)",
+        "targetTime": "1.5 - 1.75 min",
+        "levels": {
+            "beginner": {
+                "title": "Level 1: The Simple Intuition (Explain Like I'm 5)",
+                "mentalPicture": "In Para Jumbles, 4 sentences are standing in a scrambled line. Don't try to guess all 24 ways to line them up! First find the Leader (the sentence that introduces the person or big idea for the first time), and then find two best friends holding hands (a 'Mandatory Pair' like 'Dr. Kalam invented X' followed by 'His invention...').",
+                "toyExample": "Sentence 3: 'A new telescope was launched in 2021.' Sentence 1: 'Its mirrors captured deep space.' -> 3-1 is an unbreakable pair!",
+                "goldenRule": "In Odd Sentence Out, don't look for the weird sentence—put the 4 good sentences in order first, and the 1 sentence left out is your answer! Plus: TITA has ZERO negative marking, so never leave it blank."
+            },
+            "intermediate": {
+                "title": "Level 2: Core Exam Mechanics (Explain Like I'm 15)",
+                "stepByStep": [
+                    "Step 1: Scan for the Independent Opener (no dangling 'this', 'however', 'also', or surname-only reference).",
+                    "Step 2: Lock one 2-sentence Mandatory Pair using Pronoun -> Noun, Full Name -> Short Name, General Claim -> Specific Example, or Chronology.",
+                    "Step 3: Check where the remaining sentence attaches (before the pair or as the concluding takeaway)."
+                ],
+                "formulas": [
+                    "Mandatory Pair Anchors: (1) Noun -> Pronoun ('these', 'it', 'such'), (2) Chronology (past -> present), (3) Problem -> Solution, (4) Claim -> 'For example'"
+                ],
+                "workedTemplate": "For a 5-sentence Odd One Out: even if you only spot a 3-sentence chain (e.g., 2 -> 5 -> 1) and see that Sentence 4 introduces or concludes that chain, Sentence 3 is immediately exposed as the odd one out.",
+                "easyTrigger": "Sentences with clear time markers, 'First... / Second...', or 'This phenomenon...' hooks."
+            },
+            "advanced": {
+                "title": "Level 3: 99%ile Speed Shortcuts & Traps (Explain Like I'm 25)",
+                "speedShortcuts": [
+                    "Same-Keyword Decoy Detection (Odd One Out): The odd sentence almost ALWAYS contains the exact same main noun as the other 4 sentences (e.g., 'coral reefs'), but shifts the angle (4 sentences discuss how warming bleaches coral reefs; the odd sentence discusses the tourism revenue of coral reefs)."
+                ],
+                "commonTrap": "Spending 4 minutes obsessing over whether a zero-penalty TITA Para Jumble is '3142' or '3412' and running out of time for your final RC passage! Set a strict 90-second cap, type your best sequence, and move on.",
+                "bailoutRule": "Type your best 4-digit sequence or 1-digit odd-out choice within 90 seconds (0 negative marking!) and never look back."
+            }
+        }
     }
 ]
 
-def map_question_to_skill(q):
-    sec = q["section"]
-    top = q["topic"]
-    sub = q["subtopic"].lower()
-    txt = (q["questionText"] + " " + q["hook"]).lower()
-
-    if sec == "QA":
-        if any(k in sub for k in ["percent", "profit", "loss", "p&l", "interest", "discount", "si", "ci"]):
-            return "qa-pct-pl-si"
-        if any(k in sub for k in ["mixture", "alligation", "ratio", "proportion", "alloy", "replacement"]):
-            return "qa-mixtures-ratios"
-        if "average" in sub or "mean" in sub:
-            return "qa-averages"
-        if any(k in sub for k in ["tsd", "speed", "distance", "train", "boat", "track", "circular", "race"]):
-            return "qa-tsd"
-        if any(k in sub for k in ["work", "pipe", "cistern", "efficiency"]):
-            return "qa-work"
-        if any(k in sub for k in ["log", "surd", "exponent", "indices"]):
-            return "qa-logs-surds"
-        if any(k in sub for k in ["modulus", "inequalit", "function", "minima", "maxima", "am-gm", "graph"]):
-            return "qa-mod-ineq-fn"
-        if any(k in sub for k in ["sequence", "series", "progression", "ap", "gp", "common terms", "telescop"]):
-            return "qa-sequences"
-        if top == "Geometry & Mensuration" or any(k in sub for k in ["triangle", "circle", "rhombus", "trapezium", "polygon", "coordinate", "mensuration", "rectangle", "square", "chord", "area", "volume", "octagon", "hexagon"]):
-            return "qa-geometry"
-        if top in ["Number Systems", "Modern Math"] or any(k in sub for k in ["factor", "divisib", "remainder", "digit", "prime", "hcf", "lcm", "combinator", "counting", "permutation", "probability", "set theory"]):
-            return "qa-numbers-pnc"
-        if top == "Algebra" or any(k in sub for k in ["quadratic", "polynomial", "linear", "equation", "identit", "root"]):
-            return "qa-quad-poly"
-        return "qa-pct-pl-si"
-
-    if sec == "DILR":
-        if "chart" in top.lower() or "visual" in top.lower() or any(k in sub for k in ["chart", "plot", "candlestick", "scatter", "graph", "sales"]):
-            return "dilr-charts"
-        if "quant" in top.lower() or any(k in sub for k in ["token", "coin", "average", "mean", "median", "rating", "score", "random draw", "trick", "triccek"]):
-            return "dilr-quant"
-        if "game" in top.lower() or "tournament" in top.lower() or any(k in sub for k in ["tournament", "match", "quiet", "hockey", "javelin", "betting", "get-together", "supermarket", "students"]):
-            return "dilr-games-venn"
-        if "schedul" in top.lower() or any(k in sub for k in ["schedul", "visa", "metro", "mortality", "project", "timeline", "queue"]):
-            return "dilr-scheduling"
-        if "network" in top.lower() or "route" in top.lower() or any(k in sub for k in ["route", "train", "station", "pipeline", "delivery", "flight", "path"]):
-            return "dilr-networks"
-        return "dilr-grids"
-
-    # VARC
-    if "main idea" in sub:
-        return "varc-rc-main"
-    if "except" in sub:
-        return "varc-rc-except"
-    if "critical reasoning" in sub or "strengthen" in sub:
-        return "varc-rc-cr"
-    if "summary" in sub:
-        return "varc-va-summary"
-    if "insertion" in sub or "completion" in sub:
-        return "varc-va-insertion"
-    if "jumble" in sub or "odd" in sub:
-        return "varc-va-tita"
-    return "varc-rc-inference"
+# Populate backward-compatible fields so any existing references also work seamlessly
+for s in SKILLS_24:
+    inter = s["levels"]["intermediate"]
+    adv = s["levels"]["advanced"]
+    s["formulas"] = inter["formulas"]
+    s["howToApproach"] = " ".join(inter["stepByStep"])
+    s["easyTrigger"] = inter["easyTrigger"]
+    s["commonTrap"] = adv["commonTrap"]
 
 with open(f"{pub_dir}/questions_1002.json") as f:
     qs = json.load(f)
 
-skill_lookup = {s["id"]: s for s in SKILLS_24}
-counts = {}
-for q in qs:
-    sid = map_question_to_skill(q)
-    q["skillId"] = sid
-    q["skillName"] = skill_lookup[sid]["name"]
-    counts[sid] = counts.get(sid, 0) + 1
-
-with open(f"{base_dir}/questions_1002.json", "w") as f:
-    json.dump(qs, f, indent=2)
-with open(f"{pub_dir}/questions_1002.json", "w") as f:
-    json.dump(qs, f, indent=2)
-
 for s in SKILLS_24:
     sid = s["id"]
-    sq = [q for q in qs if q["skillId"] == sid]
+    sq = [q for q in qs if q.get("skillId") == sid]
     s["totalCount"] = len(sq)
     s["easyCount"] = sum(1 for q in sq if q["difficulty"] == "Easy")
     s["mediumCount"] = sum(1 for q in sq if q["difficulty"] == "Medium")
@@ -507,6 +1014,4 @@ with open(f"{base_dir}/skills_24.json", "w") as f:
 with open(f"{pub_dir}/skills_24.json", "w") as f:
     json.dump(SKILLS_24, f, indent=2)
 
-print("Mapped all 1,002 questions across 24 user-friendly skills:")
-for s in SKILLS_24:
-    print(f"  [{s['section']}] {s['name']}: {s['totalCount']} Qs (Easy: {s['easyCount']}, Med: {s['mediumCount']}, Hard: {s['hardCount']})")
+print("Generated 3-level progressive cheat sheets (Beginner/5yo, Intermediate/15yo, Advanced/25yo) for all 24 skills!")
