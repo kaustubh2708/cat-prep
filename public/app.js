@@ -931,6 +931,50 @@ function renderSelectedSkillMonograph() {
     </div>
   ` : '';
 
+  const ex = s.solvedExample;
+  const solvedExampleHtml = ex ? `
+    <div class="depth-level-block" style="background-color:var(--bg-canvas);">
+      <div class="depth-header-row">
+        <div>
+          <span class="status-tag tabular">${escapeHtml(ex.source || 'Benchmark CAT Example')}</span>
+          <h4 style="margin-top:0.35rem;">Solved CAT Example: Concept in Action</h4>
+        </div>
+        ${ex.qId ? `<button class="btn-solid btn-compact" data-practsingle="${escapeHtml(ex.qId)}">Open ${escapeHtml(ex.qId)} in Desk</button>` : ''}
+      </div>
+
+      <div class="depth-highlight-box" style="background-color:var(--bg-sheet);">
+        <span class="depth-sublabel" style="display:block; margin-bottom:0.25rem;">The CAT Question</span>
+        <p class="reading-column">${escapeHtml(ex.question)}</p>
+      </div>
+
+      ${(df === 'ALL' || df === 'beginner') && ex.intuition ? `
+        <div class="depth-rule-box">
+          <strong>1. Beginner Intuition (Age 5 View):</strong> ${escapeHtml(ex.intuition)}
+        </div>
+      ` : ''}
+
+      ${(df === 'ALL' || df === 'intermediate') && ex.steps?.length ? `
+        <div class="depth-subblock">
+          <span class="depth-sublabel">2. Core Exam Walkthrough (Age 15 Step-by-Step)</span>
+          <ul class="formula-list">
+            ${ex.steps.map((st) => `<li>${escapeHtml(st)}</li>`).join('')}
+          </ul>
+        </div>
+      ` : ''}
+
+      ${(df === 'ALL' || df === 'advanced') && ex.proMove ? `
+        <div class="depth-sand-box">
+          <strong>3. 99%ile Speed Shortcut &amp; Trap Check (Age 25 Pro View):</strong> ${escapeHtml(ex.proMove)}
+        </div>
+      ` : ''}
+
+      <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:0.5rem; padding-top:0.35rem;">
+        <span class="status-tag tag-sage tabular"><strong>Verified Answer: ${escapeHtml(ex.answer)}</strong></span>
+        ${ex.qId ? `<button class="inline-action" data-practsingle="${escapeHtml(ex.qId)}">Try solving this question with the original exam scan</button>` : ''}
+      </div>
+    </div>
+  ` : '';
+
   const qRowsHtml = skillQs
     .slice(0, 30)
     .map((q) => {
@@ -990,6 +1034,7 @@ function renderSelectedSkillMonograph() {
       ${level1Html}
       ${level2Html}
       ${level3Html}
+      ${solvedExampleHtml}
     </div>
 
     <div class="monograph-practice-bar">
