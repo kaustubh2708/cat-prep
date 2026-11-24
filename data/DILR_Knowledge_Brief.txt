@@ -1,0 +1,418 @@
+CAT 2021–2025 DILR: Topic-Wise Question Breakdown, Difficulty
+Calibration & Knowledge Brief
+Across the 15 exam slots spanning CAT 2021 through CAT 2025, the Data Interpretation and
+Logical Reasoning (DILR) section comprises 66 distinct sets totaling 312 questions . While
+every slot tests the same core analytical muscles—extracting structure from dense constraints,
+translating visual data into arithmetic, and managing uncertainty—the section underwent a
+structural shift in 2024. From 2021 to 2023, each slot contained 20 questions across 4 sets
+(typically two 4-question sets and two 6-question sets in 2021, or four 5-question sets in 2022–
+2023). Starting in 2024 and continuing through 2025, the section expanded to 22 questions
+across 5 sets per slot (typically three 4-question sets and two 5-question sets).
+Because the time limit remained 40 minutes throughout all five years, the 2024–2025 format
+rewards rapid set triage even more heavily than before. Solving 2 to 3 well-chosen sets
+accurately in 40 minutes consistently outperforms attempting 4 sets partially. This guide
+organizes all 66 sets into six practitioner-focused topic categories, calibrates each set's difficulty
+and expected solve time to a 40-minute exam clock, and provides the exact mathematical and
+logical toolkit required to master each category.
+1. The 5-Year DILR Landscape & 40-Minute Calibration
+To use past papers effectively, you must understand both what appears most frequently and
+how to budget your 40 minutes. Pure calculation-heavy DI has steadily given way to hybrid
+sets —visual charts layered with logical conditions (such as the CAT 2024 Slot 1 Bar Chart on
+countries visited or the CAT 2025 Slot 2 Sustainability Index scatter plot) and Quant-Based LR
+puzzles built around averages, medians, and integer constraints.
+Topic Category,2021,2022,2023,2024,2025,Total Sets,Typical Difficulty Profile
+"1. Charts, Graphs & Visual DI",3,1,1,5,3,13,Mostly Easy–Medium; high ROI first-pick
+candidates
+2. Quant-Based LR & Numerical Optimization,1,2,4,3,4,14,Balanced Easy to Hard; rewards
+strong arithmetic
+"3. Grids, Matrices & Conditional Distribution",3,3,3,2,1,12,Mostly Medium–Hard; structured
+deduction
+"4. Scheduling, Queues & Dynamic Processes",1,2,2,2,3,10,Medium–Hard; time-consuming
+state tracking
+"5. Networks, Routes & Spatial Geometry",0,2,1,2,1,6,Medium–Hard; visual & casework
+intensive
+"6. Games, Tournaments, Set Theory & Logic",4,2,1,1,3,11,High variance; Easy Venn sets vs.
+Hard games
+Total Sets (Across 3 Slots/Year),12,12,12,15,15,66,—
+In all tables that follow, Difficulty and Expected Time are calibrated to a 40-minute DILR
+section:
+● Easy (7–9 minutes): Clear entry point, minimal branching cases, and direct arithmetic
+or single-table deduction. Target 100% accuracy on these sets; they are your
+mandatory Round 1 picks.
+
+--- PAGE ---
+
+● Medium (10–13 minutes): Requires 2–3 logical steps, a clean visual or algebraic
+setup, or careful case elimination. A strong 95+ percentile strategy pairs 1–2 Easy sets
+with 1–2 Medium sets.
+● Hard (14–18 minutes — Skip / Last-Pick): Involves multi-layered casework, non￾obvious invariants, or heavy simulation across rounds. Unless you have already banked
+2+ sets, treat these as strategic skips during the exam and use them in untimed practice
+to build stamina.
+2. Charts, Graphs & Visual Data Interpretation (13 Sets)
+Visual DI in CAT is rarely about raw arithmetic alone. Across the 2021–2025 papers, the exam
+consistently tests non-standard chart types —Gantt/timeline bars, candlestick plots, bubble
+scatter plots, and step-line graphs—or pairs a simple bar chart with logical constraints that must
+be decoded before computing. These sets are among the highest-ROI picks in the section
+because the data structure is immediately visible during your initial 2-minute scan.
+Year & Slot,Questions,Set Theme,Difficulty,Expected Time,Core Mechanic
+2021 Slot 1,Q25–28,Subcategory Sales (2019 vs. 2020),Easy,8–9 min,Horizontal bar chart with
+vertical 2019 markers; percentage growth & category totals
+2021 Slot 2,Q25–28,September Store Order Dispatch,Easy,8–9 min,Gantt-style bar chart by
+ship mode; booking/dispatch dates & processing time
+2021 Slot 3,Q35–38,Four Employees Across Five Projects,Easy,8–9 min,Gantt timeline with
+completion percentages; project-months & overlap tracking
+2022 Slot 2,Q35–39,"Four Companies: Revenue, Cost & Hiring",Medium,10–12 min,"Dual
+scatter plots (2019–2021); profit ratios, attrition = start + hires − next start"
+2023 Slot 2,Q25–29,"Startup Funding (Alfloo, Bzygoo, Drjbna, Elavalaki)",Medium,11–13
+min,Bar/line funding data with min/max bounds across 2012–2014
+2024 Slot 1,Q30–33,"Countries Visited (Dheeraj, Samantha, Nitesh)",Easy,8–9 min,"Grouped
+bar chart (Asia, Europe, ROW) combined with set-overlap constraints"
+2024 Slot 1,Q34–37,Seven Shares Candlestick Plot (A–G),Easy,7–9 min,"Financial candlestick
+chart (Open, Close, High, Low); bullish vs. bearish gain"
+2024 Slot 2,Q38–41,Six Firms Bubble Plots (2019 vs. 2023),Medium,10–12 min,Dual scatter
+plots with bubble area = R&D % of PAT; CAGR & per-employee ratios
+2024 Slot 3,Q30–33,OTT Platform Subscribers (2023 vs. 2024),Easy,8–9 min,"Percentage bar
+chart (Kid, Elder, Others) + 1-app vs. multi-app equations"
+2024 Slot 3,Q34–37,Ten Countries GDP & Population Growth,Medium,10–12 min,Normalized
+ratio table (relative to Country 9 & 10) + 3-year compounding
+2025 Slot 2,Q30–33,Sustainability Index (SI) of Six Countries,Medium,11–13 min,Scatter plot of
+% changes (2016→2020→2024) + integer SI & rank constraints
+2025 Slot 3,Q34–37,Puzzle Competition Progress (4 Competitors),Medium,10–12 min,Dual
+step-line charts (All puzzles vs. Visual puzzles); infer number-based puzzles
+2025 Slot 1,Q43–46,Five Countries Import Tariffs & Trade,Medium,11–13 min,Trade matrix/chart
+with tariff % × imports; bilateral trade surplus/deficit
+
+--- PAGE ---
+
+Prerequisite Knowledge & Solving Framework
+Solving Visual DI sets quickly requires fluency in chart-reading conventions and mental
+approximation so you never get bogged down in exact decimal division when options are well￾spaced.
+● Reading Non-Standard Charts:
+● Candlestick Plots (2024 Slot 1): Green (bullish) means $\text{Close} > \text{Open}$ , so
+the bottom of the box is Open and the top is Close; Red (bearish) means $\text{Close} <
+\text{Open}$ , so the top of the box is Open and the bottom is Close. The upper and
+lower wicks mark the day's High and Low.
+● Gantt / Schedule Bars (2021 Slot 2 & Slot 3): Processing time or duration equals $
+\text{Right Endpoint} - \text{Left Endpoint}$ . Check whether endpoints are inclusive or
+date-differences (e.g., Sep 1 to Sep 5 is 4 days, as explicitly defined in the 2021 Slot 2
+example).
+● Bubble & Scatter Plots (2022 Slot 2, 2024 Slot 2, 2025 Slot 2): When bubble area is
+proportional to a variable (PRD in 2024 Slot 2), compare areas visually or via radius
+squared ( $A \propto r^2$ ), never by radius alone. When axes show percentage
+changes rather than absolute values (2025 Slot 2), convert percentages into multiplier
+fractions (e.g., $+25\% = \times \frac{5}{4}$ , $-20\% = \times \frac{4}{5}$ ) and use the
+integer constraint of the underlying index to lock in exact values.
+● Step-Line Charts (2025 Slot 3): A vertical jump at time $t$ marks the completion of an
+item; the horizontal plateau length before the jump equals the time taken for that item.
+Comparing "All Puzzles" against "Visual Puzzles" reveals which jumps belong to
+"Number-based Puzzles" by subtraction.
+● Core Arithmetic Shortcuts:
+● Percentage Growth & Compounding: For small annual rates $r\%$ over $n$ years
+(2024 Slot 3), $(1 + r)^n \approx 1 + nr$ is accurate enough to rank countries, and $
+\text{GDP per capita}$ falls if and only if $\text{GDP growth rate} < \text{Population
+growth rate}$ .
+● Attrition / Stock-Flow Identity (2022 Slot 2): $\text{Employees Lost in Year } t =
+\text{Start}_t + \text{New Hires}t - \text{Start}{t+1}$ . Always write this identity down
+before reading the questions.
+● Common CAT Traps:
+● Relative Bases: In 2024 Slot 3 (Countries 1–8), GDP is given as a fraction of Country
+9's GDP, while GDP per capita is a fraction of Country 10's. Population is proportional to
+$\frac{\text{GDP fraction}}{\text{GDP per capita fraction}}$ —the unknown constants for
+Country 9 and Country 10 cancel out in any cross-country comparison.
+● Axis Reading: Always check whether the axis starts at zero and whether gridlines
+represent 1-unit, 2-unit, or 10% increments before estimating values.
+3. Quant-Based LR & Numerical Optimization (14 Sets)
+Quant-Based LR is the single largest category in recent CAT papers (11 sets in 2023–2025
+alone). These sets disguise algebraic equations, statistical summary properties, and number￾theory constraints inside business, academic, or everyday scenarios. Unlike pure logic puzzles,
+
+--- PAGE ---
+
+you cannot solve these by elimination grids alone—you must translate the text into equations
+and inequalities first.
+Year & Slot,Questions,Set Theme,Difficulty,Expected Time,Core Mechanic
+2021 Slot 1,Q29–32,Smoothies & Fruit Salad Sales,Hard,15–17 min,Revenue = Cost + Profit +
+Leftover loss; integer linear combinations across 4 hours
+2022 Slot 1,Q30–34,Six Interviewers & Prime Tokens,Easy,8–9 min,"Prime factorization of
+funding amounts ( $2, 3, 5, 7, 11, 13$ ) mapped to interviewers"
+2022 Slot 2,Q40–44,Salesmen Selling TRICCEK,Medium,11–13 min,"Success rate ratios ( $
+\text{items}/\text{households}$ ), equal totals, and complaint stop-rule"
+2023 Slot 1,Q30–34,Five Restaurants Rating Gig Workers,Medium,11–13 min,"Reconstructing a
+$5 \times 5$ integer grid (1–5) from Mean, Median, Mode, and Range"
+2023 Slot 2,Q30–34,"Akhil, Bimal, Chatur Random Draw",Medium,11–13 min,2-day averages $
+\rightarrow$ daily sums + daily rank ties + multiples of 3
+2023 Slot 2,Q35–39,$3 \times 3$ Boxes & Coin Sacks,Hard,14–16 min,Magic-square-like row/
+column sums + distinct integer box averages + median vs. mean
+2023 Slot 3,Q25–29,"AC Dealers (Window/Split, Inverter/Non)",Easy,8–9 min,$2 \times 2$
+percentage splits & dealer-wise linear constraints
+2023 Slot 3,Q30–34,Project & Test Weighted Averages,Medium,10–12 min,Weighted average
+$\alpha P + (1-\alpha)T$ ; solving for unknown weight $\alpha$
+2024 Slot 2,Q34–37,E-Commerce Daily & Cumulative Ratings,Medium,11–13 min,"Integer
+ratings (1–5); linking daily average, cumulative average, and median"
+2024 Slot 3,Q43–46,Seven Food Grains Nutrient Table,Easy,8–9 min,Row sums = 100 g;
+missing values as multiples of 5 (carbs) and 4 (others) + inequalities
+2025 Slot 2,Q34–38,Pollution Measures & Index (3 States),Medium,11–13 min,"Distinct
+multiples of 10 (10–90); weighted average $\text{PI} = 0.5\,\text{NUR} + 0.25(C_1 + C_2)$"
+2025 Slot 3,Q25–28,Six Friends Mobile Call Minutes,Easy,8–9 min,Row/column flow
+conservation ( $\sum \text{Outgoing to } X = \sum \text{Incoming from } X$ )
+2025 Slot 3,Q29–33,Four Countries Currencies & Flights,Hard,14–16 min,"Currency exchange
+rates + local spends ( $1000, 2000, 3000$ ) + total Travel Cost equations"
+2025 Slot 3,Q38–42,Three Countries Trade with ROW,Medium,10–12 min,Bilateral trade
+balance ( $\text{Exports} - \text{Imports}$ ) and total trade volume equations
+Prerequisite Knowledge & Solving Framework
+To crack Quant-Based LR sets within 10–12 minutes, you need four algebraic and statistical
+tools at your fingertips:
+● Reconstructing Data from Summary Statistics:
+● Mean $\leftrightarrow$ Sum: Always convert means into totals immediately ( $
+\text{Sum} = \text{Mean} \times N$ ). In 2023 Slot 1, a mean of 3.4 across 5 ratings
+immediately gives a row sum of 17.
+● 2-Day Averages (2023 Slot 2): If the 2-day average on Day $k$ is $A_k$ , then
+$S_{k-1} + S_k = 2 A_k$ . Subtracting consecutive equations yields $S_{k+1} - S_{k-1}
+= 2(A_{k+1} - A_k)$ , letting you chain all daily totals from a single anchor value.
+
+--- PAGE ---
+
+● Median, Mode & Range: For 5 sorted integers $x_1 \le x_2 \le x_3 \le x_4 \le x_5$ , the
+median is $x_3$ and the range is $x_5 - x_1$ . If a mode is unique, it must appear at
+least twice, and any other value must appear strictly fewer times.
+● Prime Factorization & Divisibility Constraints:
+● In 2022 Slot 1, dividing each funding amount by 1,000 and factorizing into primes ( $2, 3,
+5, 7, 11, 13$ ) instantly reveals which interviewer awarded a token to which candidate—
+turning a 12-minute puzzle into an 8-minute one.
+● In 2024 Slot 3 (Food Grains), using the fact that missing protein/fat/other values are
+multiples of 4 while carbs are multiples of 5 narrows each row sum ( $C + P + F + O =
+100$ ) to at most one or two valid tuples.
+● Flow Conservation & Weighted Averages:
+● For closed-group interactions (2025 Slot 3 Call Minutes, 2025 Slot 3 Trade), the total
+outgoing minutes from Xitel users to Yocel users must equal the total incoming minutes
+at Yocel users from Xitel users. Build a $6 \times 6$ directed matrix and fill in the zeros
+first.
+● For weighted averages ( $W = w_1 x_1 + (1 - w_1) x_2$ ), look for two entities with the
+same score in one component so their difference in $W$ isolates the weight $w_1$
+directly.
+● Common CAT Traps:
+● Forgetting that "distinct integers" or "scale of 1 to 5" bounds the maximum/minimum
+possible values of a sum, often forcing an extreme configuration (e.g., all remaining
+items must be 1 or 5).
+4. Grids, Matrices & Conditional Distribution (12 Sets)
+These sets are the classic backbone of Logical Reasoning: assigning objects, people, ratings,
+or numbers to slots in a table or grid subject to a list of rules. They rarely require heavy
+arithmetic; instead, they test systematic case-splitting and your ability to spot the single most
+constraining clue ("anchor clue") to unlock the matrix.
+Year & Slot,Questions,Set Theme,Difficulty,Expected Time,Core Mechanic
+2021 Slot 1,Q33–38,Journal Publishing 18 Research Papers,Hard,15–17 min,$8 \text{ authors}
+\times 4 \text{ issues}$ matrix + country/area counts + 1:2 paper ratio
+2021 Slot 2,Q33–38,Ravi Food-Delivery Ratings & Tips,Medium,11–13 min,$4 \text{ customers}
+\times 4 \text{ parameters}$ grid + bonus ( $\ge 25$ ) & tip exclusivity
+2021 Slot 2,Q39–44,Ten Objects Envy-Free Bundle Distribution,Hard,15–18 min,$5
+\text{ people} \times 2 \text{ objects}$ each; no-envy condition across all pairs
+2021 Slot 3,Q31–34,"Question Review (Amal, Bimal, Komal)",Easy,7–9 min,"13 questions, 3
+reviewers (2 per Q), accepted/rejected + creator inference"
+2022 Slot 1,Q25–29,Women's Hockey Goals (8 Matches),Medium,11–13 min,"$4 \text{ players}
+\times 8 \text{ matches}$ grid; total 12 goals, parity & consecutive clues"
+2022 Slot 3,Q35–39,Pandemic Cases Across 4 Neighbourhoods,Easy,8–9 min,$4
+\text{ neighbourhoods} \times 5 \text{ days}$ grid (values 0–3); strictly increasing daily sums
+2023 Slot 1,Q25–29,Faculty Voting Across 4 Departments,Hard,14–16 min,"4 candidates, 4
+departments; vote counts & non-candidate voting rules"
+
+--- PAGE ---
+
+2023 Slot 1,Q40–44,Housing Complex (Block XX & YY),Medium,11–13 min,$2 \times 6$ house
+grid; occupied/vacant + road adjacency + neighbour count pricing
+2024 Slot 1,Q38–41,Six Web Surfers Distributing 30 Stars,Medium,11–13 min,$6 \text{ surfers}
+\times 4 \text{ bloggers}$ (A–D) from bar/scatter data + distribution caps
+2024 Slot 2,Q25–29,$4 \times 4$ Grid Placement (Numbers 1–10),Medium,10–12 min,"10
+numbers in 16 slots; row increasing, column decreasing + exclusion rules"
+2024 Slot 2,Q42–46,Eight Gymnastics Players & Three Coaches,Medium,11–13 min,8 players
+(even/odd coach restrictions) + ratings 1–7 + average = 4
+2025 Slot 2,Q39–42,Research Papers by 4 Authors,Medium,11–13 min,"1-, 2-, 3-, 4-author
+paper counts; inclusion-exclusion across author subsets"
+Prerequisite Knowledge & Solving Framework
+● The Anchor-First Rule: Never process clues in the order they are written. Scan all
+clues first for universal exclusions ("never", "none", "only"), exact counts (totals per
+row/column), and extremes (highest/lowest). In 2024 Slot 2 (Numbers 1–10), 10 must
+be in Row 1 (since columns decrease top-to-bottom) and 1 must be at the bottom of its
+column or left of its row—placing 10 and 1 immediately collapses the grid.
+● Sub-Grid Partitioning: When a set has 3+ dimensions (e.g., Author $\times$ Country
+$\times$ Area $\times$ Issue in 2021 Slot 1), separate the static attributes (Country,
+Area, total papers) into a master profile table first, and only then map them onto the
+schedule grid (Jan, Apr, Jul, Oct).
+● Envy-Free & Threshold Logic: In 2021 Slot 2 (Bundles), if a person does not envy
+anyone, their own bundle value must be $\ge$ their valuation of every other person's
+bundle. Rank each person's top object values first—an envy-free allocation almost
+always forces each person to receive at least one of their top 2–3 valued items.
+● Common CAT Traps:
+● Partial Determinacy: CAT loves asking "For how many slots can placement NOT be
+determined with certainty?" When you hit a symmetric pair (two cells or two people that
+can swap without violating any rule), do not waste time looking for a missing clue—
+document the swap explicitly as $(X/Y)$ and move to the questions.
+5. Scheduling, Queues & Dynamic State Processes (10 Sets)
+These sets model systems that evolve over time: rounds, quarters, 15-minute slots, or
+sequential events. The difficulty comes not from complex math, but from bookkeeping
+discipline . A single misread transition rule in Round 2 invalidates Rounds 3 through 6.
+Year & Slot,Questions,Set Theme,Difficulty,Expected Time,Core Mechanic
+2021 Slot 3,Q25–30,International Javelin Throw (10 Players),Hard,15–18 min,"6 rounds, 2
+phases; dynamic re-ranking, tie-breaks, ""double"" thrower rule"
+2022 Slot 1,Q40–44,City Metro Lines & Train Scheduling,Medium,12–13 min,"4 lines, stop/travel
+times, 15-min rest at terminals; min fleet size calculation"
+2022 Slot 3,Q30–34,40-Year Disease Mortality Study (1980–2020),Hard,14–16 min,Age-cohort
+aging every 10 years (1000 M + 1000 F) + mortality rate transitions
+2023 Slot 1,Q35–39,Visa Processing Office (VPO),Hard,15–17 min,"20 slots (15-min), 10
+counters (US/UK/Schengen/Others), FIFO queue & late arrivals"
+
+--- PAGE ---
+
+2023 Slot 2,Q40–44,"Entertainment Park (4 Rides, 3 Visitors)",Medium,11–13 min,"30-min gate
+openings, 1-hour ride duration, queue waits & cumulative expense"
+2024 Slot 3,Q38–42,Room AC (Regular vs. Power Mode),Hard,14–16 min,Piecewise
+temperature drop/rise rates + mode switching between 11:01 pm & 1:59 am
+2025 Slot 1,Q25–29,Train Route Station A to E (Capacity 200),Easy,8–9 min,"4 intermediate
+segments (A–B, B–C, C–D, D–E); seat occupancy & ticket flows"
+2025 Slot 1,Q30–34,InnovateX Quarterly Ratings & Promotions,Medium,11–13 min,Elite vs.
+Novice (3 each); cumulative score + quarterly promotion/demotion tie-break
+2025 Slot 2,Q25–29,Four Musicians & Three Gurus (2013–2024),Medium,11–13 min,"12-year
+timeline matrix; ""Gurubhai"" (same Guru in same year) overlap rules"
+2025 Slot 2,Q43–46,Hoops & Balls Ping Tests,Hard,14–16 min,"Sequential/paired drop tests
+producing ""pings"" to order 4 hoops & 6 balls"
+Prerequisite Knowledge & Solving Framework
+● State-Transition Tables: Draw a time-indexed table (columns = rounds/quarters/
+time-slots, rows = players/counters/segments). Never track state changes in your head
+or in margins.
+● Fleet Size & Queue Math (2022 Slot 1, 2023 Slot 1, 2023 Slot 2):
+● Minimum Trains / Fleet Formula: A train leaving Terminal A at 6:00 am takes
+$T_{\text{trip}}$ minutes to reach B and rests $R$ minutes before returning. The
+minimum trains needed on a line equals the number of departures from both terminals
+combined during one full round-trip cycle ( $2(T_{\text{trip}} + R)$ ), or equivalently,
+tracking how many trains depart before the first 6:00 am train is ready for its return trip at
+B.
+● Counter Queues: Track counter free-times rather than applicant arrival times. If 2
+Schengen counters each take $t_S$ minutes, an applicant arriving at 9:20 am enters
+the queue and starts only when max(arrival_time, next_counter_free_time) aligns with a
+valid gate/slot.
+● Segment-Flow Accounting (2025 Slot 1 Train): A ticket from $i$ to $j$ occupies
+every segment between $i$ and $j$ . Therefore, $\text{Occupancy}(k \to k+1) =
+\text{Occupancy}(k-1 \to k) + \text{Boardings at } k - \text{Alightings at } k$ . This single
+conservation equation solves all 4-segment train/bus problems.
+● Common CAT Traps:
+● Tie-Break Direction: In dynamic ranking sets (2021 Slot 3 Javelin, 2025 Slot 1
+InnovateX), tie-break rules are reversed or nuanced (e.g., "prevailing higher rank retains
+rank" vs. "higher rating in the latest quarter ranks higher"). Underline the exact tie-break
+clause before simulating Round 1.
+6. Networks, Routes & Spatial Geometry (6 Sets)
+Network and route sets are visually distinctive and appear roughly once per year. They test
+graph traversal, path-length optimization under exclusion rules, and multi-agent movement on a
+fixed map.
+Year & Slot,Questions,Set Theme,Difficulty,Expected Time,Core Mechanic
+
+--- PAGE ---
+
+2022 Slot 2,Q30–34,Widget Supplier Delivery Routes (W to A–D),Medium,11–13 min,Graph
+distances + independent demand probabilities across 4 locations
+2023 Slot 3,Q35–39,Four Patrol Teams Across Stations A–F,Hard,14–16 min,Timed edge
+traversal (15/30 min); no two teams on same street simultaneously
+2024 Slot 2,Q30–33,Gated Area Walkways & Three Lakes (A–P),Medium,11–13 min,Planar
+graph with diagonal shortcuts; max/min walk avoiding residences or repeats
+2024 Slot 3,Q25–29,$3 \times 3$ Road Network with Six ATMs,Easy,8–9 min,6 ATMs on 9
+intersections; row/col cash sums + Manhattan road distance constraint
+2025 Slot 1,Q35–38,Round Table with Seven Chairs (1–7),Easy,8–9 min,Circular seating with 4
+friends; turn-by-turn clockwise/counter-clockwise moves
+2025 Slot 3,Q43–46,"Seven Children ""Passing the Buck""",Medium,11–13 min,"Circular
+arrangement (7 seats) + 10-round pass-type table ( $\pm 1, \pm 2$ positions)"
+Prerequisite Knowledge & Solving Framework
+● Graph & Eulerian/Hamiltonian Intuition (2024 Slot 2 Walkways):
+● When a problem asks for the maximum distance without repeating any point
+(vertex) , you are looking for a longest simple path/cycle—check degree-2 vertices and
+bottlenecks first, and calculate diagonal lengths using the Pythagorean theorem from
+the given rectangular dimensions.
+● When a problem allows repeating points but not paths (edges) , count the degree
+(number of connected edges) at each node. By Euler's theorem, any node with an odd
+degree (other than start and end) forces at least one incident edge to be left unused.
+● Manhattan Distance on Grids (2024 Slot 3 ATMs): On a rectangular road grid, the
+road distance between $(R_i, V_j)$ and $(R_m, V_n)$ is simply $|R_i - R_m| + |V_j -
+V_n|$ . Use the exact distance clue (e.g., 12 km) to lock in which intersections are
+occupied before solving the row/column cash sums.
+● Modular Arithmetic for Circular Movement (2025 Slot 1 & Slot 3): Label 7 seats as
+$0, 1, 2, 3, 4, 5, 6 \pmod 7$ . "Immediately left/right" is $\pm 1$ , and "second to left/
+right" is $\pm 2$ . Summing the net displacement across known rounds quickly pins
+down missing pass types.
+● Common CAT Traps:
+● Directionality & Entry/Exit Constraints: In 2024 Slot 2, visitors must enter and exit at C
+and cannot pass residences on AH and ML—meaning you must delete those vertices/
+edges from the graph before finding the longest walk.
+7. Games, Tournaments, Set Theory & Constraint Logic (11 Sets)
+This category captures pure logical deduction: knockout and round-robin tournaments, multi-set
+Venn/2×2×2 overlaps, social-network relationship graphs, and truth/tapping puzzles. Set-theory
+sets in this group are often the easiest 4–5 questions in the entire paper, whereas multi-round
+betting or tournament scheduling sets are frequently the hardest.
+Year & Slot,Questions,Set Theme,Difficulty,Expected Time,Core Mechanic
+2021 Slot 1,Q39–44,Seven Townspeople Relationships,Medium,11–13 min,"Graph of 7 nodes
+with 3 mutual edge types (Friend, Acquaintance, Stranger)"
+
+--- PAGE ---
+
+2021 Slot 2,Q29–32,Group Stage & Knockout Championship,Medium,10–12 min,"4 groups of 3
+(2nd vs. 3rd, winner vs. 1st) + Semis + Final; match-count logic"
+2021 Slot 3,Q39–44,Testing 50 ml Bottles for Impurity,Hard,15–17 min,Pooling samples ( $\ge
+10\%$ impurity threshold) to identify impure bottles in min tests
+2022 Slot 1,Q35–39,Graduating Class Get-Together,Easy,8–9 min,Nested sets (3-day $
+\subset$ 2-day $\subset$ 1-day) $\times$ Gender $\times$ Singer/Dancer
+2022 Slot 2,Q25–29,Speciality Supermarket (320 Products),Easy,7–9 min,$2 \times 2 \times 2$
+Venn/matrix (Cosmetic/Nutrition $\times$ Foreign/Domestic $\times$ FDA/EU)
+2022 Slot 3,Q25–29,CS & Non-CS Students (AI & ML Grades),Medium,10–12 min,"Venn
+overlap (CS takes both, Non-CS takes one) + grade distribution (A, B, C, F)"
+2022 Slot 3,Q40–44,Four Players 8-Round Betting Tournament,Hard,15–18 min,"2 pairs/round,
+no consecutive repeat pairs, Rs. 1 or Rs. 2 bets, running balances"
+2023 Slot 3,Q40–44,Coaching Class Registrations (Jan–May),Medium,11–13 min,"Min, Max,
+Median constraints for Online, Offline, and Total across 5 months"
+2024 Slot 1,Q25–29,Game of QUIET (6-Team Tournament),Hard,14–16 min,2 groups of 3; 1×
+intra-group + 2× inter-group matches across rounds
+2024 Slot 1,Q42–46,Class Rep Election (Amiya vs. Ramya),Medium,11–13 min,$2 \times 2$
+strategy matrix (Level 1/2 $\times$ Issue/Attack) + voter preference rules
+2025 Slot 1,Q39–42,Clive & Ehsaan Question-Tapping Game,Hard,14–16 min,Conditional tap
+rules for Yes/No/Maybe responses across multiple rounds
+Prerequisite Knowledge & Solving Framework
+● 3-Attribute Venn / $2 \times 2 \times 2$ Tree Method (2022 Slot 1, Slot 2, Slot 3):
+● Whenever you see three binary attributes (e.g., Domestic/Foreign, Cosmetic/
+Nutrition, FDA/EU in 2022 Slot 2), do not draw three overlapping circles. Instead, draw
+an 8-leaf tree or a $4 \times 2$ table (4 mutually exclusive rows for the first two
+attributes $\times$ 2 columns for the third). Every product falls into exactly one cell,
+eliminating double-counting errors.
+● For nested sets ( $A \subset B \subset C$ , as in 2022 Slot 1 where 3-day $\subset$
+2-day $\subset$ 1-day), draw concentric boxes or use "Exactly 1-day", "Exactly 2-day",
+"3-day", and "Not interested" as four disjoint buckets.
+● Tournament & Graph Counting:
+● Match Counts: In 2024 Slot 1 (QUIET), each team plays 2 intra-group matches (once
+each against 2 groupmates) and 6 inter-group matches (twice each against 3 other￾group teams) = 8 rounds total , with 3 games per round. Always compute total matches
+and total rounds before placing fixtures.
+● Group-Knockout Format (2021 Slot 2): If Rank 2 plays Rank 3 first, and the winner plays
+Rank 1, then Rank 1 can play at most 1 group game (total 3 games if they reach the
+final), whereas Rank 2 or 3 plays 2 group games to win the group (total 4 games if they
+reach the final). Match counts immediately reveal seedings.
+● Pooling / Group Testing (2021 Slot 3): When a detector triggers at $\ge 10\%$ impurity
+and each bottle is 50 ml, mixing equal volumes from $k$ bottles dilutes a single impure
+bottle's concentration by $\frac{1}{k}$ . Check the maximum $k$ for which the worst￾case impurity still exceeds $10\%$ .
+
+--- PAGE ---
+
+● Common CAT Traps:
+● Zero-Sum Balance Checks: In betting tournaments (2022 Slot 3), the sum of money
+across all players is invariant at the end of every round. Use this checksum at every
+round to catch arithmetic slips immediately.
+8. Study & Execution Roadmap for DILR Mastery
+Rather than solving the 15 past slots in chronological order, practice by difficulty tier within
+each topic to build pattern recognition before tackling exam-level stress:
+1. Phase 1 — Build Your 2-Set Floor (Target: All 17 Easy Sets): Start by solving every
+Easy set across Visual DI (2021 S1/S2/S3, 2024 S1/S3), Quant-Based LR (2022 S1,
+2023 S3, 2024 S3, 2025 S3), Grids (2021 S3, 2022 S3), Networks (2024 S3, 2025 S1),
+and Set Theory (2022 S1/S2). Time yourself strictly at 9 minutes per set . Mastering
+these guarantees you can secure 8–10 accurate questions in the first 18–20 minutes of
+any CAT slot.
+2. Phase 2 — Push to 99+ Percentile (Target: Medium Sets): Work through the
+Medium sets in Visual DI, Quant-Based LR, and Grids/Scheduling with a 12-minute
+timer . Focus on your setup speed—writing the right table or conservation equation in
+the first 2 minutes is what separates a 12-minute solve from a 20-minute time sink.
+3. Phase 3 — Triage & Stamina Training (Target: Hard Sets + Full 40-Min Mock Slots):
+Attempt the Hard sets untimed first to learn the underlying invariants (such as pooling
+dilution in 2021 Slot 3 or 2-day average differencing in 2023 Slot 2). Then, take full 40-
+minute timed slots—especially from CAT 2024 and CAT 2025 (5-set format) —
+practicing the discipline of spending the first 2 minutes scanning all 5 sets to lock in
+your best 2–3 picks before touching a single calculation.

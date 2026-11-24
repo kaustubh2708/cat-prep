@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CAT Study Desk &amp; 24-Skill Workbook (2021-2025)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,500;0,6..72,600;1,6..72,400&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <!-- Masthead Frame -->
+  <header class="masthead">
+    <div class="masthead-inner">
+      <div class="masthead-brand">
+        <h1 class="site-title">CAT Study Desk</h1>
+        <span class="site-meta">2021 to 2025 Papers (15 Slots, 1,002 Questions)</span>
+      </div>
+
+      <nav class="primary-nav" aria-label="Primary Workspace Views">
+        <button class="nav-link active" data-tab="plan" id="nav-plan">
+          <span>6-Day Study Plan</span>
+        </button>
+        <button class="nav-link" data-tab="skills" id="nav-skills">
+          <span>Skills &amp; Cheat Sheets</span>
+          <span class="nav-count" id="focus-skills-count" hidden>0</span>
+        </button>
+        <button class="nav-link" data-tab="practice" id="nav-practice">
+          <span>Practice Desk</span>
+        </button>
+        <button class="nav-link" data-tab="papers" id="nav-papers">
+          <span>Past Papers &amp; 40-Min Timer</span>
+        </button>
+      </nav>
+
+      <div class="masthead-tools">
+        <button class="btn-masthead" id="btn-quick-warmup" title="Solve 5 easy warmup questions across sections">
+          <span>5-Question Warmup</span>
+        </button>
+        <button class="btn-masthead-icon" id="btn-theme-toggle" title="Switch between Paper Light and Night Slate" aria-label="Toggle color theme">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+          </svg>
+        </button>
+        <button class="btn-masthead-icon" id="btn-open-backup" title="Export or restore your study progress" aria-label="Backup or restore progress">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Initial Data Loading State -->
+  <div id="loading-overlay" class="loading-bar" role="status" aria-live="polite">
+    <span>Loading 2021-2025 question bank, 24 skill cheat sheets, and visual exam diagrams...</span>
+  </div>
+
+  <!-- Main Workspace -->
+  <main class="workspace-shell">
+
+    <!-- ==================== VIEW 1: 6-DAY STUDY PLAN ==================== -->
+    <section id="view-plan" class="view-pane active">
+      <div class="page-intro">
+        <div class="page-intro-main">
+          <h2>Six-Day Exam Week Plan</h2>
+          <p class="lead-copy">
+            With six days left, your goal is not to finish 1,002 questions. In a 40-minute CAT section, scoring in the 99th percentile requires roughly half the section marks (10 to 11 net correct in DILR, 11 to 12 in QA, 14 to 15 in VARC). Each daily session below takes 45 to 60 minutes and focuses on locking in easy first-pass questions and skipping time-sinks early.
+          </p>
+        </div>
+        <div class="page-intro-actions">
+          <button class="btn-solid" id="btn-start-active-day">
+            <span>Continue Today's Session</span>
+          </button>
+          <button class="btn-quiet" id="btn-goto-skills">
+            <span>Browse All 24 Skills</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Summary Ledger Strip -->
+      <div class="status-ledger" aria-label="Study Progress Summary">
+        <div class="ledger-cell">
+          <span class="ledger-label">Active Day Progress</span>
+          <strong class="ledger-value tabular" id="stat-day-progress">0 / 16</strong>
+          <span class="ledger-note" id="stat-day-note">Day 1 session items completed</span>
+        </div>
+        <div class="ledger-cell">
+          <span class="ledger-label">Easy First-Pass Accuracy</span>
+          <strong class="ledger-value tabular" id="stat-easy-acc">Ready</strong>
+          <span class="ledger-note" id="stat-easy-note">Target 85%+ on easy questions</span>
+        </div>
+        <div class="ledger-cell">
+          <span class="ledger-label">Smart Skips Logged</span>
+          <strong class="ledger-value tabular" id="stat-smart-skips">0</strong>
+          <span class="ledger-note">Hard traps skipped before losing time</span>
+        </div>
+        <div class="ledger-cell">
+          <span class="ledger-label">Skills Marked for Review</span>
+          <strong class="ledger-value tabular" id="stat-focus-skills">0</strong>
+          <span class="ledger-note">
+            <button class="inline-action" id="btn-review-focus-skills">Open skill cheat sheets</button>
+          </span>
+        </div>
+      </div>
+
+      <!-- 6-Day Timetable Selector -->
+      <div class="timetable-bar" role="tablist" aria-label="Select Study Day" id="day-tabs-bar">
+        <!-- Populated by app.js -->
+      </div>
+
+      <!-- Active Day Study Sheet -->
+      <div class="study-sheet" id="active-day-sheet">
+        <!-- Populated by app.js -->
+      </div>
+    </section>
+
+    <!-- ==================== VIEW 2: 24 SKILLS & CHEAT SHEETS ==================== -->
+    <section id="view-skills" class="view-pane">
+      <div class="page-intro">
+        <div class="page-intro-main">
+          <h2>Core CAT Skills &amp; Formula Cheat Sheets</h2>
+          <p class="lead-copy">
+            All 1,002 questions across 2021 to 2025 are organized into 24 practical skills. Select any skill on the left to read its 30-second formula and trap sheet, set your confidence level, and practice easy or medium questions on that exact topic.
+          </p>
+        </div>
+        <div class="skills-filter-controls">
+          <div class="segmented-group" role="group" aria-label="Filter Skills by Section">
+            <button class="seg-btn active" data-ssec="ALL">All 24 Skills</button>
+            <button class="seg-btn" data-ssec="QA">QA (11)</button>
+            <button class="seg-btn" data-ssec="DILR">DILR (6)</button>
+            <button class="seg-btn" data-ssec="VARC">VARC (7)</button>
+          </div>
+          <div class="segmented-group" role="group" aria-label="Filter Skills by Confidence">
+            <button class="seg-btn active" data-sconf="ALL">All Levels</button>
+            <button class="seg-btn" data-sconf="focus">Needs Practice</button>
+            <button class="seg-btn" data-sconf="steady">Getting There</button>
+            <button class="seg-btn" data-sconf="confident">Confident</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Signature Move: 2-Column Interactive Skill Ledger & Monograph Sheet -->
+      <div class="skills-workbench">
+        <!-- Left Column: 24-Skill Index Ledger -->
+        <div class="skills-ledger-col" id="skills-ledger-list" role="listbox" aria-label="24 CAT Skills">
+          <!-- Populated by app.js -->
+        </div>
+
+        <!-- Right Column: Selected Skill Monograph Cheat Sheet & Question Queue -->
+        <aside class="skill-monograph-col" id="skill-detail-sheet" aria-live="polite">
+          <!-- Populated by app.js -->
+        </aside>
+      </div>
+    </section>
+
+    <!-- ==================== VIEW 3: PRACTICE DESK (SOLVER) ==================== -->
+    <section id="view-practice" class="view-pane">
+      <!-- Active Session Strip (shown when practicing a specific skill or day block) -->
+      <div id="practice-session-bar" class="session-strip" hidden>
+        <div class="session-strip-info">
+          <strong id="session-strip-title">Active Session</strong>
+          <span class="tabular" id="session-strip-count">(0 of 6 completed)</span>
+        </div>
+        <button class="btn-quiet btn-compact" id="btn-clear-session">Show All 1,002 Questions</button>
+      </div>
+
+      <!-- Compact Filter & Question Navigation Bar -->
+      <div class="desk-toolbar">
+        <div class="desk-filters">
+          <label class="field-compact">
+            <span>Section</span>
+            <select id="filter-section">
+              <option value="ALL">All Sections</option>
+              <option value="QA">QA (330)</option>
+              <option value="DILR">DILR (312)</option>
+              <option value="VARC">VARC (360)</option>
+            </select>
+          </label>
+
+          <label class="field-compact">
+            <span>Skill</span>
+            <select id="filter-skill">
+              <option value="ALL">All 24 Skills</option>
+            </select>
+          </label>
+
+          <label class="field-compact">
+            <span>Difficulty</span>
+            <select id="filter-difficulty">
+              <option value="ALL">All Tiers</option>
+              <option value="Easy">Easy (First Pass)</option>
+              <option value="Medium">Medium (Second Pass)</option>
+              <option value="Hard">Hard (Skip Candidate)</option>
+            </select>
+          </label>
+
+          <label class="field-compact">
+            <span>Year</span>
+            <select id="filter-year">
+              <option value="ALL">2021-2025</option>
+              <option value="2025">2025</option>
+              <option value="2024">2024</option>
+              <option value="2023">2023</option>
+              <option value="2022">2022</option>
+              <option value="2021">2021</option>
+            </select>
+          </label>
+
+          <label class="field-compact">
+            <span>Slot</span>
+            <select id="filter-slot">
+              <option value="ALL">All Slots</option>
+              <option value="1">Slot 1</option>
+              <option value="2">Slot 2</option>
+              <option value="3">Slot 3</option>
+            </select>
+          </label>
+
+          <label class="field-compact">
+            <span>Status</span>
+            <select id="filter-status">
+              <option value="ALL">All Items</option>
+              <option value="VERIFIED">Verified Solutions (233)</option>
+              <option value="UNATTEMPTED">Unattempted</option>
+              <option value="SOLVED">Completed</option>
+              <option value="REVIEW">Needs Practice</option>
+              <option value="SKIPPED">Smart Skips</option>
+            </select>
+          </label>
+
+          <label class="field-compact field-search">
+            <span>Search</span>
+            <input type="search" id="filter-search-input" placeholder="Question ID, topic, keyword..." />
+          </label>
+
+          <button class="btn-quiet btn-compact" id="btn-reset-filters">Reset</button>
+        </div>
+
+        <!-- Question Sequence Bar -->
+        <div class="sequence-bar">
+          <div class="sequence-meta">
+            <span class="tabular" id="filtered-count-label">1,002 questions</span>
+            <div id="set-siblings-bar" class="set-siblings-bar"></div>
+          </div>
+          <div class="sequence-pills" id="question-pills-strip" role="navigation" aria-label="Question List"></div>
+          <div class="sequence-arrows">
+            <button class="btn-quiet btn-compact" id="btn-prev-q">Previous</button>
+            <button class="btn-quiet btn-compact" id="btn-next-q">Next</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Split Practice Desk -->
+      <div class="practice-desk">
+        <!-- Left Pane: Original Exam Scan & Shared Passage/Set Stem -->
+        <div class="desk-context-pane">
+          <div class="pane-header">
+            <span class="pane-heading" id="left-pane-title">Original Exam Diagram &amp; Context</span>
+            <div class="pane-controls">
+              <div class="segmented-group" role="group" aria-label="Context Display Mode">
+                <button class="seg-btn active" data-vmode="both">Scan + Text</button>
+                <button class="seg-btn" data-vmode="visual">Scan Only</button>
+                <button class="seg-btn" data-vmode="text">Text Only</button>
+              </div>
+              <button class="btn-quiet btn-compact" id="btn-zoom-slice">Enlarge Scan</button>
+              <button class="btn-quiet btn-compact" id="btn-open-fullpage">Full PDF Page</button>
+            </div>
+          </div>
+
+          <div class="pane-scroll">
+            <div id="visual-slices-box" class="slices-stack"></div>
+            <div id="text-context-box" class="reading-column"></div>
+          </div>
+        </div>
+
+        <!-- Right Pane: Question Prompt, Options/Input, Timer & Solution -->
+        <div class="desk-question-pane">
+          <div class="question-top-row">
+            <div class="question-meta-strip" id="q-badges-row"></div>
+            <div class="timer-cluster">
+              <div id="timer-display-wrap" class="timer-readout">
+                <span class="timer-num tabular" id="q-timer-clock">00:00</span>
+                <span class="timer-budget tabular" id="q-timer-target">/ 1.5 min</span>
+              </div>
+              <button class="btn-quiet btn-compact" id="btn-timer-pause" title="Pause or resume timer">Pause</button>
+              <button class="btn-quiet btn-compact" id="btn-timer-reset" title="Reset timer to 00:00">Reset</button>
+              <button class="btn-quiet btn-compact" id="btn-timer-zen" title="Hide timer for zero-pressure practice">Hide Timer</button>
+            </div>
+          </div>
+
+          <!-- Skill Link & Quick Summary Bar -->
+          <div class="question-skill-bar" id="q-skill-bar"></div>
+
+          <!-- Question Prompt & Answer Controls -->
+          <div class="question-body-block">
+            <div class="question-prompt reading-column" id="q-stem-text"></div>
+            <div id="q-interaction-area" class="interaction-block"></div>
+
+            <div class="solver-actions">
+              <button class="btn-solid" id="btn-check-answer">Check Answer</button>
+              <button class="btn-quiet" id="btn-show-hint">Show Starting Hint</button>
+              <button class="btn-quiet" id="btn-triage-skip" title="Log an intentional skip on a lengthy or low-yield question">
+                Skip (Too Long)
+              </button>
+            </div>
+          </div>
+
+          <!-- Starting Hint Panel -->
+          <div id="q-hint-box" class="notice-panel notice-sand" hidden>
+            <div class="notice-header">
+              <strong>Starting Hint &amp; Skill Rule</strong>
+              <button class="inline-action" id="btn-close-hint">Close</button>
+            </div>
+            <div class="notice-content reading-column" id="q-hint-content"></div>
+          </div>
+
+          <!-- Verified Answer & Self-Rating Panel -->
+          <div id="q-solution-box" class="solution-panel" hidden>
+            <div class="solution-status-bar" id="q-solution-banner"></div>
+            <div class="solution-walkthrough reading-column" id="q-solution-body"></div>
+
+            <!-- Self-Rating Bar (Directly updates question status & Skill Confidence) -->
+            <div class="rating-bar">
+              <span class="rating-prompt">How did this question feel? (Updates your Skill confidence):</span>
+              <div class="rating-buttons" id="reflection-chips">
+                <button class="btn-rate" data-tag="nailed">Felt Easy (Confident)</button>
+                <button class="btn-rate" data-tag="steady">Got It (Getting There)</button>
+                <button class="btn-rate" data-tag="weak">Tricky (Needs Practice)</button>
+                <button class="btn-rate" data-tag="triage">Skipped (Too Long)</button>
+              </div>
+            </div>
+
+            <!-- Custom Answer Key Save (for unverified archive questions) -->
+            <div class="custom-key-row">
+              <label for="input-custom-key">Save or update answer key for this item:</label>
+              <input type="text" id="input-custom-key" placeholder="e.g. B or 24" class="input-compact tabular" />
+              <button class="btn-quiet btn-compact" id="btn-save-custom-key">Save Key</button>
+            </div>
+          </div>
+
+          <!-- Personal Takeaway Note -->
+          <div class="note-block">
+            <label for="q-user-note" class="note-label">Personal note for <span id="note-qid-label" class="tabular">this question</span> (saved automatically):</label>
+            <textarea id="q-user-note" rows="2" placeholder="Jot down a formula reminder or where you got stuck..."></textarea>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== VIEW 4: PAST PAPERS & 40-MIN TIMER ==================== -->
+    <section id="view-papers" class="view-pane">
+      <div class="page-intro">
+        <div class="page-intro-main">
+          <h2>Past Papers &amp; 40-Minute Section Selection (2021-2025)</h2>
+          <p class="lead-copy">
+            In a 40-minute CAT section, your most valuable habit is spending the first 2 to 3 minutes scanning the paper to pick your Round 1 (First Pass) sets or questions before diving into calculations. Choose any of the 15 actual CAT slots below to practice your Round 1 selection or solve under a 40-minute clock.
+          </p>
+        </div>
+        <div class="paper-picker-bar">
+          <label class="field-compact">
+            <span>Year</span>
+            <select id="sim-year">
+              <option value="2025">CAT 2025</option>
+              <option value="2024" selected>CAT 2024</option>
+              <option value="2023">CAT 2023</option>
+              <option value="2022">CAT 2022</option>
+              <option value="2021">CAT 2021</option>
+            </select>
+          </label>
+          <label class="field-compact">
+            <span>Slot</span>
+            <select id="sim-slot">
+              <option value="1" selected>Slot 1</option>
+              <option value="2">Slot 2</option>
+              <option value="3">Slot 3</option>
+            </select>
+          </label>
+          <label class="field-compact">
+            <span>Section</span>
+            <select id="sim-section">
+              <option value="DILR" selected>DILR Section (Sets)</option>
+              <option value="QA">QA Section (Questions)</option>
+              <option value="VARC">VARC Section (Passages &amp; VA)</option>
+            </select>
+          </label>
+          <button class="btn-solid" id="btn-start-triage-sim">Load Section</button>
+          <button class="btn-quiet" id="btn-grade-triage">Compare Picks with Brief Calibration</button>
+        </div>
+      </div>
+
+      <!-- 40-Minute Section Clock & Selection Summary -->
+      <div class="paper-clock-strip">
+        <div class="clock-cluster">
+          <span class="clock-label">Section Timer</span>
+          <strong class="clock-readout tabular" id="sim-clock">40:00</strong>
+          <button class="btn-quiet btn-compact" id="btn-sim-clock-toggle">Start 40-Min Clock</button>
+          <button class="btn-quiet btn-compact" id="btn-sim-clock-reset">Reset</button>
+        </div>
+
+        <div class="bucket-counts">
+          <span class="status-tag tag-sage">First Pass (Round 1): <strong class="tabular" id="count-r1">0</strong></span>
+          <span class="status-tag tag-sand">Second Pass (Round 2): <strong class="tabular" id="count-r2">0</strong></span>
+          <span class="status-tag tag-clay">Skip: <strong class="tabular" id="count-r3">0</strong></span>
+        </div>
+
+        <button class="btn-solid btn-compact" id="btn-launch-r1-queue">
+          Practice My First-Pass Queue
+        </button>
+      </div>
+
+      <!-- Calibration Comparison Output -->
+      <div id="sim-triage-feedback" class="notice-panel notice-sage" hidden></div>
+
+      <!-- Section Items Ledger Table -->
+      <div class="paper-items-sheet" id="sim-cards-grid">
+        <!-- Populated by app.js -->
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== MODAL 1: FULL EXAM PDF PAGE INSPECTOR ==================== -->
+  <div id="modal-fullpage" class="modal-backdrop" hidden>
+    <div class="modal-window modal-wide" role="dialog" aria-modal="true" aria-labelledby="modal-fullpage-title">
+      <div class="modal-top">
+        <h3 id="modal-fullpage-title">Original Exam Paper Page</h3>
+        <div class="modal-top-actions">
+          <button class="btn-quiet btn-compact" id="btn-modal-prev-page">Previous Page</button>
+          <button class="btn-quiet btn-compact" id="btn-modal-next-page">Next Page</button>
+          <button class="btn-quiet btn-compact" id="btn-close-fullpage">Close</button>
+        </div>
+      </div>
+      <div class="modal-page-body">
+        <img id="modal-fullpage-img" src="./pages/2024/page_2.webp" alt="Full CAT Exam Page" />
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== MODAL 2: BACKUP & RESTORE ==================== -->
+  <div id="modal-backup" class="modal-backdrop" hidden>
+    <div class="modal-window" role="dialog" aria-modal="true" aria-labelledby="modal-backup-title">
+      <div class="modal-top">
+        <h3 id="modal-backup-title">Save or Restore Study Progress</h3>
+        <button class="btn-quiet btn-compact" id="btn-close-backup">Close</button>
+      </div>
+      <div class="modal-content-pad">
+        <p class="reading-column">
+          Your completed questions, skill confidence ratings, smart skips, custom answer keys, and personal notes are saved automatically in this browser. You can also save a backup file to disk.
+        </p>
+        <div class="modal-actions-list">
+          <button class="btn-solid" id="btn-export-json">Download Backup File (.json)</button>
+          <label class="btn-quiet file-label">
+            <span>Restore from Backup File (.json)</span>
+            <input type="file" id="input-import-json" accept=".json" hidden />
+          </label>
+          <button class="btn-quiet text-danger" id="btn-reset-progress">Clear All Saved Progress</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>

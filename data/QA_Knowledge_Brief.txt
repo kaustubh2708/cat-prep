@@ -1,0 +1,1016 @@
+CAT 2021–2025 Quantitative Ability (QA): Topic-Wise Question Breakdown,
+Difficulty Calibration & Knowledge Brief
+1. How the 40-Minute QA Clock Shapes Difficulty and Topic Weightage
+Across the 15 examination slots spanning CAT 2021 through CAT 2025 (22 questions per slot,
+totaling 330 Quantitative Ability questions across the five test papers), the section rewards
+problem selection and speed-to-setup just as heavily as raw mathematical depth. Because
+every slot pairs 40 minutes of clock time with 22 independent questions (averaging roughly 1.8
+minutes per question if all were attempted), attempting every problem sequentially is a strategic
+trap. Instead, high-percentile performance depends on separating 60-to-90-second direct setups
+from 3-minute multi-case algebraic or geometric grinds.
+To make the topic-wise breakdown immediately actionable for timed practice, every retrieved
+question from the 2021–2025 papers is calibrated against a three-tier difficulty and time
+benchmark tailored to a 40-minute QA section.
+Difficulty Tier,Expected Solve Time,Structural Characteristics in CAT 2021–2025,Section
+Strategy Role
+Easy,1.0 – 1.5 mins,"Single-concept application; clean linear or ratio setup; direct formula (e.g.,
+SI/CI, basic work-rate, standard polygon angles, or simple remainder cycles).",Round-1 Priority:
+Must-solve anchors to bank 8–10 accurate attempts in the first 12–15 minutes.
+Medium,1.75 – 2.5 mins,"Two-concept hybrids (e.g., Ratios + Mixtures, Geometry + Similarity,
+Quadratics + Inequalities); requires setting up 2–3 equations or checking boundary
+cases.",Round-1 / Round-2 Core: Primary score-differentiators; solve cleanly after banking
+Easy items.
+Hard,3.0+ mins,"Multi-case modulus/GIF analysis, non-routine Diophantine integer optimization,
+nested functional equations, or multi-step replacement/geometry chains.",Round-3 / Skip
+Candidates: Attempt only if the setup clicks immediately; otherwise mark and move on.
+Notice how the five core QA domains distribute across the 2021–2025 papers. Arithmetic
+consistently commands the largest share (roughly 40–45% of every slot), followed by Algebra
+(roughly 28–32%), Geometry & Mensuration (roughly 14–18%), Number Systems (roughly
+8–10%), and Modern Math (roughly 5–8%). Note that in the source archives for CAT 2021
+Slots II–III and CAT 2023 Slots II–III, individual question numbers were omitted in the original
+test transcripts; those items are indexed by their exact year, slot, and problem hook so they can
+be located immediately.
+2. Arithmetic — The High-Yield Core (~40–45% of QA)
+Arithmetic is the undisputed backbone of CAT QA across all 15 slots. Unlike Algebra or Number
+Systems, where a single conceptual blind spot can stall progress, Arithmetic questions almost
+always yield to structured equation-building, ratio scaling, or weighted-average thinking. The
+challenge in 2021–2025 is rarely conceptual obscurity—it is multi-stage wording (such as
+successive replacements, shifting base values, or conditional discounts) designed to induce
+arithmetic slips under time pressure.
+
+--- PAGE ---
+
+2.1 Topic Brief & Prerequisite Knowledge
+Success in CAT Arithmetic requires fluency across four interconnected pillars:
+● Percentages, Profit & Loss (P&L), and Simple/Compound Interest (SI/CI):
+● Multiplying Factors & Successive Change: Express every percentage increase $x\%$
+as $(1 + x/100)$ and decrease as $(1 - x/100)$ . For two successive changes $a\%$
+and $b\%$ , the net percentage change is $a + b + \frac{ab}{100}$ . This is essential
+for population growth, successive salary hikes, and multi-step markup/discount
+problems.
+● Marked Price (MP), Cost Price (CP), and Dishonest Dealings: Anchor all P&L equations
+around $\text{SP} = \text{CP}(1 + p/100) = \text{MP}(1 - d/100)$ . When a merchant
+cheats on weight or gives free units (such as receiving $105\text{ cm}$ for the price of
+$100\text{ cm}$ and selling $95\text{ cm}$ as $100\text{ cm}$ ), compute the effective
+cost per unit and effective revenue per unit separately before taking the ratio.
+● SI vs. CI & Installments: Simple interest scales linearly ( $\text{SI} = \frac{PRT}{100}$ ).
+Compound interest scales exponentially ( $A = P(1 + r/n)^{nt}$ ); when compounding
+half-yearly, halve the annual rate and double the number of years. A recurring CAT
+pattern uses the difference between consecutive years' CI : the interest earned in
+year $(k+1)$ equals the interest earned in year $k$ multiplied by $(1 + r/100)$ , which
+lets you extract $r$ directly without knowing $P$ . For two-installment loan repayment,
+equate the present value of installments: $P = \frac{X_1}{1 + r/100} + \frac{X_2}{(1 + r/
+100)^2}$ .
+● Ratios, Mixtures, Alligations, and Averages:
+● Weighted Averages & Alligation: Whenever two groups with averages $A_1$ and
+$A_2$ are combined into a group with average $A_m$ , their weights $w_1$ and
+$w_2$ satisfy $\frac{w_1}{w_2} = \frac{A_2 - A_m}{A_m - A_1}$ . CAT frequently
+disguises alligation inside salary averages, agricultural land splits, or class-weight
+problems.
+● Repeated Dilution / Replacement: If a vessel of total volume $V$ initially contains pure
+liquid A, and $x$ units are drawn and replaced with liquid B repeatedly $n$ times, the
+remaining fraction of liquid A is $\left(1 - \frac{x}{V}\right)^n$ . When unequal volumes
+are replaced or when acid/water are alternated, track the pure solute volume step by
+step rather than forcing the standard formula.
+● Integer-Constrained Averages: Problems asking for the maximum or minimum possible
+value of an average (e.g., distinct integer scores, bounded marks) require pushing all
+non-target variables to their extreme permissible bounds (distinctness, upper/lower
+limits) while preserving the fixed sum.
+● Time, Work, Pipes & Cisterns:
+● LCM / Efficiency-Unit Method: Avoid fractions by setting total work equal to the LCM of
+individual completion times, or by assigning daily work rates ( $a, b, c$ ) directly. When
+wages are paid for a joint task, always split total payment in proportion to total work
+done by each person , not their daily rates—unless they worked the exact same
+number of days.
+
+--- PAGE ---
+
+● Alternate-Day / Cyclic Rosters: Compute the work completed in one full cycle (e.g., 2-
+day or 3-day roster), divide total work by cycle work to find full cycles, and then simulate
+the remaining fractional work day by day.
+● Man-Days & Cost Optimization: Use $\frac{M_1 D_1 H_1}{W_1} = \frac{M_2 D_2 H_2}
+{W_2}$ for workforce scaling. When workers charge fixed daily rates even for partial
+days (as in CAT 2025 Slot I), compute the cost per unit of work for each worker and
+greedily maximize the cheapest worker up to the deadline constraint.
+● Time, Speed, Distance (TSD), Boats & Streams, and Circular Tracks:
+● Meeting-After-Crossing Formula: If two people A and B start simultaneously from X and
+Y toward each other, meet at a point, and then take $t_A$ and $t_B$ hours
+respectively to reach Y and X, then $\frac{S_A}{S_B} = \sqrt{\frac{t_B}{t_A}}$ and the
+meeting time is $\sqrt{t_A t_B}$ . This classic identity appeared in both CAT 2022 Slot I
+and CAT 2023 Slot I.
+● Relative Speed & Trains: Opposite directions add speeds ( $v_1 + v_2$ ); same
+direction subtracts ( $|v_1 - v_2|$ ). Always convert $\text{km/h}$ to $\text{m/s}$ via $
+\times \frac{5}{18}$ .
+● Boats, Streams & Escalators: Downstream speed is $b + r$ ; upstream is $b - r$ . For
+escalators, treat the escalator length as $L$ steps and solve $L = (v_{\text{walk}} +
+v_{\text{esc}})t$ .
+● Circular Tracks: Two runners meet for the first time in $\frac{L}{v_1 + v_2}$ (opposite)
+or $\frac{L}{|v_1 - v_2|}$ (same direction).
+2.2 Topic-Wise Question Breakdown (Arithmetic)
+The table below catalogs all retrieved Arithmetic questions across CAT 2021–2025, grouped
+chronologically by year and slot.
+Year & Slot,Q. No.,Subtopic,Key Problem Hook,Difficulty,Est. Time
+2021 Slot I,Q45,Mixtures & Replacement,Two 800 cc indigo bottles (33% and 17% strengths)
+mixed to 21%,Easy,1.25 min
+2021 Slot I,Q53,Compound Interest,"Consecutive 2nd and 3rd year CI (₹806.25, ₹866.72); find
+4th year CI",Easy,1.25 min
+2021 Slot I,Q59,Profit & Loss,"Pens at ₹8 each, employee wage, 100 at ₹12, rest at ₹11 vs ₹9
+(±₹300)",Medium,2.0 min
+2021 Slot I,Q61,Percentages & P&L,"Large vs small chocolate boxes; 2× price, 12% less price/
+gram",Easy,1.25 min
+2021 Slot I,Q63,Averages (Harmonic),"Onion expenses over 5 months (Rs 10, 20, 25, 25, 50/
+kg); half spend in last 2",Medium,1.75 min
+2021 Slot I,Q47,Ratios & Equations,Daily earnings: Neeta + Geeta = 6×Sita; Sita + Neeta =
+2×Geeta,Easy,1.25 min
+2021 Slot I,Q48,Time & Work,"Anu (15d), Vinu (12d), Manu (20d); Vinu daily, Anu/Manu
+alternate",Medium,1.75 min
+2021 Slot I,Q57,Time & Work,"Amar+Akbar (1 yr), Akbar+Anthony (16m), Anthony+Amar (2
+yrs); middle worker",Medium,1.75 min
+2021 Slot I,Q55,TSD (Trains),Opposite trains cross in 14s; faster 160m crosses lamp post in
+12s; 6 km/h diff,Medium,2.0 min
+
+--- PAGE ---
+
+2021 Slot II,—,Ratios & Partnership,"Anil (70%), Bobby, Chintu; profit shifts (18%→15% and
+15%→17%)",Medium,2.0 min
+2021 Slot II,—,Mixtures & P&L,"Tea at Rs 800, 500, 300 in 2:3:5; 1/6th at Rs 700, 50% overall
+profit",Medium,2.0 min
+2021 Slot II,—,Mixtures & Replacement,9L milk drawn and replaced twice; final milk:water =
+16:9,Easy,1.25 min
+2021 Slot II,—,Time & Work (Wages),"Anil (60d), Bimal (84d); 10d Anil + 14d all with Charu;
+Charu's share of ₹21000",Easy,1.5 min
+2021 Slot II,—,Pipes & Cisterns,"Pipe A fills from 2pm, drain B from 3pm (full 10pm) vs 4pm (full
+6pm)",Medium,2.0 min
+2021 Slot II,—,TSD (Trains),"Opposite trains A:B speeds 5:3; 46s front-to-rear, +69s rear-to￾rear",Medium,2.25 min
+2021 Slot II,—,TSD (Circular Track),"Mira & Amal: same dir 45 min (3 more rounds), opposite 3
+min meet",Medium,2.0 min
+2021 Slot III,—,Time & Work (Wages),"Anil (12d), Barun (16d), Chandu; together 6d for Rs
+24000; Chandu's share",Easy,1.25 min
+2021 Slot III,—,Averages (Optimization),"Mean of 25 students is 50; 5 toppers equal, others
+distinct ≥ 30",Medium,2.25 min
+2021 Slot III,—,Percentages (Population),"1970–1980 (+25% total; M +40%, F +20%); 1980–
+1990 (F +25%, F = 2M)",Hard,3.0 min
+2021 Slot III,—,Percentages (Matches),40 matches (30% won); 60% of remaining → 50% total;
+if 90% of remaining,Easy,1.25 min
+2021 Slot III,—,Time & Work,"Rahul at 9 AM, Gautam +2h later (finish 5 PM); both at 9 AM →
+30 min early",Medium,2.0 min
+2021 Slot III,—,Simple & Compound Interest,"Bank A (6% CI half-yearly, 1 yr) = Raju in Bank B
+(SI); Rupa in Bank C (2r, 2t)",Medium,2.25 min
+2022 Slot I,Q47,Simple Interest,15% for 4 yrs on Part 1 = 12% for 3 yrs on Part 2; % in Part
+1,Easy,1.0 min
+2022 Slot I,Q50,Mixtures & Ratios,Equal lemon+syrup mixed with syrup in 1:3; new
+ratio,Easy,1.0 min
+2022 Slot I,Q52,Profit & Loss (Mixtures),"110 kg syrup, 120 kg juice (20% cheaper); 10/20 kg
+sold; rest at ₹308.32 (64% profit)",Hard,3.0 min
+2022 Slot I,Q53,Ratios & Percentages,Village M:F = 5:4; literate M:F = 2:3; illiterate M:F = 4:3;
+3600 lit males,Medium,2.0 min
+2022 Slot I,Q61,Averages,"3 integers avg 13; include natural $n$ , avg of 4 is odd integer; min
+$n$",Easy,1.25 min
+2022 Slot I,Q63,Profit & Loss (Ratios),"4 kg cashews, 14 kg peanuts, 6 kg almonds;
+7C=30P=9A; MP/discount profit",Hard,3.0 min
+2022 Slot I,Q64,Averages (Alligation),Avg weight +600g when new students (+3 kg above orig
+avg) join; ratio,Easy,1.25 min
+2022 Slot I,Q65,Ratios,Queue: ahead:behind = 3:5; total < 300; max ahead,Easy,1.0 min
+2022 Slot I,Q66,TSD (Meeting),"Trains A & B meet; A reaches Y in 10 min total, B takes 9 min
+after meeting",Medium,2.0 min
+
+--- PAGE ---
+
+2022 Slot II,Q47,Averages & Savings,"Manu earns Rs 4000/m, target Rs 550/m savings;
+expenses Rs 3500 (9m), Rs 3700 (3m)",Easy,1.5 min
+2022 Slot II,Q48,Time & Work,Anu:Tanu:Manu time 5:8:10; 4d × 8h together; Anu+Tanu 6d ×
+6h40m; Manu left,Medium,2.25 min
+2022 Slot II,Q49,Averages (Optimization),"5 students (0–50), avg 38, 3 > 32, distinct, Amit least;
+max–min Amit",Medium,2.5 min
+2022 Slot II,Q52,Mixtures & Replacement,"Two half-filled containers (syrup, milk); 3 half-content
+transfers",Medium,2.25 min
+2022 Slot II,Q53,TSD (Right Triangle),Ships go South & West; 2h later 60 km apart; speed diff 6
+km/h,Easy,1.5 min
+2022 Slot II,Q58,Percentages (Votes),"80% voted; 1 got 30%, others 1:2:3; winner beat 2nd by
+2512 votes",Medium,2.0 min
+2022 Slot II,Q60,Simple Interest,"1/5 at 6%, 1/3 at 10%, rest at 1%; min years for interest ≥
+capital",Easy,1.5 min
+2022 Slot II,Q62,Averages,Non-decreasing $a_1 \dots a_N$ avg 300; $a_1 \to 6a_1$ makes
+avg 400; possible $a_1$,Hard,3.0 min
+2022 Slot III,Q45,Time & Work (Man-Days),"$N$ people finish 35% in 10d × 7h; 10 leave, rest
+finish in 14d × 10h",Easy,1.25 min
+2022 Slot III,Q48,TSD (Escalator),"Moody: 30s at normal speed, 20s at 2× speed; find stand-still
+time",Easy,1.25 min
+2022 Slot III,Q52,Time & Work (Roster),"Bob (40d), Alex (2× Bob), Cole (Alex/3); 3-day rotating
+pairs; Alex's days",Medium,2.25 min
+2022 Slot III,Q55,Mixtures & Replacement,"500 cc milk & water; 150 cc milk→water, then 150
+cc mix→milk; ratio",Easy,1.25 min
+2022 Slot III,Q57,Averages (Alligation),"Sec A (avg 32), Sec B (avg 60); $A = B - 10$ ;
+combined avg is integer",Medium,2.25 min
+2022 Slot III,Q59,TSD + Geometry,Ships & port form 24 km equilateral $\triangle$ ; slower
+moves 8 km → right $\triangle$,Hard,3.25 min
+2022 Slot III,Q61,TSD (Relative Speed),Cars meet in 1.5h (opposite) vs 10.5h (same dir);
+slower 60 km/h,Easy,1.5 min
+2022 Slot III,Q62,Averages (Optimization),"6 distinct naturals; avg of 2 smallest = 14, 2 largest =
+28; max avg",Easy,1.5 min
+2022 Slot III,Q66,Simple Interest,"Rs 20000 split: 8k at 5.5%, 5k at 5.6%, rest at $x\%$ ; overall
+5%",Easy,1.25 min
+2023 Slot I,Q52,TSD (Clocks),Minor angle at 8:48 am; min time for angle to increase by
+50%,Medium,2.25 min
+2023 Slot I,Q53,Mixtures & Replacement,Coffee→cocoa twice; final ratio 16:9; ratio of cocoa in
+P to Q,Easy,1.5 min
+2023 Slot I,Q54,Averages & Inequalities,"4 girls, 6 boys avg 24; $b \le g \le 2b$ ; distinct integer
+totals for 2G+6B",Medium,2.5 min
+2023 Slot I,Q55,TSD (Palindromes),8h trip from palindrome $x$ to 26862; max speed $\le
+110$ ; max avg speed,Medium,2.0 min
+2023 Slot I,Q56,Profit & Loss,"Same SP: +20% on A, -10% on B; new equal SP gives +10% on
+B; % on A",Easy,1.5 min
+
+--- PAGE ---
+
+2023 Slot I,Q57,Percentages & Averages,"Salaries 5:6:7; Yr 1 hikes 20%, 25%, 20%; Yr 2:
+40%, $x\%$ , 25% → Gita = mean",Medium,2.0 min
+2023 Slot I,Q58,TSD (Meeting),Arvind (54 km/h) & Surbhi meet; 6h and 24h post-meeting; total
+distance,Easy,1.5 min
+2023 Slot I,Q59,Compound & Simple Interest,"Anil Rs 22k (6y, 4% CI half-yearly) = Sunil (5y CI
++ 1y 10% SI)",Medium,2.0 min
+2023 Slot I,Q60,Time & Work (HP),"Daily work rates in HP; Kamal takes 2× Amal; 4d, 9d, 16d
+finish job",Medium,2.25 min
+2023 Slot II,—,Profit & Loss,Minu buys Rs 1000 → Kanu (+20%) → Minu (-20%) → Tanu (total
+profit Rs 500),Easy,1.5 min
+2023 Slot II,—,Ratios & Averages,20% in mfg earn 1/6th of total salary; ratio of avg
+salaries,Easy,1.25 min
+2023 Slot II,—,TSD (Relative Speed),"Ravi (40 km/h), Vijay 54m behind, Ashok (50 km/h) 225m
+ahead; simultaneous cross",Medium,2.0 min
+2023 Slot II,—,Compound Interest,"Borrow Rs 2L at 8% CI half-yearly; repay Rs 10320 at Yr 1,
+close at Yr 3",Hard,3.0 min
+2023 Slot II,—,Profit & Loss (Optimization),"White (Rs 1000) & Blue (Rs 1125) shirts; MP +25%,
+10% disc, profit Rs 51k; max shirts",Hard,3.0 min
+2023 Slot II,—,Mixtures & Replacement,40L milk; 4L replaced repeatedly; min steps for milk <
+water,Medium,1.75 min
+2023 Slot III,—,Time & Work (Inequalities),"R+Ra+G > 7d, R+G < 15d; 6d together + 3d Ra;
+impossible solo days for Ra",Hard,3.0 min
+2023 Slot III,—,Percentages (Population),100k → -y% → +x% (>100k); $,x - y,= 10$; lowest
+2021 population
+2023 Slot III,—,Profit & Loss (Dishonest),"Buys Rs 100/m (+5cm free), sells Rs 110/m (gives
+95cm), 5% discount",Medium,2.0 min
+2023 Slot III,—,Averages,"A, B, C in room; +D reduces avg by $x$ , +E increases by $2x$ ;
+$E - D = 12$",Easy,1.25 min
+2023 Slot III,—,TSD (Boats & Streams),"Boat 1: 2h down, 3h up; Boat 2: 6h round trip; slower
+boat A to B",Medium,2.0 min
+2023 Slot III,—,Time & Work,Gautam & Suhani (20d); 60% G + 150% S = 100%; faster worker
+solo days,Easy,1.5 min
+2024 Slot I,Q48,TSD (Meeting),45 km apart; cross in 1h 30m; Anil reaches 1h 15m after
+Sunil,Medium,2.0 min
+2024 Slot I,Q49,Averages,"4 numbers: avg(2) = $a_1+1$ , avg(3) = avg(2)+2, avg(4) =
+avg(3)+3",Medium,1.75 min
+2024 Slot I,Q51,Percentages & Ratios,"Incomes 8:6:5; pay 15%, 12%, 18% rent; Oct hikes
+10%, 12%, 15%",Medium,2.0 min
+2024 Slot I,Q52,Simple Interest,"Rs 10k in Bank A (5% SI, $t$ yrs) → Bank B (6% SI, 5 yrs); SI
+ratio 10:13",Easy,1.5 min
+2024 Slot I,Q57,Mixtures & Replacement,"2/3rd poured out & replaced with water, repeated 3
+more times; milk:water",Easy,1.25 min
+2024 Slot I,Q60,Profit & Loss,40% profit SP; if CP -40% and SP -Rs 5 → 50% profit; original
+SP,Easy,1.25 min
+
+--- PAGE ---
+
+2024 Slot I,Q61,Percentages / Fractions,"Sells half + 3 kg to each of 3 customers, 0 left; initial
+grains",Easy,1.25 min
+2024 Slot I,Q64,Ratios & Equations,"187 fruits (A:M = 5:2); sell 75 A, 26 M, half O → unsold
+A:O = 3:2",Medium,2.0 min
+2024 Slot I,Q67,Time & Work,"Renu (15d × 4h), Seema (8d × 5h); S works 2× hrs/day, R works
+2× days",Medium,1.75 min
+2024 Slot II,Q47,Averages & Percentages,"40 employees: first 30 avg 40k, last 30 avg 60k,
+first10+last10 avg 50k; 2023 hikes",Medium,2.25 min
+2024 Slot II,Q50,Mixtures & Equations,+2L water → 50% acid; +15L acid → 80% acid; original
+water:acid,Easy,1.5 min
+2024 Slot II,Q52,Compound & Simple Interest,"Anil Rs 22k (6y, 4% CI half-yearly) = Sunil (5y CI
++ 1y 10% SI)",Medium,2.0 min
+2024 Slot II,Q53,Time & Work (Cyclic),"A+V (150d), V+S (100d); A 75d, V 135d, S 45d; then A
+daily, V 2nd, S 3rd",Hard,3.0 min
+2024 Slot II,Q54,TSD,"60 km/h → 3.5h late; next day 2/3 dist in 1/3 sched time, rest at 40 km/
+h",Medium,2.25 min
+2024 Slot II,Q57,Percentages (Optimization),"Mangoes 40%; sells half M, 96 B, 40% A = 50%
+total; min initial fruits",Medium,2.25 min
+2024 Slot II,Q58,Profit & Loss,Bina (-19% at Rs 4860) → Shyam → Hari (Bina would get +17%
+at Hari's CP),Easy,1.25 min
+2024 Slot II,Q63,Ratios (Ages),"When Rajesh = Garima now, ratio 3:2; when Garima = Rajesh
+now, ratio",Easy,1.25 min
+2024 Slot III,Q50,TSD,+6 km/h → 4h less; -6 km/h → 6h more; find total distance,Easy,1.5 min
+2024 Slot III,Q51,Ratios (Alligation),"Rajesh (20 ha) & Vimal (30 ha, W:M = 5:3); total W:M =
+11:9; Rajesh W:M",Easy,1.5 min
+2024 Slot III,Q52,Compound Interest,Rs 4k CI; ratio Yr 3 : Yr 5 = 25:36; min years to exceed Rs
+20000,Medium,1.75 min
+2024 Slot III,Q54,Averages,"3 reals avg 28; smallest +7, largest -10 → new avg = middle + 2,
+range 64",Medium,2.0 min
+2024 Slot III,Q60,Mixtures & Replacement,"Water $w$ in 300L, rest milk; draw $2w$ and refill
+water → 72% milk",Medium,2.25 min
+2024 Slot III,Q62,Profit & Loss,20% profit MP; 10% discount saves Rs 15; find Gopi's
+profit,Easy,1.0 min
+2024 Slot III,Q65,Percentages (Successive),Two hikes ( $r\%$ and $2r\%$ ) make salary
+187.5%; find first hike %,Easy,1.25 min
+2024 Slot III,Q66,Time & Work (Roster),"Sam (20d), Mohit (2× Sam), Ayna (Mohit/3); 3-day pair
+cycle; Sam's fraction",Medium,2.25 min
+2025 Slot I,Q47,Ratios,Morning:Afternoon = 13:9; 21 move → 19:14; +new (3:8) →
+5:4,Medium,2.0 min
+2025 Slot I,Q50,Mixtures & Replacement,"200L (30% acid): -20% +water, -10% +acid, -15%
++water; final acid %",Medium,2.25 min
+2025 Slot I,Q51,TSD + AP,"224 km in 4 parts (3h total); speeds in AP, times in AP; part 1: 960
+m/min, 30 min",Hard,3.0 min
+
+--- PAGE ---
+
+2025 Slot I,Q54,Simple Interest / Investments,"Rs 1L in stocks (10%), bonds (6%), gold (8%);
+bonds = 25% gold; gain Rs 8200",Easy,1.5 min
+2025 Slot I,Q55,Simple & Compound Interest,"SI: Rs 13920 (3y), Rs 18960 (6.5y); same $P, r$
+for 2y CI half-yearly",Medium,2.0 min
+2025 Slot I,Q57,Time & Work (Cost Opt.),"Arun (24d, ₹2160), Varun (21d, ₹2400), Tarun (15d,
+₹2160); ≤ 10d, min cost",Hard,3.0 min
+2025 Slot I,Q64,Percentages & Inequalities,Boys > 10; 40% G & 60% B leave → rem G = rem B
++ 8; min initial students,Medium,2.0 min
+2025 Slot I,Q66,Profit & Loss,22% disc on MP; 13 chairs for price of 12 → 26% profit on CP Rs
+100,Easy,1.5 min
+2025 Slot II,Q51,Percentages & Ratios,"Pinu 20%, Meena 40% of rem, Seema 20% less than
+Pinu; Pinu:Rinu",Easy,1.25 min
+2025 Slot II,Q52,Time & Work,"A = 2B, B = 2C; all start, B leaves after 20d, finish in 60d; C solo
+days",Easy,1.5 min
+2025 Slot II,Q55,Compound Interest (Installments),Rs 1000 loan repaid by Rs 530 (Yr 1) and Rs
+594 (Yr 2) CI; find rate %,Easy,1.5 min
+2025 Slot II,Q57,Mixtures & Alligation,"16% coffee (Rs 240/kg), 36% coffee (Rs 320/kg) → new
+mix Rs 376/kg; coffee in 10 kg",Easy,1.5 min
+2025 Slot II,Q59,Averages,"First 7d avg 60, 8d avg 63; Day 9 = Day 8 - 11; Day 2–9 avg 66;
+Day 1 sales",Medium,1.75 min
+2025 Slot II,Q64,TSD (Boats & Streams),"Rita (5 km/h), Sneha (6 km/h); Sneha 48 min more up
+than down (14 km); Rita 100m",Medium,2.25 min
+2025 Slot II,Q65,Profit & Loss,"CP Rs 1650, +20% profit; 2× disc → Rs 110 profit; disc % =
+profit %",Medium,2.0 min
+2025 Slot II,Q67,Ratios (Income/Exp.),Exp L:M = 2:3; Inc L : Exp M = 6:7; Sav L:M = 4:9; Inc L :
+Inc M,Medium,2.0 min
+2025 Slot III,Q50,Time & Work (Team Rates),"Teams A (5, 40h), B (8, 50h), C (10, 4h);
+2A+3B+1C for 23h, replace C with B for 1h",Medium,2.25 min
+2025 Slot III,Q51,Averages & Percentages,5 mgrs + 25 engs avg ₹60k; +20% mgrs → +5%
+overall avg; eng avg,Easy,1.25 min
+2025 Slot III,Q52,Profit & Loss,"Sales 120, 135, 150, 165 (CP ₹240); disc 20%, 10%, 5%, 0%;
+total profit ₹138825",Medium,2.25 min
+2025 Slot III,Q55,TSD,5pm–11pm (6h); stops 20m (+3 km/h) vs 30m (+5 km/h); initial
+speed,Medium,2.0 min
+2025 Slot III,Q56,TSD (Ratios),"Walk A→B→C, run back (+40% speed); B→C walk = B→A run
+= 3h 30m",Medium,2.0 min
+2025 Slot III,Q59,Mixtures & Replacement,"60L alcohol (A), 60L water (B); swap $x$ L twice
+→ A has 15:4; find $x$",Medium,2.0 min
+2025 Slot III,Q62,Ratios,Boxes A:B = 17:7; shift 108 → 37:20; further shift for 1:1,Easy,1.25 min
+2025 Slot III,Q63,Pipes & Cisterns,Flow rates 4:9:36; A fills in 15h; all three together in
+minutes,Easy,1.0 min
+
+--- PAGE ---
+
+2.3 Recurring Traps & Time-Saving Shortcuts in Arithmetic
+● Repeated Replacement wording ("repeated three more times"): In CAT 2024 Slot I
+(Q57), the process is performed once and then "repeated three more times" , making
+$n = 4$ total replacements, not $3$ . Always count the initial step plus the repetitions.
+● Unchanged Total / Constant Component: In mixture or student-transfer questions
+(e.g., 2025 Slot I Q47 or 2024 Slot II Q50), identify which quantity does not change (total
+students before new arrivals, or pure acid when only water is added) to set up a one-line
+proportion.
+● Ratio-First Scaling in P&L and Interest: When exact capital or initial amounts cancel
+out (as in 2021 Slot III CI/SI or 2024 Slot I Q51), assume clean round numbers (like
+$100$ or $800, 600, 500$ ) instead of carrying variables.
+3. Algebra — Equations, Functions, Logs & Series (~28–32% of QA)
+Algebra is the primary separator between a 90th-percentile score and a 99th-percentile score in
+CAT QA. Across 2021–2025, Algebra questions fall into two distinct bands: clean structural
+identities (logarithms, Vieta's sum/product of roots, telescoping series, and completing the
+square) that take under 90 seconds if recognized immediately, and multi-case analytical
+problems (modulus inequalities, greatest integer function x, and functional equations) that
+punish brute-force substitution.
+3.1 Topic Brief & Prerequisite Knowledge
+● Linear & Simultaneous Equations, Word-Problem Modeling, and Inequalities:
+● Infinite / No Solutions: For $a_1x + b_1y = c_1$ and $a_2x + b_2y = c_2$ , infinitely
+many solutions require $\frac{a_1}{a_2} = \frac{b_1}{b_2} = \frac{c_1}{c_2}$ .
+● AM–GM Inequality: For positive real numbers, $\frac{a + b}{2} \ge \sqrt{ab}$ , with
+equality when $a = b$ . For expressions like $16\frac{x}{y} + 49\frac{y}{x}$ (2022 Slot
+III Q63), remember that if $x$ and $y$ have opposite signs, the expression is negative
+and bounded above by $-2\sqrt{16 \times 49} = -56$ , leaving the open interval $(-56,
+56)$ unattainable.
+● Wavy-Curve Method: For rational inequalities like $\frac{x^2+2x-15}{x^2-7x-18} < 0$ or
+$\frac{1}{x+5} \le \frac{1}{2x-3}$ , never cross-multiply without knowing the
+denominator's sign. Move all terms to one side, factor numerator and denominator, plot
+critical points, and alternate signs.
+● Sum of Squares = 0: Whenever an equation in two or three real variables can be
+rearranged into $A^2 + B^2 + C^2 = 0$ (e.g., 2023 Slot I Q47 or 2024 Slot II Q67),
+every squared term must individually equal $0$ .
+● Quadratic Equations, Higher-Degree Polynomials & Vieta's Relations:
+● Discriminant & Sign Definiteness: For $f(x) = ax^2 + bx + c$ , $f(x) \ge 0$ for all real
+$x$ if and only if $a > 0$ and $D = b^2 - 4ac \le 0$ . If $f(r) = 0$ and $f(x) \ge 0$
+everywhere, then $r$ is a repeated root, so $f(x) = a(x - r)^2$ .
+● Vertex Optimization: The minimum (if $a > 0$ ) or maximum (if $a < 0$ ) of $ax^2 + bx
++ c$ occurs at $x = -\frac{b}{2a}$ and equals $-\frac{D}{4a}$ .
+
+--- PAGE ---
+
+● Vieta's Formulas & Conjugate Roots: For $ax^2 + bx + c = 0$ , $\alpha + \beta = -b/a$
+and $\alpha\beta = c/a$ . When coefficients are rational and one root is $p + \sqrt{q}$ ,
+the other root must be $p - \sqrt{q}$ .
+● Exponential Base-1 Cases: For equations of the form $A(x)^{B(x)} = 1$ (e.g., 2022 Slot
+II Q46), check all three valid branches: (i) $B(x) = 0$ with $A(x) \neq 0$ , (ii) $A(x) =
+1$ , and (iii) $A(x) = -1$ with $B(x)$ an even integer.
+● Modulus ( |x| ), Greatest Integer Function ( x ), and Functional Equations:
+● Distance Interpretation of Modulus: $|x - a| + |x - b| = |a - b|$ holds for all $x$
+between $a$ and $b$ (inclusive), producing infinitely many solutions. This geometric
+view solves questions like $|3x - 20| + |3x - 40| = 20$ in 20 seconds.
+● Piecewise / Graph Turning Points: For $|x^2 - 4x - 13| = r$ to have exactly three
+distinct real roots (2021 Slot I Q52), $r$ must equal the reflected vertex height of the
+parabola.
+● Greatest Integer Function x : Remember $x \le x < x + 1$ . When solving $x^2 = x^2$
+on an interval (2025 Slot I Q53), split by integer intervals $k \le x < k + 1$ so $x = k$
+and $k^2 \le x^2 < k^2 + 1$ .
+● Functional Equations: For $f(x) + 2f(1/x) = 3x$ (2024 Slot III Q61), substitute $x \to 1/
+x$ to create a second linear equation and eliminate $f(1/x)$ . For $f(xy) = f(x)f(y) + f(x)
++ f(y)$ (2024 Slot II Q55), add $1$ to both sides to factor $(f(xy) + 1) = (f(x) + 1)(f(y) +
+1)$ , revealing a power function.
+● Logarithms & Exponents:
+● Core Laws & Change of Base: $\log_b a = \frac{\log_c a}{\log_c b}$ , $\log_{b^k} a =
+\frac{1}{k}\log_b a$ , and $\log_b a \cdot \log_a b = 1$ .
+● Domain Restrictions: Before accepting any root of a log equation (especially when the
+base contains $x$ , as in $\log_{x-3}(\dots)$ in 2025 Slot III Q68), enforce argument
+$> 0$ , base $> 0$ , and base $\neq 1$ .
+● Inequality Flip: When $\log_b(u) > 0$ and the base $0 < b < 1$ (e.g., $b = 1/4$ in
+2025 Slot I Q48), the inequality flips to $0 < u < 1$ .
+● Progressions & Series (AP, GP, HP, Telescoping & Infinite Series):
+● AP & GP: $T_n = a + (n-1)d$ , $S_n = \frac{n}{2}2a + (n-1)d$ . For an infinite
+decreasing GP ( $|r| < 1$ ), $S_\infty = \frac{a}{1 - r}$ .
+● Common Terms of Two APs: The common terms of two APs with common differences
+$d_1$ and $d_2$ form a new AP with common difference $\text{LCM}(d_1, d_2)$
+(used in 2023 Slot II and 2023 Slot III).
+● Cyclic & Telescoping Sequences: When given a recurrence like $x_{n+2} = \frac{1 +
+x_{n+1}}{x_n}$ (2021 Slot I Q49), compute the first 6 terms—it cycles with period 5. For
+$t_n = \frac{n-3}{n-1}t_{n-2}$ (2024 Slot III Q63), write out consecutive even terms to
+spot the telescoping cancellation.
+● Power-Sum Identities: From $x + \frac{1}{x} = k$ , derive $x^2 + \frac{1}{x^2} = k^2 -
+2$ , $x^3 + \frac{1}{x^3} = k^3 - 3k$ , and step down from $x^8 + x^{-8} = 47$ (2023
+Slot III) by adding $2$ and taking square roots repeatedly.
+
+--- PAGE ---
+
+3.2 Topic-Wise Question Breakdown (Algebra)
+The table below catalogs every retrieved Algebra question from CAT 2021–2025, illustrating
+how heavily the section relies on logarithms, modulus/inequalities, quadratics, and series
+patterns.
+Year & Slot,Q. No.,Subtopic,Key Problem Hook,Difficulty,Est. Time
+2021 Slot I,Q49,Sequences (Cyclic),"$x_0=1, x_1=2, x_{n+2} = (1+x_{n+1})/x_n$ ; find
+$x_{2021}$",Easy,1.5 min
+2021 Slot I,Q50,Logarithms,$5 - \log_{10}\sqrt{1+x} + 4\log_{10}\sqrt{1-x} = \log_{10}(1/\sqrt{1-
+x^2})$ ; find $100x$,Medium,2.0 min
+2021 Slot I,Q51,Quadratic / Word Model,"Hospital A (21 fewer patients, sum 200d) vs B (sum
+152d); avg diff 3",Medium,2.0 min
+2021 Slot I,Q52,Modulus & Quadratics,$,x^2 - 4x - 13,= r$ has exactly 3 distinct real roots; find
+$r$
+2021 Slot I,Q56,Linear Equations,Cost of fruit baskets (2A+4O+6M = 1A+4O+8M = 8O+7M);
+mangoes only,Easy,1.25 min
+2021 Slot I,Q60,Modulus Inequalities,Number of integers $n$ satisfying $,n-60,<
+2021 Slot I,Q62,Sequences & Series,"Natural numbers grouped $(1), (2,3,4), (5,6,7,8,9)\dots$ ;
+sum of 15th group",Medium,1.75 min
+2021 Slot I,Q65,Rational Inequalities,$f(x) = (x^2+2x-15)/(x^2-7x-18) < 0$ interval,Easy,1.25
+min
+2021 Slot II,—,AP & Equations,"Positive integers $x, y, z$ in AP; $y-x > 2$ , $xyz = 5(x+y+z)
+$ ; $z-x$",Medium,2.0 min
+2021 Slot II,—,Simultaneous Equations,"$x^2 - xy - x = 22$ and $y^2 - xy + y = 34$ , $x > y$ ;
+find $x - y$",Medium,1.75 min
+2021 Slot II,—,Sequences & Series,$x_1 - x_2 + x_3 - \dots + (-1)^{n+1}x_n = n^2 + 2n$ ; find
+$x_{49} + x_{50}$,Easy,1.5 min
+2021 Slot II,—,Modulus,$,3x - 20,+
+2021 Slot II,—,Quadratics,"Rational coeffs $ax^2 - bx + c = 0$ , $b = c^3$ , irrational root; find
+$",a,$
+2021 Slot II,—,Logarithms,$(\log_{15}a + \log_{32}a) / (\log_{15}a \cdot \log_{32}a) = 4$ ; range
+of $a$,Easy,1.25 min
+2021 Slot III,—,Linear & Quadratic,"64 shirts (small ₹50 less than large); ₹5000 large, ₹1800
+small",Medium,1.75 min
+2021 Slot III,—,Word-Problem Algebra,"Tea cups: product 800, S:M = 2:5; +Rs 6 on S,M →
+product 3200",Medium,2.0 min
+2021 Slot III,—,Modulus & Integers,"Pairs of integers $(m,n)$ with $",1+mn,<
+2021 Slot III,—,Linear Equations,"Hostel fixed + variable expense; Rs 1600 fee; 50b (₹200
+profit), 75b (₹250)",Easy,1.5 min
+2021 Slot III,—,Functions & Quadratics,"$f(x) = x^2 - 7x$ , $g(x) = x + 3$ ; minimum of $f(g(x))
+- 3x$",Easy,1.25 min
+2021 Slot III,—,Modulus Equations,$3x + 2,y,+ y = 7$ and $x +
+2021 Slot III,—,Sequences,"$x_{n+1} = x_n + n - 1$ , $x_1 = -1$ ; find $x_{100}$",Easy,1.25
+min
+
+--- PAGE ---
+
+2022 Slot I,Q46,Simultaneous / Factoring,"Naturals $x, y, z$ : $xy + yz = 19$ and $yz + xz =
+51$ ; min $xyz$",Medium,1.75 min
+2022 Slot I,Q48,Simultaneous / Factoring,"Naturals $a, b$ : $a^2 + ab + a = 14$ , $b^2 + ab +
+b = 28$ ; find $2a+b$",Easy,1.25 min
+2022 Slot I,Q51,Quadratics,"$b^2 < 4ac$ , $f(x) = ax^2+bx+c$ ; set of integers $m$ where
+$f(m) < 0$",Easy,1.0 min
+2022 Slot I,Q56,Modulus Equations,Largest real $a$ for $,x+a,+
+2022 Slot I,Q58,Arithmetic Progression,$S_n = n + 2n^2$ ; smallest $n$ such that $T_n$ is
+divisible by 9,Easy,1.25 min
+2022 Slot I,Q60,Modulus Functions,"$0 \le a \le x \le 100$ , $f(x) =",x-a,+
+2022 Slot I,Q62,Greatest Integer x,$\sum_{n=1}^N 1/5 + n/25 = 25$ ; find $N$,Medium,2.0 min
+2022 Slot II,Q45,Quadratics,"$f(x) \ge 0$ for all $x$ , $f(2) = 0$ , $f(4) = 6$ ; find
+$f(-2)$",Easy,1.0 min
+2022 Slot II,Q46,Exponential Equations,Integer solutions of $(x^2 - 10)^{x^2 - 3x - 10} =
+1$,Medium,2.0 min
+2022 Slot II,Q50,Linear Equations,"75 Qs (+3, -1, +1 unattempted), score 97, unattempted >
+attempted; max correct",Medium,2.25 min
+2022 Slot II,Q56,Cubic & Vieta's,$r$ and $-r$ are roots of $5x^3 + cx^2 - 10x + 9 = 0$ ; find
+$c$,Easy,1.25 min
+2022 Slot II,Q57,Sequences (Recurrence),Day 1: 100 particles; Day $n$ : 1 in $n$ produces
+1; 1000 on Day $m$,Medium,2.0 min
+2022 Slot II,Q63,Arithmetic Progression,"AP $3, 7, 11\dots$ ; $A_n = S_n$ ; find $\frac{1}
+{25}\sum_{n=1}^{25} A_n$",Medium,2.0 min
+2022 Slot II,Q64,Functional Equations,"$f(x) + f(x-1) - 1 = 0$ , $g(x) = x^2$ , $f(x^2-x) = 5$ ;
+$f(g(5)) + g(f(5))$",Medium,2.25 min
+2022 Slot II,Q65,Logarithms & Inequalities,Distinct integers $n$ satisfying $(4 - \log_2 n)/(3 -
+\log_4 n) < 0$,Medium,2.0 min
+2022 Slot II,Q66,Linear Programming,"Non-negative $a, b$ : $a + 2b = 6$ ; avg of max and
+min $(a+b)$",Easy,1.0 min
+2022 Slot III,Q46,Linear Equations (Diophantine),"100 cheques (₹100, ₹250, ₹500) total
+₹15250; max ₹500 cheques",Easy,1.5 min
+2022 Slot III,Q50,Rational Optimization,Minimum of $(x^2 - 6x + 10)/(3 - x)$ for $x <
+3$,Easy,1.25 min
+2022 Slot III,Q53,Piecewise Functions,"$f(x) = 2x - r$ ( $x \ge r$ ), $r$ ( $x < r$ ); when $f(x)
+= f(f(x))$",Easy,1.25 min
+2022 Slot III,Q56,Exponents,$(7/5)^{3x-y} = 875/2401$ and $(4a/b)^{6x-y} = (2a/b)^{y-6x}$ ;
+find $x+y$,Medium,2.0 min
+2022 Slot III,Q58,Quadratics (Discriminant),"Integer $k$ : $2x^2+kx+5=0$ no real roots,
+$x^2+(k-5)x+1=0$ two distinct",Medium,2.0 min
+2022 Slot III,Q63,Inequalities (AM-GM),$c = 16x/y + 49y/x$ ; which value $c$ cannot
+take,Easy,1.0 min
+2022 Slot III,Q64,Arithmetic Progression,"Average of all 3-digit terms in $38, 55,
+72\dots$",Easy,1.5 min
+
+--- PAGE ---
+
+2022 Slot III,Q65,Quadratics (Irrational Roots),$3+2\sqrt{2}$ root of $ax^2+bx+c=0$ ;
+$4+2\sqrt{3}$ root of $ay^2+my+n=0$,Medium,2.0 min
+2023 Slot I,Q45,Logarithms,$\log_x(x^2+12) = 4$ and $3\log_y x = 1$ ; find $x + y$,Easy,1.25
+min
+2023 Slot I,Q47,Algebraic Identities,$x^2 + (x - 2y - 1)^2 = -4y(x + y)$ ; find $x - 2y$,Easy,1.5
+min
+2023 Slot I,Q64,Sequences (AP),$1/(\sqrt{y}+\sqrt{z})$ is AM of $1/(\sqrt{x}+\sqrt{z})$ and $1/
+(\sqrt{x}+\sqrt{y})$,Medium,2.0 min
+2023 Slot I,Q66,Sequences (Recurrence),"$a_1 = 2$ , $a_n = 2a_{n-1} + 3$ ; smallest $n$ for
+$a_n > 10^6$",Medium,1.75 min
+2023 Slot II,—,Inequalities,"Non-zero $x, y$ ( $y \neq 3$ ) with $x/y < (x+3)/
+(y-3)$",Medium,2.0 min
+2023 Slot II,—,Linear Optimization,"$n$ persons get ₹352; 2 get ₹506, rest $\le$ ₹330; max
+$n$",Easy,1.5 min
+2023 Slot II,—,Arithmetic Progression,"$a_n, b_n$ APs with prime $d$ ; $a_5 = b_9$ ,
+$a_{19} = b_{19}$ , $b_2 = 0$ ; find $a_{11}$",Medium,2.0 min
+2023 Slot II,—,Algebraic Identities,$p^2 + q^2 - 29 = 2pq - 20 = 52 - 2pq$ ; max - min of $p^3 -
+q^3$,Medium,2.0 min
+2023 Slot II,—,Sequences (Common Terms),$a_n = 13 + 6(n-1)$ and $b_n = 15 + 7(n-1)$ ;
+largest 3-digit common term,Easy,1.5 min
+2023 Slot III,—,Logarithms + AP,"$1/2$ , $\log_3(2^x-9)/\log_3 4$ , $\log_5(2^x+17/2)/\log_5
+4$ in AP; common diff",Medium,2.25 min
+2023 Slot III,—,Algebraic Identities,$x^8 + x^{-8} = 47$ ( $x > 0$ ); find $x^9 +
+x^{-9}$,Medium,2.25 min
+2023 Slot III,—,Linear Equations,$x + y = 4$ and $(a+5)x + (b^2-15)y = 8b$ infinitely many
+solutions; max $ab$,Easy,1.5 min
+2023 Slot III,—,Exponents & Inequalities,$5^{n-1} < 3^{n+1}$ and $3^{n+1} < 2^{n+m}$ ; least
+integer $m$,Medium,2.0 min
+2023 Slot III,—,Functional Equations,"$f(3x+2y, 2x-5y) = 19x$ ; find $x$ when $f(x, 2x) =
+27$",Easy,1.5 min
+2023 Slot III,—,Infinite Series,$1 + (1+1/3)\frac{1}{4} + (1+1/3+1/9)\frac{1}{16} +
+\dots$,Medium,2.25 min
+2023 Slot III,—,Sequences (Common Terms),$a_n = 46 + 8n$ and $b_n = 98 + 4n$ ( $n \le
+100$ ); sum of common terms,Medium,2.0 min
+2024 Slot I,Q53,Quadratics (Common Root),"$x^2+mx+9=0$ , $x^2+nx+17=0$ , $x^2+
+(m+n)x+35=0$ share negative root",Medium,2.0 min
+2024 Slot I,Q54,Logarithms & GIF,$4\log_{10}x + 4\log_{100}x + 8\log_{1000}x = 13$ ; find
+$x$,Easy,1.5 min
+2024 Slot I,Q55,Algebraic Identities,$4(x^2+y^2+z^2) = a$ and $4(x-y-z) = 3+a$ ; find
+$a$,Medium,2.0 min
+2024 Slot I,Q62,Surds,Positive square root of $(29 - 12\sqrt{5})$ as $a + b\sqrt{n}$ ; max
+$a+b+n$,Easy,1.5 min
+2024 Slot I,Q65,Exponents,$(1/8)^k (1/32768)^{1/3} = (1/8)(1/32768)^k$ ; sum of real
+$k$,Easy,1.5 min
+
+--- PAGE ---
+
+2024 Slot I,Q66,Arithmetic Progression,"$x_5 = -4$ , $2x_9 = x_{11} + x_{13}$ ; find
+$x_{100}$",Easy,1.5 min
+2024 Slot I,Q68,Sequences & GIF,$a_n = \sqrt{n}$ ; find $a_1 + a_2 + \dots + a_{50}$,Easy,1.5
+min
+2024 Slot II,Q51,Surds / Equations,$(x + 6\sqrt{2})^{1/2} - (x - 6\sqrt{2})^{1/2} = 2\sqrt{2}$ ; find
+$x$,Easy,1.5 min
+2024 Slot II,Q55,Functional Equations,"$f(xy) = f(x)f(y) + f(x) + f(y)$ , $f(p) = 1$ ; find
+$f(160000)$",Medium,2.0 min
+2024 Slot II,Q56,Infinite Series,$\frac{1}{5}(1/5 - 1/7) + \frac{1}{5^2}(1/5^2 - 1/7^2) +
+\dots$,Easy,1.5 min
+2024 Slot II,Q60,Modulus Equations,$,x,+ x + y = 15$ and $x +
+2024 Slot II,Q61,Quadratics (Vieta's),"$3x^2 + \lambda x - 1 = 0$ , $1/\alpha^2 + 1/\beta^2 =
+15$ ; find $(\alpha^3 + \beta^3)^2$",Medium,2.0 min
+2024 Slot II,Q62,Rational Inequalities,All $x$ satisfying $1/(x+5) \le 1/(2x-3)$,Easy,1.25 min
+2024 Slot II,Q66,Logarithms,$a > 10 \ge b \ge c$ ; $\log_8(a+b)/\log_2 c + \log_{27}(a-b)/\log_3
+c = 2/3$ ; max int $a$,Hard,3.0 min
+2024 Slot II,Q67,Algebraic Identities,$4x^2 + 4y^2 - 4xy - 6y + 3 = 0$ ; find $4x + 5y$,Easy,1.5
+min
+2024 Slot III,Q47,Logarithms / Exponents,"$3^a=4, 4^b=5, \dots, 8^f=9$ ; find
+$abcdef$",Easy,1.0 min
+2024 Slot III,Q48,Modulus & Integers,"Distinct integer solutions $(x,y)$ to $",x+y,+
+2024 Slot III,Q56,Surds,$(a + b\sqrt{3})^2 = 52 + 30\sqrt{3}$ (naturals); find $a + b$,Easy,1.25
+min
+2024 Slot III,Q58,Exponents & Quadratics,$10^x + 4/10^x = 91/2$ ; sum of distinct real
+$x$,Easy,1.5 min
+2024 Slot III,Q59,Modulus & Max/Min,"$\max{x,2} - \min{x,2} =",x+2,-
+2024 Slot III,Q61,Functional Equations,$f(x) + 2f(1/x) = 3x$ ; sum of $x$ where $f(x) =
+3$,Easy,1.5 min
+2024 Slot III,Q63,Sequences (Telescoping),"$t_1=1, t_2=-1, t_n = \frac{n-3}{n-1}t_{n-2}$ ; $
+\sum_{k=1}^{1012} 1/t_{2k}$",Hard,3.0 min
+2024 Slot III,Q68,Linear Equations,"System of linear equations in $x, y$ with parameters $p,
+k, a$",Medium,2.0 min
+2025 Slot I,Q48,Logarithms & Inequalities,Distinct integers $n$ for $\log_{1/4}(n^2 - 7n + 11) >
+0$,Easy,1.5 min
+2025 Slot I,Q52,Inequalities (Integers),"Distinct integer pairs $(x,y)$ with $x > y \ge 3$ and
+$x + y < 14$",Easy,1.25 min
+2025 Slot I,Q53,Greatest Integer x,$3 \le x \le 6$ and $x^2 = x^2$ ; feasible subset
+$S$,Medium,2.25 min
+2025 Slot I,Q58,Quadratics,Non-negative integers $k$ for $x^2 - 5x + k = 0$ having integer
+roots,Easy,1.25 min
+2025 Slot I,Q61,Linear Equations,"Portfolio: 10 of A (₹120), 20 of B+C (₹90, ₹150) = ₹3300; find
+B",Easy,1.0 min
+2025 Slot I,Q62,Linear Equations,$a - 6b + 6c = 4$ and $6a + 3b - 3c = 50$ ; find $2a + 3b -
+3c$,Easy,1.25 min
+
+--- PAGE ---
+
+2025 Slot I,Q63,Quadratics (Optimization),$\min(x^2 - 4cx + 8c) > \max(-x^2 + 3cx - 2c)$ ; find
+$c$,Medium,1.75 min
+2025 Slot I,Q65,Arithmetic Progression,"Odd set $\{1,3,\dots,57\}$ ; sum $< k$ equals sum
+$> k$ ; find $k$",Easy,1.25 min
+2025 Slot I,Q68,Exponents & AP,$a_k = 3^k$ ; smallest $m$ for $(a_1)^1 \dots (a_{20})^{20}
+< a_{21}\dots a_{20+m}$,Medium,2.0 min
+2025 Slot II,Q47,Quadratics (Common Root),$3x^2-5x+p=0$ and $2x^2-2x+q=0$ share 1
+root; sum of other roots,Medium,2.0 min
+2025 Slot II,Q49,Logarithms & AM-GM,$\log_{64}x^2 + \log_8 y + 3\log_{512}(yz) = 4$ ; min
+$x+y+z$,Medium,2.25 min
+2025 Slot II,Q50,Modulus Inequalities,Real $x$ for $x^2 -,x + 9,+ x > 0$
+2025 Slot II,Q53,Geometric Progression,"Decreasing infinite GP: $a_1+a_2+a_3=52$ ,
+$a_1a_2+a_2a_3+a_3a_1=624$ ; $S_\infty$",Medium,2.25 min
+2025 Slot II,Q54,Functions (Domain),"$f(x)=x/(2x-1), g(x)=x/(x-1)$ ; domain of $f(g(x)) + g(f(x))
+$",Medium,2.0 min
+2025 Slot II,Q58,Optimization (Integers),Integers $a+b+c+d = 46$ ; min $(a-b)^2 + (a-c)^2 +
+(a-d)^2$,Medium,2.0 min
+2025 Slot II,Q60,Exponential Quadratics,$9^{x^2+2x-3} - 4(3^{x^2+2x-2}) + 27 = 0$ ; product of
+all possible $x$,Medium,2.0 min
+2025 Slot III,Q47,Algebraic Identities,$x^2 + x^{-2} = 25$ ( $x > 0$ ); find $x^7 +
+x^{-7}$,Hard,3.0 min
+2025 Slot III,Q48,Functions (Range),Range of $f(x) = (2x-3)/(2x^2-4x-6)$ for real
+$x$,Medium,2.25 min
+2025 Slot III,Q54,Polynomials,$f(x) = (x^2+3x)(x^2+3x+2)$ ; sum of real roots of $f(x)+1 =
+9701$,Medium,1.75 min
+2025 Slot III,Q60,Arithmetic Progression,$T_4+T_7+T_{10}=99$ and $S_{14}=497$ ; find
+$S_5$,Easy,1.5 min
+2025 Slot III,Q61,Inequalities (Optimization),"Naturals $p+q+r=900$ , $150 < r = k^2 < 500$ ,
+$0.3q \le p \le 0.7q$ ; max+min $p$",Hard,3.0 min
+2025 Slot III,Q67,Linear Optimization,"1500 students (₹1100, ₹1000, ₹800) total ₹15.5L; $S \le
+A$ ; max $S$",Medium,2.0 min
+2025 Slot III,Q68,Logarithms,$\log_{x-3}(x^2-9) = \log_{x-3}(x+1) + 2$ ; sum of real
+$x$,Medium,2.0 min
+3.3 Recurring Traps & Algebraic Shortcuts
+● Base-1 and Domain Traps in Logs: In 2025 Slot III (Q68), solving $\log_{x-3}(x^2-9) =
+\log_{x-3}(x+1) + 2$ yields two quadratic roots, but any root with $x - 3 \le 0$ or $x - 3
+= 1$ (i.e., $x = 4$ ) is invalid. Always verify the domain before summing roots.
+● Hidden Perfect Squares: Whenever you see $4(x^2+y^2+z^2) = a$ and $4(x-y-z) =
+3+a$ (2024 Slot I Q55) or $4x^2+4y^2-4xy-6y+3=0$ (2024 Slot II Q67), subtract or
+complete the square immediately—CAT loves collapsing underdetermined 3-variable
+systems into $(x - 1/2)^2 + (y + 1/2)^2 + (z + 1/2)^2 = 0$ .
+● Symmetry in max / min and |x| : Rewrite $\max\{a,b\} - \min\{a,b\} = |a - b|$ (2024
+Slot III Q59) to convert hybrid max/min equations into pure modulus equations.
+
+--- PAGE ---
+
+4. Geometry & Mensuration (~14–18% of QA)
+CAT Geometry has shifted away from obscure Euclidean circle-chasing toward area-ratio
+reasoning, similarity, coordinate geometry, and standard right-triangle/rhombus/
+trapezium properties . Nearly every Geometry problem in 2021–2025 can be solved in under 2
+minutes once a clean diagram is drawn and the right property is triggered.
+4.1 Topic Brief & Prerequisite Knowledge
+● Triangles, Similarity & Basic Trigonometry:
+● Area Ratio Theorems: Triangles sharing the same height have areas proportional to
+their bases ( $\frac{\text{Area}(\triangle ABD)}{\text{Area}(\triangle ADC)} = \frac{BD}
+{DC}$ ). Triangles sharing an angle $A$ have areas proportional to the product of
+adjacent sides: $\frac{\text{Area}(\triangle ADE)}{\text{Area}(\triangle ABC)} = \frac{AD
+\cdot AE}{AB \cdot AC}$ (2021 Slot II).
+● Medians & Midpoints: Medians divide a triangle into 6 smaller triangles of equal area
+( $1/6$ each). Connecting the midpoints of all three sides forms a medial triangle with
+$1/4$ the area of the original triangle; combined with medians, this gives exact fractional
+areas (2022 Slot III Q51, 2024 Slot III Q57).
+● Inradius & Right Triangles: For any triangle, $r = \frac{\Delta}{s}$ . For a right triangle
+with legs $a, b$ and hypotenuse $c$ , $r = \frac{a + b - c}{2}$ (tested in 2021 Slot I
+Q54, 2024 Slot I Q63, and 2024 Slot II Q65).
+● Sine & Cosine Rules: $c^2 = a^2 + b^2 - 2ab\cos C$ and $\text{Area} = \frac{1}{2}
+ab\sin C$ (essential for 2021 Slot III parallelogram and 2022 Slot II Q54).
+● Circles, Chords, Tangents & Cyclic Quadrilaterals:
+● Tangents & Angle Chasing: Tangents from an external point are equal ( $PQ = PR$ ).
+When a third tangent $AB$ cuts $PQ$ and $PR$ (2025 Slot II Q56), $\angle AOB =
+90^\circ - \frac{1}{2}\angle P$ , a classic angle-bisector property.
+● Similar Triangles in Cyclic Quadrilaterals: When diagonals $AC$ and $BD$ of a cyclic
+quadrilateral intersect at $E$ , $\triangle ABE \sim \triangle DCE$ and $\triangle ADE
+\sim \triangle BCE$ , giving $\frac{AE}{CE}$ via side ratios (2023 Slot I Q61).
+● Chords & Segments: Perpendicular from center $C$ bisects any chord. Area of a
+minor segment = Area of sector $-\text{Area}$ of triangle = $\frac{\theta}{360^\circ}\pi
+r^2 - \frac{1}{2}r^2\sin\theta$ (2024 Slot III Q49).
+● Polygons, Quadrilaterals & 3D Mensuration:
+● Regular Polygons: Sum of exterior angles $= 360^\circ$ ; each exterior angle $=
+\frac{360^\circ}{n}$ ; interior angle $= 180^\circ - \frac{360^\circ}{n}$ ; number of
+diagonals $= \frac{n(n-3)}{2}$ . Regular hexagon of side $a$ has area $6 \times
+\frac{\sqrt{3}}{4}a^2$ .
+● Rhombus: Diagonals bisect at $90^\circ$ , so $\left(\frac{d_1}{2}\right)^2 +
+\left(\frac{d_2}{2}\right)^2 = s^2$ and $\text{Area} = \frac{1}{2}d_1 d_2$ . Notice the
+algebraic link: $(d_1 \pm d_2)^2 = d_1^2 + d_2^2 \pm 2d_1d_2 = 4s^2 \pm 4\text{Area}
+$ (tested in 2021 Slot II, 2021 Slot III, and 2025 Slot I Q67).
+● Trapezium with Inscribed Circle: Height equals diameter $2r$ ; for a tangential
+quadrilateral, sums of opposite sides are equal ( $AB + CD = AD + BC$ ).
+
+--- PAGE ---
+
+● Box Inscribed in a Sphere: Space diagonal of a cuboid $l \times b \times h$ equals the
+sphere's diameter: $2R = \sqrt{l^2 + b^2 + h^2}$ , and $(l+b+h)^2 = (l^2+b^2+h^2) +
+2(lb+bh+hl)$ (2024 Slot I Q59).
+● Coordinate Geometry & Locus:
+● Parallelogram Vertices: Diagonals bisect each other, so $A + C = B + D$ coordinate￾wise (2022 Slot I Q55, 2025 Slot I Q59).
+● Circle Locus & Tangents: Distance from center $(h, k)$ to intersection of tangents
+inclined at $2\theta$ is $\frac{r}{\sin\theta}$ (2023 Slot I Q62).
+● Bounded Regions: Sketch the lines/circles carefully—often a region like $|x - y| - |x - 5|
+= 2$ (2023 Slot II) or $y \ge x + 4$ inside an annulus (2024 Slot I Q56) reduces to a
+simple semicircle or trapezium.
+4.2 Topic-Wise Question Breakdown (Geometry & Mensuration)
+The table below lists all retrieved Geometry and Mensuration questions from CAT 2021–2025,
+highlighting the recurring dominance of triangle area ratios, right-triangle incircles, and polygon/
+rhombus identities.
+Year & Slot,Q. No.,Subtopic,Key Problem Hook,Difficulty,Est. Time
+2021 Slot I,Q54,Circles & Right $\triangle$,Circle (diameter 8) inscribed in right $\triangle
+ABC$ ( $BC = 10$ ); find area,Easy,1.25 min
+2021 Slot I,Q58,Polygons & Triangles,Area of regular hexagon = area of equilateral $\triangle$
+of side 12 cm,Easy,1.0 min
+2021 Slot I,Q64,Regular Hexagon,"Regular hexagon $ABCDEF$ side 2 cm, $T$ midpoint of
+$CD$ ; find $AT$",Medium,1.75 min
+2021 Slot II,—,Triangles (Area Ratio),"$D, E$ on $AB, AC$ ( $AD:BD=2:1, AE:CE=2:3$ ); $
+\text{Area}(\triangle ADE)=8$ ; find $\triangle ABC$",Easy,1.0 min
+2021 Slot II,—,Trapezium & Parallelogram,"$P$ midpoint of $CD$ , $ABPD$ parallelogram;
+$\text{Area}(ABPD) - \text{Area}(\triangle BPC) = 10$",Easy,1.25 min
+2021 Slot II,—,Rhombus,"Rhombus area 12 sq cm, side 5 cm; length of longer
+diagonal",Easy,1.5 min
+2021 Slot III,—,Parallelogram & Trig,"Parallelogram $ABCD$ : $AD=10, AC=20, \angle
+ADC=30^\circ$ ; find area",Medium,2.0 min
+2021 Slot III,—,Mensuration Optimization,"Rectangular plot area 60000 sq ft; fence ₹200/ft on 1
+side, ₹100/ft on 3",Easy,1.25 min
+2021 Slot III,—,Rhombus,"Rhombus park area 96 sq m, perimeter 40 m; wire along both
+diagonals",Easy,1.25 min
+2022 Slot I,Q54,Circles & Rectangles,Rectangle of perimeter $P$ inscribed in circle of radius
+$R$ ; area,Easy,1.25 min
+2022 Slot I,Q55,Coordinate Geometry,"Parallelogram vertices $A(1,1), B(3,4), C(-2,8)$ ; find
+$D$",Easy,1.0 min
+2022 Slot I,Q59,Trapezium,"$AD \parallel BC, \angle BAD = 90^\circ, BC=3, AD=8$ , perimeter
+36; area",Easy,1.5 min
+2022 Slot II,Q51,Regular Polygons,"Polygons $A, B$ sides 1:2, interior angles 3:4; sides of
+$B$",Easy,1.25 min
+
+--- PAGE ---
+
+2022 Slot II,Q54,Triangles (Cosine Rule),Equilateral $\triangle ABC$ side 3; $D$ on $BC$
+with $\text{Area}(ADC) = \frac{1}{2}\text{Area}(ABD)$ ; $AD$,Medium,1.75 min
+2022 Slot II,Q59,Triangles & Trig,"Altitudes $AD, BE$ ; $\angle BAC = 45^\circ, \angle ABC =
+\theta$ ; find $AD/BE$",Medium,2.0 min
+2022 Slot III,Q49,Quadrilaterals,"Integer sides $1, 2, 4, x$ ; number of possible integer lengths
+$x$",Easy,1.0 min
+2022 Slot III,Q51,Triangles (Medians),"Medians $BD, CE$ meet at $O$ ; $\text{Area}(\triangle
+ABC) = 108$ ; find $\text{Area}(\triangle EOD)$",Easy,1.25 min
+2022 Slot III,Q54,Circles (Overlapping),"$AB=AC=8$ ; circle on diameter $BC$ passes through
+$A$ , circle center $A$",Medium,2.0 min
+2023 Slot I,Q61,Cyclic Quadrilaterals,"$AB:CD = 2:1, BC:AD = 5:4$ ; diagonals meet at $E$ ;
+find $AE:CE$",Medium,2.25 min
+2023 Slot I,Q62,Coordinate Geometry (Locus),Circle $x^2+y^2+4x-6y-3=0$ ; tangents at
+$60^\circ$ locus touches $x=6$,Medium,2.0 min
+2023 Slot I,Q63,Triangles (Area in AP),"Right $\triangle ABC$ ( $AB=5, BC=12$ ); $P, Q$ on
+$BC$ , areas in AP; find $PQ$",Easy,1.5 min
+2023 Slot II,—,Circles & Triangles,"Triangle in circle $C$ (radius $r$ ), one side diameter,
+others $a:b$ ; area",Easy,1.25 min
+2023 Slot II,—,Rectangles (Area in GP),"Rectangle $9 \times 6$ ; $P, Q$ on $BC$ , areas
+$ABP, APQ, AQCD$ in GP",Medium,2.0 min
+2023 Slot II,—,Coordinate Geometry,"Area bounded by $y$ -axis, $x=5$ , and $",x-y,-
+2023 Slot III,—,Triangles & Trig,"Isosceles $AB=AC$ , altitudes $AD, BE$ meet at $O$ ( $
+\angle AOB=105^\circ$ ); $AD/BE$",Medium,2.25 min
+2023 Slot III,—,Semicircle Optimization,Largest area rectangle in semicircle of radius 2; ratio of
+sides,Easy,1.5 min
+2023 Slot III,—,Regular Polygons,Interior angle exceeds exterior by $120^\circ$ ; number of
+diagonals,Easy,1.25 min
+2024 Slot I,Q56,Coordinate Geometry,Area of $y \ge x + 4$ and $-4 \le x^2 + y^2 + 5(x - y) \le
+0$,Hard,3.0 min
+2024 Slot I,Q59,3D Mensuration (Sphere),"Closed box in sphere: surface area 846, edge sum
+144; sphere volume",Medium,1.75 min
+2024 Slot I,Q63,Right Triangle & Incircle,"Rectangle $56 \times 45$ , $E$ midpoint of $CD$ ;
+inradius of $\triangle ADE$",Easy,1.25 min
+2024 Slot II,Q59,Circles (Tangent Circles),"3 equal mutually tangent circles; circles $X, Y$
+tangent to all 3; $R_X : R_Y$",Medium,2.25 min
+2024 Slot II,Q65,Coordinate & Incircle,"Triangle vertices $(1,2), (7,2), (1,10)$ ;
+inradius",Easy,1.25 min
+2024 Slot II,Q68,Trapezium & Similarity,"$AB \parallel CD$ , $AD, BC$ meet at $E$ ; $AB=2,
+CD=1$ , perim 6; perim $\triangle AEB$",Easy,1.25 min
+2024 Slot III,Q49,Circles (Segment Area),Chord $10\sqrt{3}$ m subtends $120^\circ$ at
+center; area of smaller region,Easy,1.5 min
+2024 Slot III,Q57,Triangles (Medians),"Midpoints $M, N, P$ ; medians intersect $MP, MN, NP$
+at $X, Y, Z$ ; area",Medium,2.0 min
+
+--- PAGE ---
+
+2024 Slot III,Q67,Regular Octagon,Regular octagon side 6 cm; area of square
+$ACEG$,Medium,1.75 min
+2025 Slot I,Q49,Circles & Chords,"Radius $6\sqrt{2}$ , parallel chords $PQ, SR$ ( $\angle
+PQC=45^\circ$ , dist 3:2); area $PQRS$",Medium,2.25 min
+2025 Slot I,Q59,Coordinate Geometry,"Parallelogram $P(-3,-2), Q(1,-5), R(9,1)$ ; $SQ$ cuts
+$x$ -axis at $(a,0)$",Easy,1.5 min
+2025 Slot I,Q67,Rhombus,"Side 36 cm, area 396 sq cm; $",d_1 - d_2,$
+2025 Slot II,Q48,Regular Hexagon,"$P, Q$ midpoints of $AB, CD$ ; $\text{Area}(PBCQ) :
+\text{Area}(ABCDEF)$",Medium,1.75 min
+2025 Slot II,Q56,Circles & Tangents,"Tangents $PQ, PR$ from $P$ ; third tangent $AB$ on
+$PQ, PR$ ; $\angle AOB=50^\circ$ ; $\angle APB$",Medium,1.75 min
+2025 Slot II,Q62,Triangles (Mass Points),"$D$ on $BC$ , $E$ on $AC$ ; $AD:AT=4:3$ ,
+$BE:BT=5:4$ ; $DF \parallel BE$ ; $BD:CD$",Hard,3.0 min
+2025 Slot III,Q58,Triangles (Altitudes),"Isosceles $AB=AC=50, BC=80$ ; sum of all 3
+altitudes",Easy,1.25 min
+2025 Slot III,Q64,Trapezium & Incircle,"$AB \parallel DC, AD \perp AB, AB=3DC$ ; incircle
+radius 3 cm; area",Medium,1.75 min
+2025 Slot III,Q65,Triangles (Similarity),"$AB=AC=12$ , $D$ on $BC$ ( $AD=8$ ); $AD$
+extended to $E$ ( $\angle ACB=\angle AEB$ ); $AE$",Medium,1.75 min
+4.3 Recurring Traps & Shortcuts in Geometry
+● The Rhombus Identity: Instead of solving a quadratic for $d_1$ and $d_2$
+individually, compute $(d_1 + d_2)^2 = 4s^2 + 4A$ and $(d_1 - d_2)^2 = 4s^2 - 4A$
+directly (saves 60+ seconds in 2021 Slot II and 2025 Slot I Q67).
+● Mass Point Geometry / Menelaus: For intersecting cevians inside a triangle (such as
+2025 Slot II Q62), assigning masses at vertices so $T$ balances both $AD$ and
+$BE$ avoids messy parallel-line constructions.
+5. Number Systems (~8–10% of QA)
+Number Systems appears in smaller volume (typically 2–3 questions per slot), yet it produces
+some of the cleanest Round-1 points when you know factor counting, modular cyclicity, and
+place-value algebra.
+5.1 Topic Brief & Prerequisite Knowledge
+● Divisibility, Remainders, Factors & Prime Factorization:
+● Number & Sum of Factors: For $N = p_1^{a_1} p_2^{a_2} \cdots p_k^{a_k}$ , total
+factors $= (a_1+1)(a_2+1)\cdots(a_k+1)$ . To count factors of a specific modular form
+like $3r + 1$ (2025 Slot II Q63), exclude all powers of $3$ , classify remaining primes
+by $\pmod 3$ ( $p \equiv 1 \pmod 3$ gives any power; $p \equiv 2 \pmod 3$ requires
+an even combined exponent of all $\equiv 2$ primes).
+● Highest Power in $N!$ (Legendre's Formula): $\sum_{i \ge 1} \lfloor N / p^i \rfloor$ .
+Used for divisibility of factorials like $(15000)!$ by $(n!)!$ (2022 Slot II Q61).
+● Remainders & Euler's Totient: For coprime $a$ and $m$ , $a^{\phi(m)} \equiv 1
+\pmod m$ . Since $\phi(7) = 6$ and $\phi(13) = 12$ , large powers like $10^{100}
+
+--- PAGE ---
+
+\pmod 7$ (2024 Slot I Q47) or $10^{68} \pmod{13}$ (2024 Slot III Q53) reduce in two
+lines.
+● Sum of Digits of Powers of $2$ and $5$ : Pair $5^a \times 2^b$ into $10^{\min(a,b)}
+$ plus the leftover power of $2$ or $5$ (e.g., $(625)^{65} \times (128)^{36}$ in 2025
+Slot II Q66).
+● Digits, Place Value & Integer Constraints:
+● 3-Digit & 4-Digit Place Value: Represent digits as $100a + 10b + c$ or $1000a + 100b
++ 10c + d$ . Reversing a 3-digit number changes its value by $99(c - a)$ (2021 Slot I
+Q46).
+● Sum of All Permutations of $n$ Distinct Digits: If $n$ distinct non-zero digits form $n!
+$ numbers, each digit appears $(n-1)!$ times in each place, so the total sum is $(n-1)!
+\times (a+b+c+d) \times 1111$ (for $n=4$ , $6 \times (a+b+c+d) \times 1111 =
+6666(a+b+c+d)$ , tested in 2024 Slot I Q50).
+5.2 Topic-Wise Question Breakdown (Number Systems)
+The table below catalogs all retrieved Number Systems questions across CAT 2021–2025; note
+how strongly the section skews toward Easy and Medium items when standard modular or
+prime-power templates are applied.
+Year & Slot,Q. No.,Subtopic,Key Problem Hook,Difficulty,Est. Time
+2021 Slot I,Q46,Digits & Place Value,3-digit numbers $> 100$ that increase by 198 when
+reversed,Easy,1.25 min
+2021 Slot II,—,Digits & Place Value,"4-digit number: $T+H+T_e = 14$ , $H+T_e+U = 15$ ,
+$T_e = U+4$ ; max number",Easy,1.25 min
+2022 Slot I,Q45,Divisibility,Largest $A$ dividing $3^k+4^k+5^k$ and $B$ dividing
+$4^k+3(4^k)+4^{k+2}$,Easy,1.25 min
+2022 Slot II,Q61,Factorials,Largest $n$ such that $(15000)!$ is divisible by $(n!)!$,Easy,1.5
+min
+2022 Slot III,Q47,Digits & Averages,Arithmetic mean of all distinct rearrangements of digits in
+$1421$,Easy,1.25 min
+2022 Slot III,Q60,LCM & Divisibility,"School $< 5000$ : teams of $9,10,12,25$ leave 4; teams
+of 11 leave 0",Medium,2.0 min
+2023 Slot I,Q46,Factors & Multiples,Least $n$ for $168 \mid 1134^n$ ; least $m$ for
+$1134^n \mid 168^m$ ; $m+n$,Easy,1.5 min
+2023 Slot II,—,HCF / Divisibility,$k$ divides $m+2n$ and $3m+4n$ ; $k$ must be common
+divisor of,Easy,1.0 min
+2023 Slot II,—,Prime Factorization,"$a^m b^n = 144^{145}$ ( $a,b>1$ ); largest $n -
+m$",Medium,1.75 min
+2023 Slot III,—,Powers & Counting,41 integers between $8^m$ and $8^n$ are powers of 2;
+min $n + m$,Easy,1.5 min
+2024 Slot I,Q47,Remainders,Remainder when $10^{100}$ is divided by 7,Easy,1.0 min
+2024 Slot I,Q50,Digits & Permutations,"Sum of all 4-digit numbers from $a,b,c,d$ is $153310
++ n$ ; $a+b+c+d+n$",Medium,2.0 min
+2024 Slot II,Q48,Remainders,Remainder when $3^{333}$ is divided by 11,Easy,1.0 min
+
+--- PAGE ---
+
+2024 Slot II,Q49,Prime Factorization,"Naturals $m, n > 1$ : $m^n = 2^{25} \times 3^{40}$ ; find
+$m - n$",Easy,1.25 min
+2024 Slot III,Q53,Remainders,Remainder when $10^{68}$ is divided by 13,Easy,1.0 min
+2025 Slot I,Q60,Digits & Factors,"3-digit $N$ , distinct non-zero digits, no perfect square, 1
+prime; factors of min $N$",Medium,1.75 min
+2025 Slot II,Q61,Divisibility (Naturals),"Distinct naturals $a,b,c$ : $3ac = 8(a+b)$ ; min
+$3a+2b+c$",Medium,2.25 min
+2025 Slot II,Q63,Factors (Modular Form),Divisors of $2^6 \times 3^5 \times 5^3 \times 7^2$ of
+the form $3r + 1$,Medium,2.25 min
+2025 Slot II,Q66,Sum of Digits,Sum of digits of $(625)^{65} \times (128)^{36}$,Easy,1.5 min
+2025 Slot II,Q68,Integer Factoring,"Integers $m, n$ : $(m+2n)(2m+n) = 27$ ; max $2m -
+3n$",Easy,1.5 min
+2025 Slot III,Q49,Digits & Place Value,"4-digit: $T+H+T_e=15, H+T_e+U=16, T_e=U+6$ ; max
+- min",Medium,1.75 min
+2025 Slot III,Q57,Sum of Digits,Sum of digits of $10^{50} + 10^{25} - 123$,Easy,1.0 min
+2025 Slot III,Q66,Prime Factorization,$12^{12x} \cdot 4^{24x+12} \cdot 5^{2y} = 8^{4z} \cdot
+20^{12x} \cdot 243^{3x-6}$ ; $x+y+z$,Medium,2.0 min
+5.3 Recurring Traps in Number Systems
+● Leading Zero & Distinctness: In digit-counting and place-value questions (2021 Slot I
+Q46, 2025 Slot I Q60), remember that the leading digit cannot be $0$ and check
+whether digits must be distinct.
+● Negative Factors in Integer Equations: When factoring $(m+2n)(2m+n) = 27$ for
+integers $m, n$ (2025 Slot II Q68), check negative factor pairs $(-1, -27)$ and $(-3,
+-9)$ in addition to positive pairs.
+6. Modern Math — Combinatorics, Set Theory & Probability (~5–8% of QA)
+Modern Math has the lowest question count per slot (1–2 questions), but those questions are
+disproportionately high-value when you know the standard counting templates (stars-and-bars,
+inclusion-exclusion, onto functions, and 3-set Venn bounds).
+6.1 Topic Brief & Prerequisite Knowledge
+● Counting, Arrangements, Distribution & Functions:
+● Identical Distribution (Stars and Bars): Distributing $n$ identical objects into $r$
+distinct boxes with each getting $\ge 1$ takes $\binom{n-1}{r-1}$ ways. If each child
+must receive an even positive number of balloons (2022 Slot I Q57), divide all counts
+by 2 first and distribute $10$ pairs among $4$ children with $\ge 1$ each: $
+\binom{9}{3}$ .
+● Onto (Surjective) Functions: Number of functions from an $m$ -element set to an $n$
+-element set ( $n=3$ ) such that every element in $B$ is mapped is $3^m - \binom{3}
+{1}2^m + \binom{3}{2}1^m$ (2024 Slot I Q58).
+● Digit & Path Counting: Use complement counting when "at least once" appears (e.g.,
+2021 Slot II 4-digit numbers using $\{1,2,3\}$ with both 2 and 3). For multi-stage path
+
+--- PAGE ---
+
+networks (2024 Slot II Q64), convert "via X" and "via Y" into a small linear/product
+system.
+● Set Theory (2-Set & 3-Set Maxima/Minima):
+● 3-Set Inclusion–Exclusion: $n(A \cup B \cup C) = n(A) + n(B) + n(C) - n(A \cap B) - n(B
+\cap C) - n(C \cap A) + n(A \cap B \cap C)$ .
+● Maxima/Minima of Triple Intersection: For 3 sets in a universe $U$ where "none" is
+allowed (2022 Slot I Q49), the maximum of $n(A \cap B \cap C)$ is $\min(n(A), n(B),
+n(C))$ . To minimize $n(A \cap B \cap C)$ , minimize pairwise overlaps by pushing "at
+least one" up to $U$ and packing elements into "exactly two" regions, or use $n(A \cap
+B \cap C)_{\min} \ge n(A) + n(B) + n(C) - 2U$ (clamped at $0$ ).
+6.2 Topic-Wise Question Breakdown (Modern Math)
+The table below catalogs all retrieved Modern Math questions across CAT 2021–2025,
+demonstrating that almost every question in this domain is a rapid Easy or Medium template
+unless it combines 3-set optimization with nested algebraic constraints.
+Year & Slot,Q. No.,Subtopic,Key Problem Hook,Difficulty,Est. Time
+2021 Slot II,—,Counting (Digits),"4-digit numbers from $\{1,2,3\}$ with both 2 and 3 appearing
+at least once",Easy,1.25 min
+2022 Slot I,Q49,Set Theory (3-Set Opt.),"100 students: 73 coffee, 80 tea, 52 lemonade; max -
+min liking all 3",Easy,1.5 min
+2022 Slot I,Q57,Distribution (Stars & Bars),"Distribute 20 identical balloons among 4 children
+(even, $\ge 2$ each)",Easy,1.25 min
+2022 Slot II,Q55,Counting (Digits),"Integers $> 2000$ from $\{0,1,2,3,4,5\}$ without
+repetition",Medium,1.75 min
+2023 Slot I,Q65,Counting (Digits),Natural numbers up to 1000 with non-repeating
+digits,Easy,1.25 min
+2024 Slot I,Q58,Functions (Onto),Onto functions from $A$ (6 elements) to $B$ (3
+elements),Easy,1.25 min
+2024 Slot II,Q64,Counting (Paths),"Towns $P,Q,R,S$ with given direct paths; 62 ways $P \to
+S$ , 27 ways $Q \to R$",Medium,2.25 min
+2024 Slot III,Q55,Set Theory (2-Set Opt.),250 students (44%–60% girls); swimming & running
+%; min/max both,Medium,2.0 min
+2024 Slot III,Q64,Counting (Digits),Positive integers up to 500 with non-repeating digits,Easy,1.5
+min
+2025 Slot I,Q56,Counting (Combinations),"5 sandwiches, 4 breads, 2 sizes, up to 2 of 6
+sauces",Easy,1.25 min
+2025 Slot III,Q53,Set Theory (3-Set Opt.),"150 students: P(75), M(111), C(40); $P\cap C =
+C\cap M = \frac{1}{2}(P\cap M)$ ; max $P \setminus M$",Hard,3.0 min
+6.3 Recurring Traps in Modern Math
+● Zero as a Leading Digit & Upper Bounds: When counting "up to 500" or "up to
+1000" with non-repeating digits (2023 Slot I Q65, 2024 Slot III Q64), split cleanly into 1-
+digit, 2-digit, and 3-digit numbers, and remember that 500/1000 themselves have
+repeated zeros.
+
+--- PAGE ---
+
+● "Up to 2 sauces": In 2025 Slot I Q56, "up to 2 out of 6" means $\binom{6}{0} +
+\binom{6}{1} + \binom{6}{2} = 1 + 6 + 15 = 22$ choices, not $\binom{6}{2}$ .
+7. Phased Practice & 40-Minute Execution Roadmap
+To convert this 5-year archive into consistent exam-day execution, structure your preparation in
+three sequential phases rather than solving papers randomly:
+● Phase 1 — Foundation & Round-1 Speed Drills (Weeks 1–2):
+● Filter exclusively for the Easy questions in Arithmetic and Geometry across 2021–
+2025. Practice in timed sets of 10 questions with a strict 15-minute cap . Your goal is
+90%+ accuracy and instant recognition of standard setups (rhombus diagonal identity,
+meeting-after-crossing TSD, ratio-first P&L, and 2-step replacement).
+● Phase 2 — Medium-Tier Synthesis & Algebra Mastery (Weeks 3–4):
+● Move to the Medium questions in Algebra (Logarithms, Vieta's, Modulus, AP/GP) and
+Number Systems (remainders, factor forms). Drill domain checks on log/rational
+equations and case-splitting on modulus/GIF until they become automatic.
+● Phase 3 — Full 40-Minute Slot Simulations (Weeks 5–6):
+● Take full 22-question QA slots from CAT 2024 and CAT 2025 under strict 40-minute
+exam conditions using a three-pass triage rule :
+● Pass 1 (Minutes 0–15): Scan Q47–Q68 and solve all Easy 1-to-1.5-minute setups
+immediately; mark Mediums and skip Hards on sight.
+● Pass 2 (Minutes 15–32): Return to marked Medium Arithmetic, Geometry, and clean
+Algebra problems.
+● Pass 3 (Minutes 32–40): Attack 1–2 selected Hard problems only if Pass 1 and Pass 2
+are cleanly banked.

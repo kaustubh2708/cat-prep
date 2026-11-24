@@ -1,0 +1,3042 @@
+[
+  {
+    "year": 2021,
+    "slot": 1,
+    "qNum": 45,
+    "domain": "Arithmetic",
+    "subtopic": "Mixtures & Replacement",
+    "hook": "Two 800 cc indigo bottles (33% and 17% strengths) mixed to 21%",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2021,
+    "slot": 1,
+    "qNum": 53,
+    "domain": "Arithmetic",
+    "subtopic": "Compound Interest",
+    "hook": "Consecutive 2nd and 3rd year CI (\u20b9806.25, \u20b9866.72); find 4th year CI",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2021,
+    "slot": 1,
+    "qNum": 59,
+    "domain": "Arithmetic",
+    "subtopic": "Profit & Loss",
+    "hook": "Pens at \u20b98 each, employee wage, 100 at \u20b912, rest at \u20b911 vs \u20b99 (\u00b1\u20b9300)",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2021,
+    "slot": 1,
+    "qNum": 61,
+    "domain": "Arithmetic",
+    "subtopic": "Percentages & P&L",
+    "hook": "Large vs small chocolate boxes; 2\u00d7 price, 12% less price/ gram",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2021,
+    "slot": 1,
+    "qNum": 63,
+    "domain": "Arithmetic",
+    "subtopic": "Averages (Harmonic)",
+    "hook": "Onion expenses over 5 months (Rs 10, 20, 25, 25, 50/ kg); half spend in last 2",
+    "difficulty": "Medium",
+    "expectedTime": "1.75 min"
+  },
+  {
+    "year": 2021,
+    "slot": 1,
+    "qNum": 47,
+    "domain": "Arithmetic",
+    "subtopic": "Ratios & Equations",
+    "hook": "Daily earnings: Neeta + Geeta = 6\u00d7Sita; Sita + Neeta = 2\u00d7Geeta",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2021,
+    "slot": 1,
+    "qNum": 48,
+    "domain": "Arithmetic",
+    "subtopic": "Time & Work",
+    "hook": "Anu (15d), Vinu (12d), Manu (20d); Vinu daily, Anu/Manu alternate",
+    "difficulty": "Medium",
+    "expectedTime": "1.75 min"
+  },
+  {
+    "year": 2021,
+    "slot": 1,
+    "qNum": 57,
+    "domain": "Arithmetic",
+    "subtopic": "Time & Work",
+    "hook": "Amar+Akbar (1 yr), Akbar+Anthony (16m), Anthony+Amar (2 yrs); middle worker",
+    "difficulty": "Medium",
+    "expectedTime": "1.75 min"
+  },
+  {
+    "year": 2021,
+    "slot": 1,
+    "qNum": 55,
+    "domain": "Arithmetic",
+    "subtopic": "TSD (Trains)",
+    "hook": "Opposite trains cross in 14s; faster 160m crosses lamp post in 12s; 6 km/h diff",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2021,
+    "slot": 2,
+    "qNum": null,
+    "domain": "Arithmetic",
+    "subtopic": "Ratios & Partnership",
+    "hook": "Anil (70%), Bobby, Chintu; profit shifts (18%\u219215% and 15%\u219217%)",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2021,
+    "slot": 2,
+    "qNum": null,
+    "domain": "Arithmetic",
+    "subtopic": "Mixtures & P&L",
+    "hook": "Tea at Rs 800, 500, 300 in 2:3:5; 1/6th at Rs 700, 50% overall profit",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2021,
+    "slot": 2,
+    "qNum": null,
+    "domain": "Arithmetic",
+    "subtopic": "Mixtures & Replacement",
+    "hook": "9L milk drawn and replaced twice; final milk:water = 16:9",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2021,
+    "slot": 2,
+    "qNum": null,
+    "domain": "Arithmetic",
+    "subtopic": "Time & Work (Wages)",
+    "hook": "Anil (60d), Bimal (84d); 10d Anil + 14d all with Charu; Charu's share of \u20b921000",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2021,
+    "slot": 2,
+    "qNum": null,
+    "domain": "Arithmetic",
+    "subtopic": "Pipes & Cisterns",
+    "hook": "Pipe A fills from 2pm, drain B from 3pm (full 10pm) vs 4pm (full 6pm)",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2021,
+    "slot": 2,
+    "qNum": null,
+    "domain": "Arithmetic",
+    "subtopic": "TSD (Trains)",
+    "hook": "Opposite trains A:B speeds 5:3; 46s front-to-rear, +69s rear-to\uffferear",
+    "difficulty": "Medium",
+    "expectedTime": "2.25 min"
+  },
+  {
+    "year": 2021,
+    "slot": 2,
+    "qNum": null,
+    "domain": "Arithmetic",
+    "subtopic": "TSD (Circular Track)",
+    "hook": "Mira & Amal: same dir 45 min (3 more rounds), opposite 3 min meet",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2021,
+    "slot": 3,
+    "qNum": null,
+    "domain": "Arithmetic",
+    "subtopic": "Time & Work (Wages)",
+    "hook": "Anil (12d), Barun (16d), Chandu; together 6d for Rs 24000; Chandu's share",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2021,
+    "slot": 3,
+    "qNum": null,
+    "domain": "Arithmetic",
+    "subtopic": "Averages (Optimization)",
+    "hook": "Mean of 25 students is 50; 5 toppers equal, others distinct \u2265 30",
+    "difficulty": "Medium",
+    "expectedTime": "2.25 min"
+  },
+  {
+    "year": 2021,
+    "slot": 3,
+    "qNum": null,
+    "domain": "Arithmetic",
+    "subtopic": "Percentages (Population)",
+    "hook": "1970\u20131980 (+25% total; M +40%, F +20%); 1980\u2013 1990 (F +25%, F = 2M)",
+    "difficulty": "Hard",
+    "expectedTime": "3.0 min"
+  },
+  {
+    "year": 2021,
+    "slot": 3,
+    "qNum": null,
+    "domain": "Arithmetic",
+    "subtopic": "Percentages (Matches)",
+    "hook": "40 matches (30% won); 60% of remaining \u2192 50% total; if 90% of remaining",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2021,
+    "slot": 3,
+    "qNum": null,
+    "domain": "Arithmetic",
+    "subtopic": "Time & Work",
+    "hook": "Rahul at 9 AM, Gautam +2h later (finish 5 PM); both at 9 AM \u2192 30 min early",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2021,
+    "slot": 3,
+    "qNum": null,
+    "domain": "Arithmetic",
+    "subtopic": "Simple & Compound Interest",
+    "hook": "Bank A (6% CI half-yearly, 1 yr) = Raju in Bank B (SI); Rupa in Bank C (2r, 2t)",
+    "difficulty": "Medium",
+    "expectedTime": "2.25 min"
+  },
+  {
+    "year": 2022,
+    "slot": 1,
+    "qNum": 47,
+    "domain": "Arithmetic",
+    "subtopic": "Simple Interest",
+    "hook": "15% for 4 yrs on Part 1 = 12% for 3 yrs on Part 2; % in Part 1",
+    "difficulty": "Easy",
+    "expectedTime": "1.0 min"
+  },
+  {
+    "year": 2022,
+    "slot": 1,
+    "qNum": 50,
+    "domain": "Arithmetic",
+    "subtopic": "Mixtures & Ratios",
+    "hook": "Equal lemon+syrup mixed with syrup in 1:3; new ratio",
+    "difficulty": "Easy",
+    "expectedTime": "1.0 min"
+  },
+  {
+    "year": 2022,
+    "slot": 1,
+    "qNum": 52,
+    "domain": "Arithmetic",
+    "subtopic": "Profit & Loss (Mixtures)",
+    "hook": "110 kg syrup, 120 kg juice (20% cheaper); 10/20 kg sold; rest at \u20b9308.32 (64% profit)",
+    "difficulty": "Hard",
+    "expectedTime": "3.0 min"
+  },
+  {
+    "year": 2022,
+    "slot": 1,
+    "qNum": 53,
+    "domain": "Arithmetic",
+    "subtopic": "Ratios & Percentages",
+    "hook": "Village M:F = 5:4; literate M:F = 2:3; illiterate M:F = 4:3; 3600 lit males",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2022,
+    "slot": 1,
+    "qNum": 61,
+    "domain": "Arithmetic",
+    "subtopic": "Averages",
+    "hook": "3 integers avg 13; include natural $n$ , avg of 4 is odd integer; min $n$",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2022,
+    "slot": 1,
+    "qNum": 63,
+    "domain": "Arithmetic",
+    "subtopic": "Profit & Loss (Ratios)",
+    "hook": "4 kg cashews, 14 kg peanuts, 6 kg almonds; 7C=30P=9A; MP/discount profit",
+    "difficulty": "Hard",
+    "expectedTime": "3.0 min"
+  },
+  {
+    "year": 2022,
+    "slot": 1,
+    "qNum": 64,
+    "domain": "Arithmetic",
+    "subtopic": "Averages (Alligation)",
+    "hook": "Avg weight +600g when new students (+3 kg above orig avg) join; ratio",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2022,
+    "slot": 1,
+    "qNum": 65,
+    "domain": "Arithmetic",
+    "subtopic": "Ratios",
+    "hook": "Queue: ahead:behind = 3:5; total < 300; max ahead",
+    "difficulty": "Easy",
+    "expectedTime": "1.0 min"
+  },
+  {
+    "year": 2022,
+    "slot": 1,
+    "qNum": 66,
+    "domain": "Arithmetic",
+    "subtopic": "TSD (Meeting)",
+    "hook": "Trains A & B meet; A reaches Y in 10 min total, B takes 9 min after meeting",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2022,
+    "slot": 2,
+    "qNum": 47,
+    "domain": "Arithmetic",
+    "subtopic": "Averages & Savings",
+    "hook": "Manu earns Rs 4000/m, target Rs 550/m savings; expenses Rs 3500 (9m), Rs 3700 (3m)",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2022,
+    "slot": 2,
+    "qNum": 48,
+    "domain": "Arithmetic",
+    "subtopic": "Time & Work",
+    "hook": "Anu:Tanu:Manu time 5:8:10; 4d \u00d7 8h together; Anu+Tanu 6d \u00d7 6h40m; Manu left",
+    "difficulty": "Medium",
+    "expectedTime": "2.25 min"
+  },
+  {
+    "year": 2022,
+    "slot": 2,
+    "qNum": 49,
+    "domain": "Arithmetic",
+    "subtopic": "Averages (Optimization)",
+    "hook": "5 students (0\u201350), avg 38, 3 > 32, distinct, Amit least; max\u2013min Amit",
+    "difficulty": "Medium",
+    "expectedTime": "2.5 min"
+  },
+  {
+    "year": 2022,
+    "slot": 2,
+    "qNum": 52,
+    "domain": "Arithmetic",
+    "subtopic": "Mixtures & Replacement",
+    "hook": "Two half-filled containers (syrup, milk); 3 half-content transfers",
+    "difficulty": "Medium",
+    "expectedTime": "2.25 min"
+  },
+  {
+    "year": 2022,
+    "slot": 2,
+    "qNum": 53,
+    "domain": "Arithmetic",
+    "subtopic": "TSD (Right Triangle)",
+    "hook": "Ships go South & West; 2h later 60 km apart; speed diff 6 km/h",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2022,
+    "slot": 2,
+    "qNum": 58,
+    "domain": "Arithmetic",
+    "subtopic": "Percentages (Votes)",
+    "hook": "80% voted; 1 got 30%, others 1:2:3; winner beat 2nd by 2512 votes",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2022,
+    "slot": 2,
+    "qNum": 60,
+    "domain": "Arithmetic",
+    "subtopic": "Simple Interest",
+    "hook": "1/5 at 6%, 1/3 at 10%, rest at 1%; min years for interest \u2265 capital",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2022,
+    "slot": 2,
+    "qNum": 62,
+    "domain": "Arithmetic",
+    "subtopic": "Averages",
+    "hook": "Non-decreasing $a_1 \\dots a_N$ avg 300; $a_1 \\to 6a_1$ makes avg 400; possible $a_1$",
+    "difficulty": "Hard",
+    "expectedTime": "3.0 min"
+  },
+  {
+    "year": 2022,
+    "slot": 3,
+    "qNum": 45,
+    "domain": "Arithmetic",
+    "subtopic": "Time & Work (Man-Days)",
+    "hook": "$N$ people finish 35% in 10d \u00d7 7h; 10 leave, rest finish in 14d \u00d7 10h",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2022,
+    "slot": 3,
+    "qNum": 48,
+    "domain": "Arithmetic",
+    "subtopic": "TSD (Escalator)",
+    "hook": "Moody: 30s at normal speed, 20s at 2\u00d7 speed; find stand-still time",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2022,
+    "slot": 3,
+    "qNum": 52,
+    "domain": "Arithmetic",
+    "subtopic": "Time & Work (Roster)",
+    "hook": "Bob (40d), Alex (2\u00d7 Bob), Cole (Alex/3); 3-day rotating pairs; Alex's days",
+    "difficulty": "Medium",
+    "expectedTime": "2.25 min"
+  },
+  {
+    "year": 2022,
+    "slot": 3,
+    "qNum": 55,
+    "domain": "Arithmetic",
+    "subtopic": "Mixtures & Replacement",
+    "hook": "500 cc milk & water; 150 cc milk\u2192water, then 150 cc mix\u2192milk; ratio",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2022,
+    "slot": 3,
+    "qNum": 57,
+    "domain": "Arithmetic",
+    "subtopic": "Averages (Alligation)",
+    "hook": "Sec A (avg 32), Sec B (avg 60); $A = B - 10$ ; combined avg is integer",
+    "difficulty": "Medium",
+    "expectedTime": "2.25 min"
+  },
+  {
+    "year": 2022,
+    "slot": 3,
+    "qNum": 59,
+    "domain": "Arithmetic",
+    "subtopic": "TSD + Geometry",
+    "hook": "Ships & port form 24 km equilateral $\\triangle$ ; slower moves 8 km \u2192 right $\\triangle$",
+    "difficulty": "Hard",
+    "expectedTime": "3.25 min"
+  },
+  {
+    "year": 2022,
+    "slot": 3,
+    "qNum": 61,
+    "domain": "Arithmetic",
+    "subtopic": "TSD (Relative Speed)",
+    "hook": "Cars meet in 1.5h (opposite) vs 10.5h (same dir); slower 60 km/h",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2022,
+    "slot": 3,
+    "qNum": 62,
+    "domain": "Arithmetic",
+    "subtopic": "Averages (Optimization)",
+    "hook": "6 distinct naturals; avg of 2 smallest = 14, 2 largest = 28; max avg",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2022,
+    "slot": 3,
+    "qNum": 66,
+    "domain": "Arithmetic",
+    "subtopic": "Simple Interest",
+    "hook": "Rs 20000 split: 8k at 5.5%, 5k at 5.6%, rest at $x\\%$ ; overall 5%",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2023,
+    "slot": 1,
+    "qNum": 52,
+    "domain": "Arithmetic",
+    "subtopic": "TSD (Clocks)",
+    "hook": "Minor angle at 8:48 am; min time for angle to increase by 50%",
+    "difficulty": "Medium",
+    "expectedTime": "2.25 min"
+  },
+  {
+    "year": 2023,
+    "slot": 1,
+    "qNum": 53,
+    "domain": "Arithmetic",
+    "subtopic": "Mixtures & Replacement",
+    "hook": "Coffee\u2192cocoa twice; final ratio 16:9; ratio of cocoa in P to Q",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2023,
+    "slot": 1,
+    "qNum": 54,
+    "domain": "Arithmetic",
+    "subtopic": "Averages & Inequalities",
+    "hook": "4 girls, 6 boys avg 24; $b \\le g \\le 2b$ ; distinct integer totals for 2G+6B",
+    "difficulty": "Medium",
+    "expectedTime": "2.5 min"
+  },
+  {
+    "year": 2023,
+    "slot": 1,
+    "qNum": 55,
+    "domain": "Arithmetic",
+    "subtopic": "TSD (Palindromes)",
+    "hook": "8h trip from palindrome $x$ to 26862; max speed $\\le 110$ ; max avg speed",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2023,
+    "slot": 1,
+    "qNum": 56,
+    "domain": "Arithmetic",
+    "subtopic": "Profit & Loss",
+    "hook": "Same SP: +20% on A, -10% on B; new equal SP gives +10% on B; % on A",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2023,
+    "slot": 1,
+    "qNum": 57,
+    "domain": "Arithmetic",
+    "subtopic": "Percentages & Averages",
+    "hook": "Salaries 5:6:7; Yr 1 hikes 20%, 25%, 20%; Yr 2: 40%, $x\\%$ , 25% \u2192 Gita = mean",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2023,
+    "slot": 1,
+    "qNum": 58,
+    "domain": "Arithmetic",
+    "subtopic": "TSD (Meeting)",
+    "hook": "Arvind (54 km/h) & Surbhi meet; 6h and 24h post-meeting; total distance",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2023,
+    "slot": 1,
+    "qNum": 59,
+    "domain": "Arithmetic",
+    "subtopic": "Compound & Simple Interest",
+    "hook": "Anil Rs 22k (6y, 4% CI half-yearly) = Sunil (5y CI + 1y 10% SI)",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2023,
+    "slot": 1,
+    "qNum": 60,
+    "domain": "Arithmetic",
+    "subtopic": "Time & Work (HP)",
+    "hook": "Daily work rates in HP; Kamal takes 2\u00d7 Amal; 4d, 9d, 16d finish job",
+    "difficulty": "Medium",
+    "expectedTime": "2.25 min"
+  },
+  {
+    "year": 2023,
+    "slot": 2,
+    "qNum": null,
+    "domain": "Arithmetic",
+    "subtopic": "Profit & Loss",
+    "hook": "Minu buys Rs 1000 \u2192 Kanu (+20%) \u2192 Minu (-20%) \u2192 Tanu (total profit Rs 500)",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2023,
+    "slot": 2,
+    "qNum": null,
+    "domain": "Arithmetic",
+    "subtopic": "Ratios & Averages",
+    "hook": "20% in mfg earn 1/6th of total salary; ratio of avg salaries",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2023,
+    "slot": 2,
+    "qNum": null,
+    "domain": "Arithmetic",
+    "subtopic": "TSD (Relative Speed)",
+    "hook": "Ravi (40 km/h), Vijay 54m behind, Ashok (50 km/h) 225m ahead; simultaneous cross",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2023,
+    "slot": 2,
+    "qNum": null,
+    "domain": "Arithmetic",
+    "subtopic": "Compound Interest",
+    "hook": "Borrow Rs 2L at 8% CI half-yearly; repay Rs 10320 at Yr 1, close at Yr 3",
+    "difficulty": "Hard",
+    "expectedTime": "3.0 min"
+  },
+  {
+    "year": 2023,
+    "slot": 2,
+    "qNum": null,
+    "domain": "Arithmetic",
+    "subtopic": "Profit & Loss (Optimization)",
+    "hook": "White (Rs 1000) & Blue (Rs 1125) shirts; MP +25%, 10% disc, profit Rs 51k; max shirts",
+    "difficulty": "Hard",
+    "expectedTime": "3.0 min"
+  },
+  {
+    "year": 2023,
+    "slot": 2,
+    "qNum": null,
+    "domain": "Arithmetic",
+    "subtopic": "Mixtures & Replacement",
+    "hook": "40L milk; 4L replaced repeatedly; min steps for milk < water",
+    "difficulty": "Medium",
+    "expectedTime": "1.75 min"
+  },
+  {
+    "year": 2023,
+    "slot": 3,
+    "qNum": null,
+    "domain": "Arithmetic",
+    "subtopic": "Time & Work (Inequalities)",
+    "hook": "R+Ra+G > 7d, R+G < 15d; 6d together + 3d Ra; impossible solo days for Ra",
+    "difficulty": "Hard",
+    "expectedTime": "3.0 min"
+  },
+  {
+    "year": 2023,
+    "slot": 3,
+    "qNum": null,
+    "domain": "Arithmetic",
+    "subtopic": "Percentages (Population)",
+    "hook": "100k \u2192 -y% \u2192 +x% (>100k); $,x - y,= 10$; lowest 2021 population",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2023,
+    "slot": 3,
+    "qNum": null,
+    "domain": "Arithmetic",
+    "subtopic": "Profit & Loss (Dishonest)",
+    "hook": "Buys Rs 100/m (+5cm free), sells Rs 110/m (gives 95cm), 5% discount",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2023,
+    "slot": 3,
+    "qNum": null,
+    "domain": "Arithmetic",
+    "subtopic": "Averages",
+    "hook": "A, B, C in room; +D reduces avg by $x$ , +E increases by $2x$ ; $E - D = 12$",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2023,
+    "slot": 3,
+    "qNum": null,
+    "domain": "Arithmetic",
+    "subtopic": "TSD (Boats & Streams)",
+    "hook": "Boat 1: 2h down, 3h up; Boat 2: 6h round trip; slower boat A to B",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2023,
+    "slot": 3,
+    "qNum": null,
+    "domain": "Arithmetic",
+    "subtopic": "Time & Work",
+    "hook": "Gautam & Suhani (20d); 60% G + 150% S = 100%; faster worker solo days",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2024,
+    "slot": 1,
+    "qNum": 48,
+    "domain": "Arithmetic",
+    "subtopic": "TSD (Meeting)",
+    "hook": "45 km apart; cross in 1h 30m; Anil reaches 1h 15m after Sunil",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2024,
+    "slot": 1,
+    "qNum": 49,
+    "domain": "Arithmetic",
+    "subtopic": "Averages",
+    "hook": "4 numbers: avg(2) = $a_1+1$ , avg(3) = avg(2)+2, avg(4) = avg(3)+3",
+    "difficulty": "Medium",
+    "expectedTime": "1.75 min"
+  },
+  {
+    "year": 2024,
+    "slot": 1,
+    "qNum": 51,
+    "domain": "Arithmetic",
+    "subtopic": "Percentages & Ratios",
+    "hook": "Incomes 8:6:5; pay 15%, 12%, 18% rent; Oct hikes 10%, 12%, 15%",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2024,
+    "slot": 1,
+    "qNum": 52,
+    "domain": "Arithmetic",
+    "subtopic": "Simple Interest",
+    "hook": "Rs 10k in Bank A (5% SI, $t$ yrs) \u2192 Bank B (6% SI, 5 yrs); SI ratio 10:13",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2024,
+    "slot": 1,
+    "qNum": 57,
+    "domain": "Arithmetic",
+    "subtopic": "Mixtures & Replacement",
+    "hook": "2/3rd poured out & replaced with water, repeated 3 more times; milk:water",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2024,
+    "slot": 1,
+    "qNum": 60,
+    "domain": "Arithmetic",
+    "subtopic": "Profit & Loss",
+    "hook": "40% profit SP; if CP -40% and SP -Rs 5 \u2192 50% profit; original SP",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2024,
+    "slot": 1,
+    "qNum": 61,
+    "domain": "Arithmetic",
+    "subtopic": "Percentages / Fractions",
+    "hook": "Sells half + 3 kg to each of 3 customers, 0 left; initial grains",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2024,
+    "slot": 1,
+    "qNum": 64,
+    "domain": "Arithmetic",
+    "subtopic": "Ratios & Equations",
+    "hook": "187 fruits (A:M = 5:2); sell 75 A, 26 M, half O \u2192 unsold A:O = 3:2",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2024,
+    "slot": 1,
+    "qNum": 67,
+    "domain": "Arithmetic",
+    "subtopic": "Time & Work",
+    "hook": "Renu (15d \u00d7 4h), Seema (8d \u00d7 5h); S works 2\u00d7 hrs/day, R works 2\u00d7 days",
+    "difficulty": "Medium",
+    "expectedTime": "1.75 min"
+  },
+  {
+    "year": 2024,
+    "slot": 2,
+    "qNum": 47,
+    "domain": "Arithmetic",
+    "subtopic": "Averages & Percentages",
+    "hook": "40 employees: first 30 avg 40k, last 30 avg 60k, first10+last10 avg 50k; 2023 hikes",
+    "difficulty": "Medium",
+    "expectedTime": "2.25 min"
+  },
+  {
+    "year": 2024,
+    "slot": 2,
+    "qNum": 50,
+    "domain": "Arithmetic",
+    "subtopic": "Mixtures & Equations",
+    "hook": "+2L water \u2192 50% acid; +15L acid \u2192 80% acid; original water:acid",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2024,
+    "slot": 2,
+    "qNum": 52,
+    "domain": "Arithmetic",
+    "subtopic": "Compound & Simple Interest",
+    "hook": "Anil Rs 22k (6y, 4% CI half-yearly) = Sunil (5y CI + 1y 10% SI)",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2024,
+    "slot": 2,
+    "qNum": 53,
+    "domain": "Arithmetic",
+    "subtopic": "Time & Work (Cyclic)",
+    "hook": "A+V (150d), V+S (100d); A 75d, V 135d, S 45d; then A daily, V 2nd, S 3rd",
+    "difficulty": "Hard",
+    "expectedTime": "3.0 min"
+  },
+  {
+    "year": 2024,
+    "slot": 2,
+    "qNum": 54,
+    "domain": "Arithmetic",
+    "subtopic": "TSD",
+    "hook": "60 km/h \u2192 3.5h late; next day 2/3 dist in 1/3 sched time, rest at 40 km/ h",
+    "difficulty": "Medium",
+    "expectedTime": "2.25 min"
+  },
+  {
+    "year": 2024,
+    "slot": 2,
+    "qNum": 57,
+    "domain": "Arithmetic",
+    "subtopic": "Percentages (Optimization)",
+    "hook": "Mangoes 40%; sells half M, 96 B, 40% A = 50% total; min initial fruits",
+    "difficulty": "Medium",
+    "expectedTime": "2.25 min"
+  },
+  {
+    "year": 2024,
+    "slot": 2,
+    "qNum": 58,
+    "domain": "Arithmetic",
+    "subtopic": "Profit & Loss",
+    "hook": "Bina (-19% at Rs 4860) \u2192 Shyam \u2192 Hari (Bina would get +17% at Hari's CP)",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2024,
+    "slot": 2,
+    "qNum": 63,
+    "domain": "Arithmetic",
+    "subtopic": "Ratios (Ages)",
+    "hook": "When Rajesh = Garima now, ratio 3:2; when Garima = Rajesh now, ratio",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2024,
+    "slot": 3,
+    "qNum": 50,
+    "domain": "Arithmetic",
+    "subtopic": "TSD",
+    "hook": "+6 km/h \u2192 4h less; -6 km/h \u2192 6h more; find total distance",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2024,
+    "slot": 3,
+    "qNum": 51,
+    "domain": "Arithmetic",
+    "subtopic": "Ratios (Alligation)",
+    "hook": "Rajesh (20 ha) & Vimal (30 ha, W:M = 5:3); total W:M = 11:9; Rajesh W:M",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2024,
+    "slot": 3,
+    "qNum": 52,
+    "domain": "Arithmetic",
+    "subtopic": "Compound Interest",
+    "hook": "Rs 4k CI; ratio Yr 3 : Yr 5 = 25:36; min years to exceed Rs 20000",
+    "difficulty": "Medium",
+    "expectedTime": "1.75 min"
+  },
+  {
+    "year": 2024,
+    "slot": 3,
+    "qNum": 54,
+    "domain": "Arithmetic",
+    "subtopic": "Averages",
+    "hook": "3 reals avg 28; smallest +7, largest -10 \u2192 new avg = middle + 2, range 64",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2024,
+    "slot": 3,
+    "qNum": 60,
+    "domain": "Arithmetic",
+    "subtopic": "Mixtures & Replacement",
+    "hook": "Water $w$ in 300L, rest milk; draw $2w$ and refill water \u2192 72% milk",
+    "difficulty": "Medium",
+    "expectedTime": "2.25 min"
+  },
+  {
+    "year": 2024,
+    "slot": 3,
+    "qNum": 62,
+    "domain": "Arithmetic",
+    "subtopic": "Profit & Loss",
+    "hook": "20% profit MP; 10% discount saves Rs 15; find Gopi's profit",
+    "difficulty": "Easy",
+    "expectedTime": "1.0 min"
+  },
+  {
+    "year": 2024,
+    "slot": 3,
+    "qNum": 65,
+    "domain": "Arithmetic",
+    "subtopic": "Percentages (Successive)",
+    "hook": "Two hikes ( $r\\%$ and $2r\\%$ ) make salary 187.5%; find first hike %",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2024,
+    "slot": 3,
+    "qNum": 66,
+    "domain": "Arithmetic",
+    "subtopic": "Time & Work (Roster)",
+    "hook": "Sam (20d), Mohit (2\u00d7 Sam), Ayna (Mohit/3); 3-day pair cycle; Sam's fraction",
+    "difficulty": "Medium",
+    "expectedTime": "2.25 min"
+  },
+  {
+    "year": 2025,
+    "slot": 1,
+    "qNum": 47,
+    "domain": "Arithmetic",
+    "subtopic": "Ratios",
+    "hook": "Morning:Afternoon = 13:9; 21 move \u2192 19:14; +new (3:8) \u2192 5:4",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2025,
+    "slot": 1,
+    "qNum": 50,
+    "domain": "Arithmetic",
+    "subtopic": "Mixtures & Replacement",
+    "hook": "200L (30% acid): -20% +water, -10% +acid, -15% +water; final acid %",
+    "difficulty": "Medium",
+    "expectedTime": "2.25 min"
+  },
+  {
+    "year": 2025,
+    "slot": 1,
+    "qNum": 51,
+    "domain": "Arithmetic",
+    "subtopic": "TSD + AP",
+    "hook": "224 km in 4 parts (3h total); speeds in AP, times in AP; part 1: 960 m/min, 30 min",
+    "difficulty": "Hard",
+    "expectedTime": "3.0 min"
+  },
+  {
+    "year": 2025,
+    "slot": 1,
+    "qNum": 54,
+    "domain": "Arithmetic",
+    "subtopic": "Simple Interest / Investments",
+    "hook": "Rs 1L in stocks (10%), bonds (6%), gold (8%); bonds = 25% gold; gain Rs 8200",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2025,
+    "slot": 1,
+    "qNum": 55,
+    "domain": "Arithmetic",
+    "subtopic": "Simple & Compound Interest",
+    "hook": "SI: Rs 13920 (3y), Rs 18960 (6.5y); same $P, r$ for 2y CI half-yearly",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2025,
+    "slot": 1,
+    "qNum": 57,
+    "domain": "Arithmetic",
+    "subtopic": "Time & Work (Cost Opt.)",
+    "hook": "Arun (24d, \u20b92160), Varun (21d, \u20b92400), Tarun (15d, \u20b92160); \u2264 10d, min cost",
+    "difficulty": "Hard",
+    "expectedTime": "3.0 min"
+  },
+  {
+    "year": 2025,
+    "slot": 1,
+    "qNum": 64,
+    "domain": "Arithmetic",
+    "subtopic": "Percentages & Inequalities",
+    "hook": "Boys > 10; 40% G & 60% B leave \u2192 rem G = rem B + 8; min initial students",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2025,
+    "slot": 1,
+    "qNum": 66,
+    "domain": "Arithmetic",
+    "subtopic": "Profit & Loss",
+    "hook": "22% disc on MP; 13 chairs for price of 12 \u2192 26% profit on CP Rs 100",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2025,
+    "slot": 2,
+    "qNum": 51,
+    "domain": "Arithmetic",
+    "subtopic": "Percentages & Ratios",
+    "hook": "Pinu 20%, Meena 40% of rem, Seema 20% less than Pinu; Pinu:Rinu",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2025,
+    "slot": 2,
+    "qNum": 52,
+    "domain": "Arithmetic",
+    "subtopic": "Time & Work",
+    "hook": "A = 2B, B = 2C; all start, B leaves after 20d, finish in 60d; C solo days",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2025,
+    "slot": 2,
+    "qNum": 55,
+    "domain": "Arithmetic",
+    "subtopic": "Compound Interest (Installments)",
+    "hook": "Rs 1000 loan repaid by Rs 530 (Yr 1) and Rs 594 (Yr 2) CI; find rate %",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2025,
+    "slot": 2,
+    "qNum": 57,
+    "domain": "Arithmetic",
+    "subtopic": "Mixtures & Alligation",
+    "hook": "16% coffee (Rs 240/kg), 36% coffee (Rs 320/kg) \u2192 new mix Rs 376/kg; coffee in 10 kg",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2025,
+    "slot": 2,
+    "qNum": 59,
+    "domain": "Arithmetic",
+    "subtopic": "Averages",
+    "hook": "First 7d avg 60, 8d avg 63; Day 9 = Day 8 - 11; Day 2\u20139 avg 66; Day 1 sales",
+    "difficulty": "Medium",
+    "expectedTime": "1.75 min"
+  },
+  {
+    "year": 2025,
+    "slot": 2,
+    "qNum": 64,
+    "domain": "Arithmetic",
+    "subtopic": "TSD (Boats & Streams)",
+    "hook": "Rita (5 km/h), Sneha (6 km/h); Sneha 48 min more up than down (14 km); Rita 100m",
+    "difficulty": "Medium",
+    "expectedTime": "2.25 min"
+  },
+  {
+    "year": 2025,
+    "slot": 2,
+    "qNum": 65,
+    "domain": "Arithmetic",
+    "subtopic": "Profit & Loss",
+    "hook": "CP Rs 1650, +20% profit; 2\u00d7 disc \u2192 Rs 110 profit; disc % = profit %",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2025,
+    "slot": 2,
+    "qNum": 67,
+    "domain": "Arithmetic",
+    "subtopic": "Ratios (Income/Exp.)",
+    "hook": "Exp L:M = 2:3; Inc L : Exp M = 6:7; Sav L:M = 4:9; Inc L : Inc M",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2025,
+    "slot": 3,
+    "qNum": 50,
+    "domain": "Arithmetic",
+    "subtopic": "Time & Work (Team Rates)",
+    "hook": "Teams A (5, 40h), B (8, 50h), C (10, 4h); 2A+3B+1C for 23h, replace C with B for 1h",
+    "difficulty": "Medium",
+    "expectedTime": "2.25 min"
+  },
+  {
+    "year": 2025,
+    "slot": 3,
+    "qNum": 51,
+    "domain": "Arithmetic",
+    "subtopic": "Averages & Percentages",
+    "hook": "5 mgrs + 25 engs avg \u20b960k; +20% mgrs \u2192 +5% overall avg; eng avg",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2025,
+    "slot": 3,
+    "qNum": 52,
+    "domain": "Arithmetic",
+    "subtopic": "Profit & Loss",
+    "hook": "Sales 120, 135, 150, 165 (CP \u20b9240); disc 20%, 10%, 5%, 0%; total profit \u20b9138825",
+    "difficulty": "Medium",
+    "expectedTime": "2.25 min"
+  },
+  {
+    "year": 2025,
+    "slot": 3,
+    "qNum": 55,
+    "domain": "Arithmetic",
+    "subtopic": "TSD",
+    "hook": "5pm\u201311pm (6h); stops 20m (+3 km/h) vs 30m (+5 km/h); initial speed",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2025,
+    "slot": 3,
+    "qNum": 56,
+    "domain": "Arithmetic",
+    "subtopic": "TSD (Ratios)",
+    "hook": "Walk A\u2192B\u2192C, run back (+40% speed); B\u2192C walk = B\u2192A run = 3h 30m",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2025,
+    "slot": 3,
+    "qNum": 59,
+    "domain": "Arithmetic",
+    "subtopic": "Mixtures & Replacement",
+    "hook": "60L alcohol (A), 60L water (B); swap $x$ L twice \u2192 A has 15:4; find $x$",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2025,
+    "slot": 3,
+    "qNum": 62,
+    "domain": "Arithmetic",
+    "subtopic": "Ratios",
+    "hook": "Boxes A:B = 17:7; shift 108 \u2192 37:20; further shift for 1:1",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2025,
+    "slot": 3,
+    "qNum": 63,
+    "domain": "Arithmetic",
+    "subtopic": "Pipes & Cisterns",
+    "hook": "Flow rates 4:9:36; A fills in 15h; all three together in minutes",
+    "difficulty": "Easy",
+    "expectedTime": "1.0 min"
+  },
+  {
+    "year": 2021,
+    "slot": 1,
+    "qNum": 49,
+    "domain": "Algebra",
+    "subtopic": "Sequences (Cyclic)",
+    "hook": "$x_0=1, x_1=2, x_{n+2} = (1+x_{n+1})/x_n$ ; find $x_{2021}$",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2021,
+    "slot": 1,
+    "qNum": 50,
+    "domain": "Algebra",
+    "subtopic": "Logarithms",
+    "hook": "$5 - \\log_{10}\\sqrt{1+x} + 4\\log_{10}\\sqrt{1-x} = \\log_{10}(1/\\sqrt{1- x^2})$ ; find $100x$",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2021,
+    "slot": 1,
+    "qNum": 51,
+    "domain": "Algebra",
+    "subtopic": "Quadratic / Word Model",
+    "hook": "Hospital A (21 fewer patients, sum 200d) vs B (sum 152d); avg diff 3",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2021,
+    "slot": 1,
+    "qNum": 52,
+    "domain": "Algebra",
+    "subtopic": "Modulus & Quadratics",
+    "hook": "$,x^2 - 4x - 13,= r$ has exactly 3 distinct real roots; find $r$",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2021,
+    "slot": 1,
+    "qNum": 56,
+    "domain": "Algebra",
+    "subtopic": "Linear Equations",
+    "hook": "Cost of fruit baskets (2A+4O+6M = 1A+4O+8M = 8O+7M); mangoes only",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2021,
+    "slot": 1,
+    "qNum": 60,
+    "domain": "Algebra",
+    "subtopic": "Modulus Inequalities",
+    "hook": "Number of integers $n$ satisfying $,n-60,<",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2021,
+    "slot": 1,
+    "qNum": 62,
+    "domain": "Algebra",
+    "subtopic": "Sequences & Series",
+    "hook": "Natural numbers grouped $(1), (2,3,4), (5,6,7,8,9)\\dots$ ; sum of 15th group",
+    "difficulty": "Medium",
+    "expectedTime": "1.75 min"
+  },
+  {
+    "year": 2021,
+    "slot": 1,
+    "qNum": 65,
+    "domain": "Algebra",
+    "subtopic": "Rational Inequalities",
+    "hook": "$f(x) = (x^2+2x-15)/(x^2-7x-18) < 0$ interval",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2021,
+    "slot": 2,
+    "qNum": null,
+    "domain": "Algebra",
+    "subtopic": "AP & Equations",
+    "hook": "Positive integers $x, y, z$ in AP; $y-x > 2$ , $xyz = 5(x+y+z) $ ; $z-x$",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2021,
+    "slot": 2,
+    "qNum": null,
+    "domain": "Algebra",
+    "subtopic": "Simultaneous Equations",
+    "hook": "$x^2 - xy - x = 22$ and $y^2 - xy + y = 34$ , $x > y$ ; find $x - y$",
+    "difficulty": "Medium",
+    "expectedTime": "1.75 min"
+  },
+  {
+    "year": 2021,
+    "slot": 2,
+    "qNum": null,
+    "domain": "Algebra",
+    "subtopic": "Sequences & Series",
+    "hook": "$x_1 - x_2 + x_3 - \\dots + (-1)^{n+1}x_n = n^2 + 2n$ ; find $x_{49} + x_{50}$",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2021,
+    "slot": 2,
+    "qNum": null,
+    "domain": "Algebra",
+    "subtopic": "Modulus",
+    "hook": "$,3x - 20,+",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2021,
+    "slot": 2,
+    "qNum": null,
+    "domain": "Algebra",
+    "subtopic": "Quadratics",
+    "hook": "Rational coeffs $ax^2 - bx + c = 0$ , $b = c^3$ , irrational root; find $,a,$",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2021,
+    "slot": 2,
+    "qNum": null,
+    "domain": "Algebra",
+    "subtopic": "Logarithms",
+    "hook": "$(\\log_{15}a + \\log_{32}a) / (\\log_{15}a \\cdot \\log_{32}a) = 4$ ; range of $a$",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2021,
+    "slot": 3,
+    "qNum": null,
+    "domain": "Algebra",
+    "subtopic": "Linear & Quadratic",
+    "hook": "64 shirts (small \u20b950 less than large); \u20b95000 large, \u20b91800 small",
+    "difficulty": "Medium",
+    "expectedTime": "1.75 min"
+  },
+  {
+    "year": 2021,
+    "slot": 3,
+    "qNum": null,
+    "domain": "Algebra",
+    "subtopic": "Word-Problem Algebra",
+    "hook": "Tea cups: product 800, S:M = 2:5; +Rs 6 on S,M \u2192 product 3200",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2021,
+    "slot": 3,
+    "qNum": null,
+    "domain": "Algebra",
+    "subtopic": "Modulus & Integers",
+    "hook": "Pairs of integers $(m,n)$ with $,1+mn,<",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2021,
+    "slot": 3,
+    "qNum": null,
+    "domain": "Algebra",
+    "subtopic": "Linear Equations",
+    "hook": "Hostel fixed + variable expense; Rs 1600 fee; 50b (\u20b9200 profit), 75b (\u20b9250)",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2021,
+    "slot": 3,
+    "qNum": null,
+    "domain": "Algebra",
+    "subtopic": "Functions & Quadratics",
+    "hook": "$f(x) = x^2 - 7x$ , $g(x) = x + 3$ ; minimum of $f(g(x)) - 3x$",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2021,
+    "slot": 3,
+    "qNum": null,
+    "domain": "Algebra",
+    "subtopic": "Modulus Equations",
+    "hook": "$3x + 2,y,+ y = 7$ and $x +",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2021,
+    "slot": 3,
+    "qNum": null,
+    "domain": "Algebra",
+    "subtopic": "Sequences",
+    "hook": "$x_{n+1} = x_n + n - 1$ , $x_1 = -1$ ; find $x_{100}$",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2022,
+    "slot": 1,
+    "qNum": 46,
+    "domain": "Algebra",
+    "subtopic": "Simultaneous / Factoring",
+    "hook": "Naturals $x, y, z$ : $xy + yz = 19$ and $yz + xz = 51$ ; min $xyz$",
+    "difficulty": "Medium",
+    "expectedTime": "1.75 min"
+  },
+  {
+    "year": 2022,
+    "slot": 1,
+    "qNum": 48,
+    "domain": "Algebra",
+    "subtopic": "Simultaneous / Factoring",
+    "hook": "Naturals $a, b$ : $a^2 + ab + a = 14$ , $b^2 + ab + b = 28$ ; find $2a+b$",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2022,
+    "slot": 1,
+    "qNum": 51,
+    "domain": "Algebra",
+    "subtopic": "Quadratics",
+    "hook": "$b^2 < 4ac$ , $f(x) = ax^2+bx+c$ ; set of integers $m$ where $f(m) < 0$",
+    "difficulty": "Easy",
+    "expectedTime": "1.0 min"
+  },
+  {
+    "year": 2022,
+    "slot": 1,
+    "qNum": 56,
+    "domain": "Algebra",
+    "subtopic": "Modulus Equations",
+    "hook": "Largest real $a$ for $,x+a,+",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2022,
+    "slot": 1,
+    "qNum": 58,
+    "domain": "Algebra",
+    "subtopic": "Arithmetic Progression",
+    "hook": "$S_n = n + 2n^2$ ; smallest $n$ such that $T_n$ is divisible by 9",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2022,
+    "slot": 1,
+    "qNum": 60,
+    "domain": "Algebra",
+    "subtopic": "Modulus Functions",
+    "hook": "$0 \\le a \\le x \\le 100$ , $f(x) =,x-a,+",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2022,
+    "slot": 1,
+    "qNum": 62,
+    "domain": "Algebra",
+    "subtopic": "Greatest Integer x",
+    "hook": "$\\sum_{n=1}^N 1/5 + n/25 = 25$ ; find $N$",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2022,
+    "slot": 2,
+    "qNum": 45,
+    "domain": "Algebra",
+    "subtopic": "Quadratics",
+    "hook": "$f(x) \\ge 0$ for all $x$ , $f(2) = 0$ , $f(4) = 6$ ; find $f(-2)$",
+    "difficulty": "Easy",
+    "expectedTime": "1.0 min"
+  },
+  {
+    "year": 2022,
+    "slot": 2,
+    "qNum": 46,
+    "domain": "Algebra",
+    "subtopic": "Exponential Equations",
+    "hook": "Integer solutions of $(x^2 - 10)^{x^2 - 3x - 10} = 1$",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2022,
+    "slot": 2,
+    "qNum": 50,
+    "domain": "Algebra",
+    "subtopic": "Linear Equations",
+    "hook": "75 Qs (+3, -1, +1 unattempted), score 97, unattempted > attempted; max correct",
+    "difficulty": "Medium",
+    "expectedTime": "2.25 min"
+  },
+  {
+    "year": 2022,
+    "slot": 2,
+    "qNum": 56,
+    "domain": "Algebra",
+    "subtopic": "Cubic & Vieta's",
+    "hook": "$r$ and $-r$ are roots of $5x^3 + cx^2 - 10x + 9 = 0$ ; find $c$",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2022,
+    "slot": 2,
+    "qNum": 57,
+    "domain": "Algebra",
+    "subtopic": "Sequences (Recurrence)",
+    "hook": "Day 1: 100 particles; Day $n$ : 1 in $n$ produces 1; 1000 on Day $m$",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2022,
+    "slot": 2,
+    "qNum": 63,
+    "domain": "Algebra",
+    "subtopic": "Arithmetic Progression",
+    "hook": "AP $3, 7, 11\\dots$ ; $A_n = S_n$ ; find $\\frac{1} {25}\\sum_{n=1}^{25} A_n$",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2022,
+    "slot": 2,
+    "qNum": 64,
+    "domain": "Algebra",
+    "subtopic": "Functional Equations",
+    "hook": "$f(x) + f(x-1) - 1 = 0$ , $g(x) = x^2$ , $f(x^2-x) = 5$ ; $f(g(5)) + g(f(5))$",
+    "difficulty": "Medium",
+    "expectedTime": "2.25 min"
+  },
+  {
+    "year": 2022,
+    "slot": 2,
+    "qNum": 65,
+    "domain": "Algebra",
+    "subtopic": "Logarithms & Inequalities",
+    "hook": "Distinct integers $n$ satisfying $(4 - \\log_2 n)/(3 - \\log_4 n) < 0$",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2022,
+    "slot": 2,
+    "qNum": 66,
+    "domain": "Algebra",
+    "subtopic": "Linear Programming",
+    "hook": "Non-negative $a, b$ : $a + 2b = 6$ ; avg of max and min $(a+b)$",
+    "difficulty": "Easy",
+    "expectedTime": "1.0 min"
+  },
+  {
+    "year": 2022,
+    "slot": 3,
+    "qNum": 46,
+    "domain": "Algebra",
+    "subtopic": "Linear Equations (Diophantine)",
+    "hook": "100 cheques (\u20b9100, \u20b9250, \u20b9500) total \u20b915250; max \u20b9500 cheques",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2022,
+    "slot": 3,
+    "qNum": 50,
+    "domain": "Algebra",
+    "subtopic": "Rational Optimization",
+    "hook": "Minimum of $(x^2 - 6x + 10)/(3 - x)$ for $x < 3$",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2022,
+    "slot": 3,
+    "qNum": 53,
+    "domain": "Algebra",
+    "subtopic": "Piecewise Functions",
+    "hook": "$f(x) = 2x - r$ ( $x \\ge r$ ), $r$ ( $x < r$ ); when $f(x) = f(f(x))$",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2022,
+    "slot": 3,
+    "qNum": 56,
+    "domain": "Algebra",
+    "subtopic": "Exponents",
+    "hook": "$(7/5)^{3x-y} = 875/2401$ and $(4a/b)^{6x-y} = (2a/b)^{y-6x}$ ; find $x+y$",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2022,
+    "slot": 3,
+    "qNum": 58,
+    "domain": "Algebra",
+    "subtopic": "Quadratics (Discriminant)",
+    "hook": "Integer $k$ : $2x^2+kx+5=0$ no real roots, $x^2+(k-5)x+1=0$ two distinct",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2022,
+    "slot": 3,
+    "qNum": 63,
+    "domain": "Algebra",
+    "subtopic": "Inequalities (AM-GM)",
+    "hook": "$c = 16x/y + 49y/x$ ; which value $c$ cannot take",
+    "difficulty": "Easy",
+    "expectedTime": "1.0 min"
+  },
+  {
+    "year": 2022,
+    "slot": 3,
+    "qNum": 64,
+    "domain": "Algebra",
+    "subtopic": "Arithmetic Progression",
+    "hook": "Average of all 3-digit terms in $38, 55, 72\\dots$",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2022,
+    "slot": 3,
+    "qNum": 65,
+    "domain": "Algebra",
+    "subtopic": "Quadratics (Irrational Roots)",
+    "hook": "$3+2\\sqrt{2}$ root of $ax^2+bx+c=0$ ; $4+2\\sqrt{3}$ root of $ay^2+my+n=0$",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2023,
+    "slot": 1,
+    "qNum": 45,
+    "domain": "Algebra",
+    "subtopic": "Logarithms",
+    "hook": "$\\log_x(x^2+12) = 4$ and $3\\log_y x = 1$ ; find $x + y$",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2023,
+    "slot": 1,
+    "qNum": 47,
+    "domain": "Algebra",
+    "subtopic": "Algebraic Identities",
+    "hook": "$x^2 + (x - 2y - 1)^2 = -4y(x + y)$ ; find $x - 2y$",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2023,
+    "slot": 1,
+    "qNum": 64,
+    "domain": "Algebra",
+    "subtopic": "Sequences (AP)",
+    "hook": "$1/(\\sqrt{y}+\\sqrt{z})$ is AM of $1/(\\sqrt{x}+\\sqrt{z})$ and $1/ (\\sqrt{x}+\\sqrt{y})$",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2023,
+    "slot": 1,
+    "qNum": 66,
+    "domain": "Algebra",
+    "subtopic": "Sequences (Recurrence)",
+    "hook": "$a_1 = 2$ , $a_n = 2a_{n-1} + 3$ ; smallest $n$ for $a_n > 10^6$",
+    "difficulty": "Medium",
+    "expectedTime": "1.75 min"
+  },
+  {
+    "year": 2023,
+    "slot": 2,
+    "qNum": null,
+    "domain": "Algebra",
+    "subtopic": "Inequalities",
+    "hook": "Non-zero $x, y$ ( $y \\neq 3$ ) with $x/y < (x+3)/ (y-3)$",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2023,
+    "slot": 2,
+    "qNum": null,
+    "domain": "Algebra",
+    "subtopic": "Linear Optimization",
+    "hook": "$n$ persons get \u20b9352; 2 get \u20b9506, rest $\\le$ \u20b9330; max $n$",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2023,
+    "slot": 2,
+    "qNum": null,
+    "domain": "Algebra",
+    "subtopic": "Arithmetic Progression",
+    "hook": "$a_n, b_n$ APs with prime $d$ ; $a_5 = b_9$ , $a_{19} = b_{19}$ , $b_2 = 0$ ; find $a_{11}$",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2023,
+    "slot": 2,
+    "qNum": null,
+    "domain": "Algebra",
+    "subtopic": "Algebraic Identities",
+    "hook": "$p^2 + q^2 - 29 = 2pq - 20 = 52 - 2pq$ ; max - min of $p^3 - q^3$",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2023,
+    "slot": 2,
+    "qNum": null,
+    "domain": "Algebra",
+    "subtopic": "Sequences (Common Terms)",
+    "hook": "$a_n = 13 + 6(n-1)$ and $b_n = 15 + 7(n-1)$ ; largest 3-digit common term",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2023,
+    "slot": 3,
+    "qNum": null,
+    "domain": "Algebra",
+    "subtopic": "Logarithms + AP",
+    "hook": "$1/2$ , $\\log_3(2^x-9)/\\log_3 4$ , $\\log_5(2^x+17/2)/\\log_5 4$ in AP; common diff",
+    "difficulty": "Medium",
+    "expectedTime": "2.25 min"
+  },
+  {
+    "year": 2023,
+    "slot": 3,
+    "qNum": null,
+    "domain": "Algebra",
+    "subtopic": "Algebraic Identities",
+    "hook": "$x^8 + x^{-8} = 47$ ( $x > 0$ ); find $x^9 + x^{-9}$",
+    "difficulty": "Medium",
+    "expectedTime": "2.25 min"
+  },
+  {
+    "year": 2023,
+    "slot": 3,
+    "qNum": null,
+    "domain": "Algebra",
+    "subtopic": "Linear Equations",
+    "hook": "$x + y = 4$ and $(a+5)x + (b^2-15)y = 8b$ infinitely many solutions; max $ab$",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2023,
+    "slot": 3,
+    "qNum": null,
+    "domain": "Algebra",
+    "subtopic": "Exponents & Inequalities",
+    "hook": "$5^{n-1} < 3^{n+1}$ and $3^{n+1} < 2^{n+m}$ ; least integer $m$",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2023,
+    "slot": 3,
+    "qNum": null,
+    "domain": "Algebra",
+    "subtopic": "Functional Equations",
+    "hook": "$f(3x+2y, 2x-5y) = 19x$ ; find $x$ when $f(x, 2x) = 27$",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2023,
+    "slot": 3,
+    "qNum": null,
+    "domain": "Algebra",
+    "subtopic": "Infinite Series",
+    "hook": "$1 + (1+1/3)\\frac{1}{4} + (1+1/3+1/9)\\frac{1}{16} + \\dots$",
+    "difficulty": "Medium",
+    "expectedTime": "2.25 min"
+  },
+  {
+    "year": 2023,
+    "slot": 3,
+    "qNum": null,
+    "domain": "Algebra",
+    "subtopic": "Sequences (Common Terms)",
+    "hook": "$a_n = 46 + 8n$ and $b_n = 98 + 4n$ ( $n \\le 100$ ); sum of common terms",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2024,
+    "slot": 1,
+    "qNum": 53,
+    "domain": "Algebra",
+    "subtopic": "Quadratics (Common Root)",
+    "hook": "$x^2+mx+9=0$ , $x^2+nx+17=0$ , $x^2+ (m+n)x+35=0$ share negative root",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2024,
+    "slot": 1,
+    "qNum": 54,
+    "domain": "Algebra",
+    "subtopic": "Logarithms & GIF",
+    "hook": "$4\\log_{10}x + 4\\log_{100}x + 8\\log_{1000}x = 13$ ; find $x$",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2024,
+    "slot": 1,
+    "qNum": 55,
+    "domain": "Algebra",
+    "subtopic": "Algebraic Identities",
+    "hook": "$4(x^2+y^2+z^2) = a$ and $4(x-y-z) = 3+a$ ; find $a$",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2024,
+    "slot": 1,
+    "qNum": 62,
+    "domain": "Algebra",
+    "subtopic": "Surds",
+    "hook": "Positive square root of $(29 - 12\\sqrt{5})$ as $a + b\\sqrt{n}$ ; max $a+b+n$",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2024,
+    "slot": 1,
+    "qNum": 65,
+    "domain": "Algebra",
+    "subtopic": "Exponents",
+    "hook": "$(1/8)^k (1/32768)^{1/3} = (1/8)(1/32768)^k$ ; sum of real $k$",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2024,
+    "slot": 1,
+    "qNum": 66,
+    "domain": "Algebra",
+    "subtopic": "Arithmetic Progression",
+    "hook": "$x_5 = -4$ , $2x_9 = x_{11} + x_{13}$ ; find $x_{100}$",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2024,
+    "slot": 1,
+    "qNum": 68,
+    "domain": "Algebra",
+    "subtopic": "Sequences & GIF",
+    "hook": "$a_n = \\sqrt{n}$ ; find $a_1 + a_2 + \\dots + a_{50}$",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2024,
+    "slot": 2,
+    "qNum": 51,
+    "domain": "Algebra",
+    "subtopic": "Surds / Equations",
+    "hook": "$(x + 6\\sqrt{2})^{1/2} - (x - 6\\sqrt{2})^{1/2} = 2\\sqrt{2}$ ; find $x$",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2024,
+    "slot": 2,
+    "qNum": 55,
+    "domain": "Algebra",
+    "subtopic": "Functional Equations",
+    "hook": "$f(xy) = f(x)f(y) + f(x) + f(y)$ , $f(p) = 1$ ; find $f(160000)$",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2024,
+    "slot": 2,
+    "qNum": 56,
+    "domain": "Algebra",
+    "subtopic": "Infinite Series",
+    "hook": "$\\frac{1}{5}(1/5 - 1/7) + \\frac{1}{5^2}(1/5^2 - 1/7^2) + \\dots$",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2024,
+    "slot": 2,
+    "qNum": 60,
+    "domain": "Algebra",
+    "subtopic": "Modulus Equations",
+    "hook": "$,x,+ x + y = 15$ and $x +",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2024,
+    "slot": 2,
+    "qNum": 61,
+    "domain": "Algebra",
+    "subtopic": "Quadratics (Vieta's)",
+    "hook": "$3x^2 + \\lambda x - 1 = 0$ , $1/\\alpha^2 + 1/\\beta^2 = 15$ ; find $(\\alpha^3 + \\beta^3)^2$",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2024,
+    "slot": 2,
+    "qNum": 62,
+    "domain": "Algebra",
+    "subtopic": "Rational Inequalities",
+    "hook": "All $x$ satisfying $1/(x+5) \\le 1/(2x-3)$",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2024,
+    "slot": 2,
+    "qNum": 66,
+    "domain": "Algebra",
+    "subtopic": "Logarithms",
+    "hook": "$a > 10 \\ge b \\ge c$ ; $\\log_8(a+b)/\\log_2 c + \\log_{27}(a-b)/\\log_3 c = 2/3$ ; max int $a$",
+    "difficulty": "Hard",
+    "expectedTime": "3.0 min"
+  },
+  {
+    "year": 2024,
+    "slot": 2,
+    "qNum": 67,
+    "domain": "Algebra",
+    "subtopic": "Algebraic Identities",
+    "hook": "$4x^2 + 4y^2 - 4xy - 6y + 3 = 0$ ; find $4x + 5y$",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2024,
+    "slot": 3,
+    "qNum": 47,
+    "domain": "Algebra",
+    "subtopic": "Logarithms / Exponents",
+    "hook": "$3^a=4, 4^b=5, \\dots, 8^f=9$ ; find $abcdef$",
+    "difficulty": "Easy",
+    "expectedTime": "1.0 min"
+  },
+  {
+    "year": 2024,
+    "slot": 3,
+    "qNum": 48,
+    "domain": "Algebra",
+    "subtopic": "Modulus & Integers",
+    "hook": "Distinct integer solutions $(x,y)$ to $,x+y,+",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2024,
+    "slot": 3,
+    "qNum": 56,
+    "domain": "Algebra",
+    "subtopic": "Surds",
+    "hook": "$(a + b\\sqrt{3})^2 = 52 + 30\\sqrt{3}$ (naturals); find $a + b$",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2024,
+    "slot": 3,
+    "qNum": 58,
+    "domain": "Algebra",
+    "subtopic": "Exponents & Quadratics",
+    "hook": "$10^x + 4/10^x = 91/2$ ; sum of distinct real $x$",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2024,
+    "slot": 3,
+    "qNum": 59,
+    "domain": "Algebra",
+    "subtopic": "Modulus & Max/Min",
+    "hook": "$\\max{x,2} - \\min{x,2} =,x+2,-",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2024,
+    "slot": 3,
+    "qNum": 61,
+    "domain": "Algebra",
+    "subtopic": "Functional Equations",
+    "hook": "$f(x) + 2f(1/x) = 3x$ ; sum of $x$ where $f(x) = 3$",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2024,
+    "slot": 3,
+    "qNum": 63,
+    "domain": "Algebra",
+    "subtopic": "Sequences (Telescoping)",
+    "hook": "$t_1=1, t_2=-1, t_n = \\frac{n-3}{n-1}t_{n-2}$ ; $ \\sum_{k=1}^{1012} 1/t_{2k}$",
+    "difficulty": "Hard",
+    "expectedTime": "3.0 min"
+  },
+  {
+    "year": 2024,
+    "slot": 3,
+    "qNum": 68,
+    "domain": "Algebra",
+    "subtopic": "Linear Equations",
+    "hook": "System of linear equations in $x, y$ with parameters $p, k, a$",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2025,
+    "slot": 1,
+    "qNum": 48,
+    "domain": "Algebra",
+    "subtopic": "Logarithms & Inequalities",
+    "hook": "Distinct integers $n$ for $\\log_{1/4}(n^2 - 7n + 11) > 0$",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2025,
+    "slot": 1,
+    "qNum": 52,
+    "domain": "Algebra",
+    "subtopic": "Inequalities (Integers)",
+    "hook": "Distinct integer pairs $(x,y)$ with $x > y \\ge 3$ and $x + y < 14$",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2025,
+    "slot": 1,
+    "qNum": 53,
+    "domain": "Algebra",
+    "subtopic": "Greatest Integer x",
+    "hook": "$3 \\le x \\le 6$ and $x^2 = x^2$ ; feasible subset $S$",
+    "difficulty": "Medium",
+    "expectedTime": "2.25 min"
+  },
+  {
+    "year": 2025,
+    "slot": 1,
+    "qNum": 58,
+    "domain": "Algebra",
+    "subtopic": "Quadratics",
+    "hook": "Non-negative integers $k$ for $x^2 - 5x + k = 0$ having integer roots",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2025,
+    "slot": 1,
+    "qNum": 61,
+    "domain": "Algebra",
+    "subtopic": "Linear Equations",
+    "hook": "Portfolio: 10 of A (\u20b9120), 20 of B+C (\u20b990, \u20b9150) = \u20b93300; find B",
+    "difficulty": "Easy",
+    "expectedTime": "1.0 min"
+  },
+  {
+    "year": 2025,
+    "slot": 1,
+    "qNum": 62,
+    "domain": "Algebra",
+    "subtopic": "Linear Equations",
+    "hook": "$a - 6b + 6c = 4$ and $6a + 3b - 3c = 50$ ; find $2a + 3b - 3c$",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2025,
+    "slot": 1,
+    "qNum": 63,
+    "domain": "Algebra",
+    "subtopic": "Quadratics (Optimization)",
+    "hook": "$\\min(x^2 - 4cx + 8c) > \\max(-x^2 + 3cx - 2c)$ ; find $c$",
+    "difficulty": "Medium",
+    "expectedTime": "1.75 min"
+  },
+  {
+    "year": 2025,
+    "slot": 1,
+    "qNum": 65,
+    "domain": "Algebra",
+    "subtopic": "Arithmetic Progression",
+    "hook": "Odd set $\\{1,3,\\dots,57\\}$ ; sum $< k$ equals sum $> k$ ; find $k$",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2025,
+    "slot": 1,
+    "qNum": 68,
+    "domain": "Algebra",
+    "subtopic": "Exponents & AP",
+    "hook": "$a_k = 3^k$ ; smallest $m$ for $(a_1)^1 \\dots (a_{20})^{20} < a_{21}\\dots a_{20+m}$",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2025,
+    "slot": 2,
+    "qNum": 47,
+    "domain": "Algebra",
+    "subtopic": "Quadratics (Common Root)",
+    "hook": "$3x^2-5x+p=0$ and $2x^2-2x+q=0$ share 1 root; sum of other roots",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2025,
+    "slot": 2,
+    "qNum": 49,
+    "domain": "Algebra",
+    "subtopic": "Logarithms & AM-GM",
+    "hook": "$\\log_{64}x^2 + \\log_8 y + 3\\log_{512}(yz) = 4$ ; min $x+y+z$",
+    "difficulty": "Medium",
+    "expectedTime": "2.25 min"
+  },
+  {
+    "year": 2025,
+    "slot": 2,
+    "qNum": 50,
+    "domain": "Algebra",
+    "subtopic": "Modulus Inequalities",
+    "hook": "Real $x$ for $x^2 -,x + 9,+ x > 0$",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2025,
+    "slot": 2,
+    "qNum": 53,
+    "domain": "Algebra",
+    "subtopic": "Geometric Progression",
+    "hook": "Decreasing infinite GP: $a_1+a_2+a_3=52$ , $a_1a_2+a_2a_3+a_3a_1=624$ ; $S_\\infty$",
+    "difficulty": "Medium",
+    "expectedTime": "2.25 min"
+  },
+  {
+    "year": 2025,
+    "slot": 2,
+    "qNum": 54,
+    "domain": "Algebra",
+    "subtopic": "Functions (Domain)",
+    "hook": "$f(x)=x/(2x-1), g(x)=x/(x-1)$ ; domain of $f(g(x)) + g(f(x)) $",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2025,
+    "slot": 2,
+    "qNum": 58,
+    "domain": "Algebra",
+    "subtopic": "Optimization (Integers)",
+    "hook": "Integers $a+b+c+d = 46$ ; min $(a-b)^2 + (a-c)^2 + (a-d)^2$",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2025,
+    "slot": 2,
+    "qNum": 60,
+    "domain": "Algebra",
+    "subtopic": "Exponential Quadratics",
+    "hook": "$9^{x^2+2x-3} - 4(3^{x^2+2x-2}) + 27 = 0$ ; product of all possible $x$",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2025,
+    "slot": 3,
+    "qNum": 47,
+    "domain": "Algebra",
+    "subtopic": "Algebraic Identities",
+    "hook": "$x^2 + x^{-2} = 25$ ( $x > 0$ ); find $x^7 + x^{-7}$",
+    "difficulty": "Hard",
+    "expectedTime": "3.0 min"
+  },
+  {
+    "year": 2025,
+    "slot": 3,
+    "qNum": 48,
+    "domain": "Algebra",
+    "subtopic": "Functions (Range)",
+    "hook": "Range of $f(x) = (2x-3)/(2x^2-4x-6)$ for real $x$",
+    "difficulty": "Medium",
+    "expectedTime": "2.25 min"
+  },
+  {
+    "year": 2025,
+    "slot": 3,
+    "qNum": 54,
+    "domain": "Algebra",
+    "subtopic": "Polynomials",
+    "hook": "$f(x) = (x^2+3x)(x^2+3x+2)$ ; sum of real roots of $f(x)+1 = 9701$",
+    "difficulty": "Medium",
+    "expectedTime": "1.75 min"
+  },
+  {
+    "year": 2025,
+    "slot": 3,
+    "qNum": 60,
+    "domain": "Algebra",
+    "subtopic": "Arithmetic Progression",
+    "hook": "$T_4+T_7+T_{10}=99$ and $S_{14}=497$ ; find $S_5$",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2025,
+    "slot": 3,
+    "qNum": 61,
+    "domain": "Algebra",
+    "subtopic": "Inequalities (Optimization)",
+    "hook": "Naturals $p+q+r=900$ , $150 < r = k^2 < 500$ , $0.3q \\le p \\le 0.7q$ ; max+min $p$",
+    "difficulty": "Hard",
+    "expectedTime": "3.0 min"
+  },
+  {
+    "year": 2025,
+    "slot": 3,
+    "qNum": 67,
+    "domain": "Algebra",
+    "subtopic": "Linear Optimization",
+    "hook": "1500 students (\u20b91100, \u20b91000, \u20b9800) total \u20b915.5L; $S \\le A$ ; max $S$",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2025,
+    "slot": 3,
+    "qNum": 68,
+    "domain": "Algebra",
+    "subtopic": "Logarithms",
+    "hook": "$\\log_{x-3}(x^2-9) = \\log_{x-3}(x+1) + 2$ ; sum of real $x$",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2021,
+    "slot": 1,
+    "qNum": 54,
+    "domain": "Geometry & Mensuration",
+    "subtopic": "Circles & Right $\\triangle$",
+    "hook": "Circle (diameter 8) inscribed in right $\\triangle ABC$ ( $BC = 10$ ); find area",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2021,
+    "slot": 1,
+    "qNum": 58,
+    "domain": "Geometry & Mensuration",
+    "subtopic": "Polygons & Triangles",
+    "hook": "Area of regular hexagon = area of equilateral $\\triangle$ of side 12 cm",
+    "difficulty": "Easy",
+    "expectedTime": "1.0 min"
+  },
+  {
+    "year": 2021,
+    "slot": 1,
+    "qNum": 64,
+    "domain": "Geometry & Mensuration",
+    "subtopic": "Regular Hexagon",
+    "hook": "Regular hexagon $ABCDEF$ side 2 cm, $T$ midpoint of $CD$ ; find $AT$",
+    "difficulty": "Medium",
+    "expectedTime": "1.75 min"
+  },
+  {
+    "year": 2021,
+    "slot": 2,
+    "qNum": null,
+    "domain": "Geometry & Mensuration",
+    "subtopic": "Triangles (Area Ratio)",
+    "hook": "$D, E$ on $AB, AC$ ( $AD:BD=2:1, AE:CE=2:3$ ); $ \\text{Area}(\\triangle ADE)=8$ ; find $\\triangle ABC$",
+    "difficulty": "Easy",
+    "expectedTime": "1.0 min"
+  },
+  {
+    "year": 2021,
+    "slot": 2,
+    "qNum": null,
+    "domain": "Geometry & Mensuration",
+    "subtopic": "Trapezium & Parallelogram",
+    "hook": "$P$ midpoint of $CD$ , $ABPD$ parallelogram; $\\text{Area}(ABPD) - \\text{Area}(\\triangle BPC) = 10$",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2021,
+    "slot": 2,
+    "qNum": null,
+    "domain": "Geometry & Mensuration",
+    "subtopic": "Rhombus",
+    "hook": "Rhombus area 12 sq cm, side 5 cm; length of longer diagonal",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2021,
+    "slot": 3,
+    "qNum": null,
+    "domain": "Geometry & Mensuration",
+    "subtopic": "Parallelogram & Trig",
+    "hook": "Parallelogram $ABCD$ : $AD=10, AC=20, \\angle ADC=30^\\circ$ ; find area",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2021,
+    "slot": 3,
+    "qNum": null,
+    "domain": "Geometry & Mensuration",
+    "subtopic": "Mensuration Optimization",
+    "hook": "Rectangular plot area 60000 sq ft; fence \u20b9200/ft on 1 side, \u20b9100/ft on 3",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2021,
+    "slot": 3,
+    "qNum": null,
+    "domain": "Geometry & Mensuration",
+    "subtopic": "Rhombus",
+    "hook": "Rhombus park area 96 sq m, perimeter 40 m; wire along both diagonals",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2022,
+    "slot": 1,
+    "qNum": 54,
+    "domain": "Geometry & Mensuration",
+    "subtopic": "Circles & Rectangles",
+    "hook": "Rectangle of perimeter $P$ inscribed in circle of radius $R$ ; area",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2022,
+    "slot": 1,
+    "qNum": 55,
+    "domain": "Geometry & Mensuration",
+    "subtopic": "Coordinate Geometry",
+    "hook": "Parallelogram vertices $A(1,1), B(3,4), C(-2,8)$ ; find $D$",
+    "difficulty": "Easy",
+    "expectedTime": "1.0 min"
+  },
+  {
+    "year": 2022,
+    "slot": 1,
+    "qNum": 59,
+    "domain": "Geometry & Mensuration",
+    "subtopic": "Trapezium",
+    "hook": "$AD \\parallel BC, \\angle BAD = 90^\\circ, BC=3, AD=8$ , perimeter 36; area",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2022,
+    "slot": 2,
+    "qNum": 51,
+    "domain": "Geometry & Mensuration",
+    "subtopic": "Regular Polygons",
+    "hook": "Polygons $A, B$ sides 1:2, interior angles 3:4; sides of $B$",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2022,
+    "slot": 2,
+    "qNum": 54,
+    "domain": "Geometry & Mensuration",
+    "subtopic": "Triangles (Cosine Rule)",
+    "hook": "Equilateral $\\triangle ABC$ side 3; $D$ on $BC$ with $\\text{Area}(ADC) = \\frac{1}{2}\\text{Area}(ABD)$ ; $AD$",
+    "difficulty": "Medium",
+    "expectedTime": "1.75 min"
+  },
+  {
+    "year": 2022,
+    "slot": 2,
+    "qNum": 59,
+    "domain": "Geometry & Mensuration",
+    "subtopic": "Triangles & Trig",
+    "hook": "Altitudes $AD, BE$ ; $\\angle BAC = 45^\\circ, \\angle ABC = \\theta$ ; find $AD/BE$",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2022,
+    "slot": 3,
+    "qNum": 49,
+    "domain": "Geometry & Mensuration",
+    "subtopic": "Quadrilaterals",
+    "hook": "Integer sides $1, 2, 4, x$ ; number of possible integer lengths $x$",
+    "difficulty": "Easy",
+    "expectedTime": "1.0 min"
+  },
+  {
+    "year": 2022,
+    "slot": 3,
+    "qNum": 51,
+    "domain": "Geometry & Mensuration",
+    "subtopic": "Triangles (Medians)",
+    "hook": "Medians $BD, CE$ meet at $O$ ; $\\text{Area}(\\triangle ABC) = 108$ ; find $\\text{Area}(\\triangle EOD)$",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2022,
+    "slot": 3,
+    "qNum": 54,
+    "domain": "Geometry & Mensuration",
+    "subtopic": "Circles (Overlapping)",
+    "hook": "$AB=AC=8$ ; circle on diameter $BC$ passes through $A$ , circle center $A$",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2023,
+    "slot": 1,
+    "qNum": 61,
+    "domain": "Geometry & Mensuration",
+    "subtopic": "Cyclic Quadrilaterals",
+    "hook": "$AB:CD = 2:1, BC:AD = 5:4$ ; diagonals meet at $E$ ; find $AE:CE$",
+    "difficulty": "Medium",
+    "expectedTime": "2.25 min"
+  },
+  {
+    "year": 2023,
+    "slot": 1,
+    "qNum": 62,
+    "domain": "Geometry & Mensuration",
+    "subtopic": "Coordinate Geometry (Locus)",
+    "hook": "Circle $x^2+y^2+4x-6y-3=0$ ; tangents at $60^\\circ$ locus touches $x=6$",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2023,
+    "slot": 1,
+    "qNum": 63,
+    "domain": "Geometry & Mensuration",
+    "subtopic": "Triangles (Area in AP)",
+    "hook": "Right $\\triangle ABC$ ( $AB=5, BC=12$ ); $P, Q$ on $BC$ , areas in AP; find $PQ$",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2023,
+    "slot": 2,
+    "qNum": null,
+    "domain": "Geometry & Mensuration",
+    "subtopic": "Circles & Triangles",
+    "hook": "Triangle in circle $C$ (radius $r$ ), one side diameter, others $a:b$ ; area",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2023,
+    "slot": 2,
+    "qNum": null,
+    "domain": "Geometry & Mensuration",
+    "subtopic": "Rectangles (Area in GP)",
+    "hook": "Rectangle $9 \\times 6$ ; $P, Q$ on $BC$ , areas $ABP, APQ, AQCD$ in GP",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2023,
+    "slot": 2,
+    "qNum": null,
+    "domain": "Geometry & Mensuration",
+    "subtopic": "Coordinate Geometry",
+    "hook": "Area bounded by $y$ -axis, $x=5$ , and $,x-y,-",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2023,
+    "slot": 3,
+    "qNum": null,
+    "domain": "Geometry & Mensuration",
+    "subtopic": "Triangles & Trig",
+    "hook": "Isosceles $AB=AC$ , altitudes $AD, BE$ meet at $O$ ( $ \\angle AOB=105^\\circ$ ); $AD/BE$",
+    "difficulty": "Medium",
+    "expectedTime": "2.25 min"
+  },
+  {
+    "year": 2023,
+    "slot": 3,
+    "qNum": null,
+    "domain": "Geometry & Mensuration",
+    "subtopic": "Semicircle Optimization",
+    "hook": "Largest area rectangle in semicircle of radius 2; ratio of sides",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2023,
+    "slot": 3,
+    "qNum": null,
+    "domain": "Geometry & Mensuration",
+    "subtopic": "Regular Polygons",
+    "hook": "Interior angle exceeds exterior by $120^\\circ$ ; number of diagonals",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2024,
+    "slot": 1,
+    "qNum": 56,
+    "domain": "Geometry & Mensuration",
+    "subtopic": "Coordinate Geometry",
+    "hook": "Area of $y \\ge x + 4$ and $-4 \\le x^2 + y^2 + 5(x - y) \\le 0$",
+    "difficulty": "Hard",
+    "expectedTime": "3.0 min"
+  },
+  {
+    "year": 2024,
+    "slot": 1,
+    "qNum": 59,
+    "domain": "Geometry & Mensuration",
+    "subtopic": "3D Mensuration (Sphere)",
+    "hook": "Closed box in sphere: surface area 846, edge sum 144; sphere volume",
+    "difficulty": "Medium",
+    "expectedTime": "1.75 min"
+  },
+  {
+    "year": 2024,
+    "slot": 1,
+    "qNum": 63,
+    "domain": "Geometry & Mensuration",
+    "subtopic": "Right Triangle & Incircle",
+    "hook": "Rectangle $56 \\times 45$ , $E$ midpoint of $CD$ ; inradius of $\\triangle ADE$",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2024,
+    "slot": 2,
+    "qNum": 59,
+    "domain": "Geometry & Mensuration",
+    "subtopic": "Circles (Tangent Circles)",
+    "hook": "3 equal mutually tangent circles; circles $X, Y$ tangent to all 3; $R_X : R_Y$",
+    "difficulty": "Medium",
+    "expectedTime": "2.25 min"
+  },
+  {
+    "year": 2024,
+    "slot": 2,
+    "qNum": 65,
+    "domain": "Geometry & Mensuration",
+    "subtopic": "Coordinate & Incircle",
+    "hook": "Triangle vertices $(1,2), (7,2), (1,10)$ ; inradius",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2024,
+    "slot": 2,
+    "qNum": 68,
+    "domain": "Geometry & Mensuration",
+    "subtopic": "Trapezium & Similarity",
+    "hook": "$AB \\parallel CD$ , $AD, BC$ meet at $E$ ; $AB=2, CD=1$ , perim 6; perim $\\triangle AEB$",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2024,
+    "slot": 3,
+    "qNum": 49,
+    "domain": "Geometry & Mensuration",
+    "subtopic": "Circles (Segment Area)",
+    "hook": "Chord $10\\sqrt{3}$ m subtends $120^\\circ$ at center; area of smaller region",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2024,
+    "slot": 3,
+    "qNum": 57,
+    "domain": "Geometry & Mensuration",
+    "subtopic": "Triangles (Medians)",
+    "hook": "Midpoints $M, N, P$ ; medians intersect $MP, MN, NP$ at $X, Y, Z$ ; area",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2024,
+    "slot": 3,
+    "qNum": 67,
+    "domain": "Geometry & Mensuration",
+    "subtopic": "Regular Octagon",
+    "hook": "Regular octagon side 6 cm; area of square $ACEG$",
+    "difficulty": "Medium",
+    "expectedTime": "1.75 min"
+  },
+  {
+    "year": 2025,
+    "slot": 1,
+    "qNum": 49,
+    "domain": "Geometry & Mensuration",
+    "subtopic": "Circles & Chords",
+    "hook": "Radius $6\\sqrt{2}$ , parallel chords $PQ, SR$ ( $\\angle PQC=45^\\circ$ , dist 3:2); area $PQRS$",
+    "difficulty": "Medium",
+    "expectedTime": "2.25 min"
+  },
+  {
+    "year": 2025,
+    "slot": 1,
+    "qNum": 59,
+    "domain": "Geometry & Mensuration",
+    "subtopic": "Coordinate Geometry",
+    "hook": "Parallelogram $P(-3,-2), Q(1,-5), R(9,1)$ ; $SQ$ cuts $x$ -axis at $(a,0)$",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2025,
+    "slot": 1,
+    "qNum": 67,
+    "domain": "Geometry & Mensuration",
+    "subtopic": "Rhombus",
+    "hook": "Side 36 cm, area 396 sq cm; $,d_1 - d_2,$",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2025,
+    "slot": 2,
+    "qNum": 48,
+    "domain": "Geometry & Mensuration",
+    "subtopic": "Regular Hexagon",
+    "hook": "$P, Q$ midpoints of $AB, CD$ ; $\\text{Area}(PBCQ) : \\text{Area}(ABCDEF)$",
+    "difficulty": "Medium",
+    "expectedTime": "1.75 min"
+  },
+  {
+    "year": 2025,
+    "slot": 2,
+    "qNum": 56,
+    "domain": "Geometry & Mensuration",
+    "subtopic": "Circles & Tangents",
+    "hook": "Tangents $PQ, PR$ from $P$ ; third tangent $AB$ on $PQ, PR$ ; $\\angle AOB=50^\\circ$ ; $\\angle APB$",
+    "difficulty": "Medium",
+    "expectedTime": "1.75 min"
+  },
+  {
+    "year": 2025,
+    "slot": 2,
+    "qNum": 62,
+    "domain": "Geometry & Mensuration",
+    "subtopic": "Triangles (Mass Points)",
+    "hook": "$D$ on $BC$ , $E$ on $AC$ ; $AD:AT=4:3$ , $BE:BT=5:4$ ; $DF \\parallel BE$ ; $BD:CD$",
+    "difficulty": "Hard",
+    "expectedTime": "3.0 min"
+  },
+  {
+    "year": 2025,
+    "slot": 3,
+    "qNum": 58,
+    "domain": "Geometry & Mensuration",
+    "subtopic": "Triangles (Altitudes)",
+    "hook": "Isosceles $AB=AC=50, BC=80$ ; sum of all 3 altitudes",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2025,
+    "slot": 3,
+    "qNum": 64,
+    "domain": "Geometry & Mensuration",
+    "subtopic": "Trapezium & Incircle",
+    "hook": "$AB \\parallel DC, AD \\perp AB, AB=3DC$ ; incircle radius 3 cm; area",
+    "difficulty": "Medium",
+    "expectedTime": "1.75 min"
+  },
+  {
+    "year": 2025,
+    "slot": 3,
+    "qNum": 65,
+    "domain": "Geometry & Mensuration",
+    "subtopic": "Triangles (Similarity)",
+    "hook": "$AB=AC=12$ , $D$ on $BC$ ( $AD=8$ ); $AD$ extended to $E$ ( $\\angle ACB=\\angle AEB$ ); $AE$",
+    "difficulty": "Medium",
+    "expectedTime": "1.75 min"
+  },
+  {
+    "year": 2021,
+    "slot": 1,
+    "qNum": 46,
+    "domain": "Number Systems",
+    "subtopic": "Digits & Place Value",
+    "hook": "3-digit numbers $> 100$ that increase by 198 when reversed",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2021,
+    "slot": 2,
+    "qNum": null,
+    "domain": "Number Systems",
+    "subtopic": "Digits & Place Value",
+    "hook": "4-digit number: $T+H+T_e = 14$ , $H+T_e+U = 15$ , $T_e = U+4$ ; max number",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2022,
+    "slot": 1,
+    "qNum": 45,
+    "domain": "Number Systems",
+    "subtopic": "Divisibility",
+    "hook": "Largest $A$ dividing $3^k+4^k+5^k$ and $B$ dividing $4^k+3(4^k)+4^{k+2}$",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2022,
+    "slot": 2,
+    "qNum": 61,
+    "domain": "Number Systems",
+    "subtopic": "Factorials",
+    "hook": "Largest $n$ such that $(15000)!$ is divisible by $(n!)!$",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2022,
+    "slot": 3,
+    "qNum": 47,
+    "domain": "Number Systems",
+    "subtopic": "Digits & Averages",
+    "hook": "Arithmetic mean of all distinct rearrangements of digits in $1421$",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2022,
+    "slot": 3,
+    "qNum": 60,
+    "domain": "Number Systems",
+    "subtopic": "LCM & Divisibility",
+    "hook": "School $< 5000$ : teams of $9,10,12,25$ leave 4; teams of 11 leave 0",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2023,
+    "slot": 1,
+    "qNum": 46,
+    "domain": "Number Systems",
+    "subtopic": "Factors & Multiples",
+    "hook": "Least $n$ for $168 \\mid 1134^n$ ; least $m$ for $1134^n \\mid 168^m$ ; $m+n$",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2023,
+    "slot": 2,
+    "qNum": null,
+    "domain": "Number Systems",
+    "subtopic": "HCF / Divisibility",
+    "hook": "$k$ divides $m+2n$ and $3m+4n$ ; $k$ must be common divisor of",
+    "difficulty": "Easy",
+    "expectedTime": "1.0 min"
+  },
+  {
+    "year": 2023,
+    "slot": 2,
+    "qNum": null,
+    "domain": "Number Systems",
+    "subtopic": "Prime Factorization",
+    "hook": "$a^m b^n = 144^{145}$ ( $a,b>1$ ); largest $n - m$",
+    "difficulty": "Medium",
+    "expectedTime": "1.75 min"
+  },
+  {
+    "year": 2023,
+    "slot": 3,
+    "qNum": null,
+    "domain": "Number Systems",
+    "subtopic": "Powers & Counting",
+    "hook": "41 integers between $8^m$ and $8^n$ are powers of 2; min $n + m$",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2024,
+    "slot": 1,
+    "qNum": 47,
+    "domain": "Number Systems",
+    "subtopic": "Remainders",
+    "hook": "Remainder when $10^{100}$ is divided by 7",
+    "difficulty": "Easy",
+    "expectedTime": "1.0 min"
+  },
+  {
+    "year": 2024,
+    "slot": 1,
+    "qNum": 50,
+    "domain": "Number Systems",
+    "subtopic": "Digits & Permutations",
+    "hook": "Sum of all 4-digit numbers from $a,b,c,d$ is $153310 + n$ ; $a+b+c+d+n$",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2024,
+    "slot": 2,
+    "qNum": 48,
+    "domain": "Number Systems",
+    "subtopic": "Remainders",
+    "hook": "Remainder when $3^{333}$ is divided by 11",
+    "difficulty": "Easy",
+    "expectedTime": "1.0 min"
+  },
+  {
+    "year": 2024,
+    "slot": 2,
+    "qNum": 49,
+    "domain": "Number Systems",
+    "subtopic": "Prime Factorization",
+    "hook": "Naturals $m, n > 1$ : $m^n = 2^{25} \\times 3^{40}$ ; find $m - n$",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2024,
+    "slot": 3,
+    "qNum": 53,
+    "domain": "Number Systems",
+    "subtopic": "Remainders",
+    "hook": "Remainder when $10^{68}$ is divided by 13",
+    "difficulty": "Easy",
+    "expectedTime": "1.0 min"
+  },
+  {
+    "year": 2025,
+    "slot": 1,
+    "qNum": 60,
+    "domain": "Number Systems",
+    "subtopic": "Digits & Factors",
+    "hook": "3-digit $N$ , distinct non-zero digits, no perfect square, 1 prime; factors of min $N$",
+    "difficulty": "Medium",
+    "expectedTime": "1.75 min"
+  },
+  {
+    "year": 2025,
+    "slot": 2,
+    "qNum": 61,
+    "domain": "Number Systems",
+    "subtopic": "Divisibility (Naturals)",
+    "hook": "Distinct naturals $a,b,c$ : $3ac = 8(a+b)$ ; min $3a+2b+c$",
+    "difficulty": "Medium",
+    "expectedTime": "2.25 min"
+  },
+  {
+    "year": 2025,
+    "slot": 2,
+    "qNum": 63,
+    "domain": "Number Systems",
+    "subtopic": "Factors (Modular Form)",
+    "hook": "Divisors of $2^6 \\times 3^5 \\times 5^3 \\times 7^2$ of the form $3r + 1$",
+    "difficulty": "Medium",
+    "expectedTime": "2.25 min"
+  },
+  {
+    "year": 2025,
+    "slot": 2,
+    "qNum": 66,
+    "domain": "Number Systems",
+    "subtopic": "Sum of Digits",
+    "hook": "Sum of digits of $(625)^{65} \\times (128)^{36}$",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2025,
+    "slot": 2,
+    "qNum": 68,
+    "domain": "Number Systems",
+    "subtopic": "Integer Factoring",
+    "hook": "Integers $m, n$ : $(m+2n)(2m+n) = 27$ ; max $2m - 3n$",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2025,
+    "slot": 3,
+    "qNum": 49,
+    "domain": "Number Systems",
+    "subtopic": "Digits & Place Value",
+    "hook": "4-digit: $T+H+T_e=15, H+T_e+U=16, T_e=U+6$ ; max - min",
+    "difficulty": "Medium",
+    "expectedTime": "1.75 min"
+  },
+  {
+    "year": 2025,
+    "slot": 3,
+    "qNum": 57,
+    "domain": "Number Systems",
+    "subtopic": "Sum of Digits",
+    "hook": "Sum of digits of $10^{50} + 10^{25} - 123$",
+    "difficulty": "Easy",
+    "expectedTime": "1.0 min"
+  },
+  {
+    "year": 2025,
+    "slot": 3,
+    "qNum": 66,
+    "domain": "Number Systems",
+    "subtopic": "Prime Factorization",
+    "hook": "$12^{12x} \\cdot 4^{24x+12} \\cdot 5^{2y} = 8^{4z} \\cdot 20^{12x} \\cdot 243^{3x-6}$ ; $x+y+z$",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2021,
+    "slot": 2,
+    "qNum": null,
+    "domain": "Modern Math",
+    "subtopic": "Counting (Digits)",
+    "hook": "4-digit numbers from $\\{1,2,3\\}$ with both 2 and 3 appearing at least once",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2022,
+    "slot": 1,
+    "qNum": 49,
+    "domain": "Modern Math",
+    "subtopic": "Set Theory (3-Set Opt.)",
+    "hook": "100 students: 73 coffee, 80 tea, 52 lemonade; max - min liking all 3",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2022,
+    "slot": 1,
+    "qNum": 57,
+    "domain": "Modern Math",
+    "subtopic": "Distribution (Stars & Bars)",
+    "hook": "Distribute 20 identical balloons among 4 children (even, $\\ge 2$ each)",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2022,
+    "slot": 2,
+    "qNum": 55,
+    "domain": "Modern Math",
+    "subtopic": "Counting (Digits)",
+    "hook": "Integers $> 2000$ from $\\{0,1,2,3,4,5\\}$ without repetition",
+    "difficulty": "Medium",
+    "expectedTime": "1.75 min"
+  },
+  {
+    "year": 2023,
+    "slot": 1,
+    "qNum": 65,
+    "domain": "Modern Math",
+    "subtopic": "Counting (Digits)",
+    "hook": "Natural numbers up to 1000 with non-repeating digits",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2024,
+    "slot": 1,
+    "qNum": 58,
+    "domain": "Modern Math",
+    "subtopic": "Functions (Onto)",
+    "hook": "Onto functions from $A$ (6 elements) to $B$ (3 elements)",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2024,
+    "slot": 2,
+    "qNum": 64,
+    "domain": "Modern Math",
+    "subtopic": "Counting (Paths)",
+    "hook": "Towns $P,Q,R,S$ with given direct paths; 62 ways $P \\to S$ , 27 ways $Q \\to R$",
+    "difficulty": "Medium",
+    "expectedTime": "2.25 min"
+  },
+  {
+    "year": 2024,
+    "slot": 3,
+    "qNum": 55,
+    "domain": "Modern Math",
+    "subtopic": "Set Theory (2-Set Opt.)",
+    "hook": "250 students (44%\u201360% girls); swimming & running %; min/max both",
+    "difficulty": "Medium",
+    "expectedTime": "2.0 min"
+  },
+  {
+    "year": 2024,
+    "slot": 3,
+    "qNum": 64,
+    "domain": "Modern Math",
+    "subtopic": "Counting (Digits)",
+    "hook": "Positive integers up to 500 with non-repeating digits",
+    "difficulty": "Easy",
+    "expectedTime": "1.5 min"
+  },
+  {
+    "year": 2025,
+    "slot": 1,
+    "qNum": 56,
+    "domain": "Modern Math",
+    "subtopic": "Counting (Combinations)",
+    "hook": "5 sandwiches, 4 breads, 2 sizes, up to 2 of 6 sauces",
+    "difficulty": "Easy",
+    "expectedTime": "1.25 min"
+  },
+  {
+    "year": 2025,
+    "slot": 3,
+    "qNum": 53,
+    "domain": "Modern Math",
+    "subtopic": "Set Theory (3-Set Opt.)",
+    "hook": "150 students: P(75), M(111), C(40); $P\\cap C = C\\cap M = \\frac{1}{2}(P\\cap M)$ ; max $P \\setminus M$",
+    "difficulty": "Hard",
+    "expectedTime": "3.0 min"
+  }
+]
